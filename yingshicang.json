@@ -3,7 +3,7 @@
 
 {
 
-"spider":"https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/tvbox1013.jar",
+"spider":"./spider.jar",
 
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
 
@@ -27,7 +27,7 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
 
 		
@@ -67,7 +67,7 @@
             "api": "csp_Wexyuyueys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "萌米",
@@ -90,7 +90,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "可可影视",
@@ -100,7 +100,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "圣城影视",
@@ -110,7 +110,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "追剧影视",
@@ -120,7 +120,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "文才弹幕",
@@ -133,7 +133,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/danmu.jar"
+            "jar": "./danmu.jar"
         },
         {
             "key": "厂长",
@@ -154,7 +154,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "兄弟影视",
@@ -163,7 +163,7 @@
             "api": "csp_Wexxiongdiys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "纯享影视",
@@ -172,7 +172,7 @@
             "api": "csp_WexF4kvm",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "大米星球",
@@ -182,7 +182,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "农民影视",
@@ -191,7 +191,7 @@
             "api": "csp_WexNmys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "子子影视",
@@ -202,7 +202,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/json/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.json",
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "电影港",
@@ -213,7 +213,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/json/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "酷吧电影",
@@ -223,7 +223,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
 		
 		
@@ -258,7 +258,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/spider.jar"
+            "jar": "./spider.jar"
         },
         {
             "key": "南瓜",
@@ -294,7 +294,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/danmu.jar"
+            "jar": "./danmu.jar"
         },
 		
 
