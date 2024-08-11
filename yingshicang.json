@@ -29,7 +29,32 @@
             "jar": "./spider.jar"
         },
 
-		
+        {
+            "key": "无忧短剧",
+            "name": "无忧｜短剧",
+            "type": 3,
+            "api": "csp_Duanj",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "./danmu.jar"
+        },
+        {
+            "key": "在线短剧",
+            "name": "在线｜短剧",
+            "type": 3,
+            "api": "csp_Duanju",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "jar": "./danmu.jar"
+        },	
 
 
         {
