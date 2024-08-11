@@ -33,15 +33,12 @@
 
 
         {
-            "key": "酷看",
-            "name": "💡酷看┃秒播",
+            "key": "酷看影视",
+            "name": "酷看｜影视",
             "type": 3,
-            "api": "csp_Kkys",
-            "timeout": 15,
+            "api": "csp_Wexkukantv",
             "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
+            "changeable": 1
         },
 		
 		
@@ -78,9 +75,43 @@
             "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg==",
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
         },
-
-
-
+        {
+            "key": "新感觉",
+            "name": "新感觉｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://43.248.100.147:9891/api.php/app/"
+        },
+		{
+            "key": "热播影视",
+            "name": "热播｜APP",
+            "type": 3,
+            "api": "csp_AppRB",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "天天影视",
+            "name": "天天｜APP",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "大米星球",
+            "name": "大米｜APP",
+            "type": 3,
+            "api": "csp_AppDaMi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
         {
             "key": "笙歌影视",
             "name": "笙歌｜APP",
@@ -88,8 +119,7 @@
             "api": "csp_AppYY",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "./spider.jar"
+            "changeable": 1
         },
         {
             "key": "可可影视",
@@ -98,8 +128,7 @@
             "api": "csp_Keke",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./spider.jar"
+            "filterable": 1
         },
         {
             "key": "圣城影视",
@@ -108,9 +137,12 @@
             "api": "csp_SC1080",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./spider.jar"
+            "filterable": 1
         },
+
+
+
+
         {
             "key": "追剧影视",
             "name": "追剧影视",
@@ -173,16 +205,7 @@
             "changeable": 1,
             "jar": "./spider.jar"
         },
-        {
-            "key": "大米星球",
-            "name": "大米｜APP",
-            "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./spider.jar"
-        },
+
         {
             "key": "农民影视",
             "name": "农民｜影视",
@@ -200,7 +223,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/json/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.json",
+            "ext": "./json/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.json",
             "jar": "./spider.jar"
         },
         {
@@ -249,16 +272,7 @@
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt;md5;541ecc2690e3d3cb1af9b7cbf5fb36d6"
         },
 
-        {
-            "key": "热播影视",
-            "name": "热播｜APP",
-            "type": 3,
-            "api": "csp_AppRB",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./spider.jar"
-        },
+
         {
             "key": "南瓜",
             "name": "🎃南瓜┃多线",
