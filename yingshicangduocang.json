@@ -13,7 +13,7 @@
 
     	{
 
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
+            "url": "https://gitee.com/apei583/ysc/raw/main/yingshicang.json",
 
             "name": "国内线路2"
 
@@ -24,6 +24,14 @@
             "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
 
             "name": "国内线路3"
+
+        },
+
+	{
+
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
+
+            "name": "国内线路4"
 
         },
 
