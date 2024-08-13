@@ -718,13 +718,17 @@
             "ext": "https://tv.菜妮丝.top/json/哔哩哔哩高中.json",
             "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
         },
-		
-
-{"key":"mtv_xp_儿童乐园","name":"儿童乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://43.155.64.249/TVbox/lib/儿童乐园.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"},
-
-{"key":"相声小品","name":"相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"http://43.155.64.249/TVbox/lib/相声小品.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"},
-
-{"key":"mtv_xp_戏曲杂苑","name":"戏曲杂苑","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://43.155.64.249/TVbox/lib/戏曲杂苑.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"}],
+        {
+            "key": "应用商店",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./js/market.json",
+            "jar": "./spider.jar"
+        }		
+],
 
 
 
