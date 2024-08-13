@@ -725,7 +725,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "./js/market.json",
+            "ext": "./JS/market.json",
             "jar": "./spider.jar"
         }		
 ],
