@@ -726,7 +726,7 @@
             "searchable": 0,
             "changeable": 0,
             "ext": "./JS/market.json",
-            "jar": "./spider.jar"
+            "jar": "./pg.jar"
         }		
 ],
 
