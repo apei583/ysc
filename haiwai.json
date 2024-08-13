@@ -725,7 +725,7 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "./JS/market.json",
+            "ext": "./market.json",
             "jar": "./pg.jar"
         }		
 ],
