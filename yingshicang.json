@@ -703,68 +703,66 @@
             "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
         },
         {
-            "key": "儿童",
+            "key": "少儿教育",
             "name": "📚少儿┃教育",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
-            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "https://tv.菜妮丝.top/json/哔哩哔哩少儿.json",
-            "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/少儿教育.json",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
         },
         {
-            "key": "小学",
+            "key": "小学课堂",
             "name": "📚小学┃课堂",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
-            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "https://tv.菜妮丝.top/json/哔哩哔哩小学.json",
-            "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/小学课堂.json",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
         },
         {
-            "key": "初中",
+            "key": "初中课堂",
             "name": "📚初中┃课堂",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
-            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "https://tv.菜妮丝.top/json/哔哩哔哩初中.json",
-            "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/初中课堂.json",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
         },
         {
-            "key": "高中",
+            "key": "高中教育",
             "name": "📚高中┃课堂",
             "type": 3,
             "api": "csp_Bili",
-            "searchable": 0,
-            "changeable": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             },
-            "ext": "https://tv.菜妮丝.top/json/哔哩哔哩高中.json",
-            "jar": "https://tv.菜妮丝.top/jar/fty0411.jar;md5;013794cda7f4898b65b8a7f7382cc5a1"
-        },
-		
-
-{"key":"mtv_xp_儿童乐园","name":"儿童乐园","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://43.155.64.249/TVbox/lib/儿童乐园.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"},
-
-{"key":"相声小品","name":"相声小品","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"http://43.155.64.249/TVbox/lib/相声小品.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"},
-
-{"key":"mtv_xp_戏曲杂苑","name":"戏曲杂苑","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"http://43.155.64.249/TVbox/lib/戏曲杂苑.json","jar": "https://agit.ai/youxia/TVBox/raw/branch/main/xyq829.jar;md5;0D46D7D1C01CD19B374A3280C8864596"}],
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
+        }
+],
 
 
 
