@@ -780,6 +780,16 @@
             "changeable": 0,
             "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json",
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
+        },
+        {
+            "key": "应用商店",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "./market.json",
+            "jar": "./pg.jar"
         }
 ],
 
