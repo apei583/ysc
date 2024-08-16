@@ -80,6 +80,32 @@
             },
             "jar": "./danmu.jar"
         },
+        {
+            "key": "一起看弹幕",
+            "name": "一起看｜弹幕",
+            "type": 3,
+            "api": "csp_Yqk",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "jar": "./danmu.jar"
+        },
+        {
+            "key": "JOJO弹幕",
+            "name": "JOJO｜弹幕",
+            "type": 3,
+            "api": "csp_Jiohub",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "jar": "./danmu.jar"
+        },
 		
 		
         {
