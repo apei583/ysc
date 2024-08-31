@@ -22,7 +22,7 @@
 "sites":[
         {
             "key": "豆瓣",
-            "name": "热播推荐",
+            "name": "小米卓越品牌店专属仓库",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
