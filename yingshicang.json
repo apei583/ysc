@@ -3,7 +3,7 @@
 
 {
 
-"spider":"./spider.jar",
+"spider":"./jar/spider.jar",
 
 "wallpaper":"https://picsum.photos/1280/720/?blur=10",
 
@@ -26,7 +26,7 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
 
         {
@@ -40,7 +40,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },
         {
             "key": "在线短剧",
@@ -53,7 +53,7 @@
                 "type": "rect",
                 "ratio": 1.433
             },
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },	
 
 
@@ -67,19 +67,29 @@
             "changeable": 1
         },	
         {
-            "key": "荐片弹幕",
-            "name": "荐片｜弹幕",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "jar": "./danmu.jar"
-        },
+            "key":"贱贱",
+		"name":"🐭荐片┃P2P",
+		"type":3,
+		"searchable":1,
+		"quickSearch":1,
+		"changeable":1,
+		"playerType":"1",
+		"api":"https://gitlab.com/fantaiying/ext/-/raw/main/drpy2.min.js",
+		"ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js",
+		"jar": "./jar/fan.txt"
+	},
+	{
+		"key":"追剧",
+		"name":"🍓追剧┃多线",
+		"type":3,
+		"api":"csp_AppTT",
+		"playerType":2,
+		"ext":"AO7TcBkd8IPB+BwH4Qma+opv",
+		"jar": "./jar/fan.txt"
+	},
+
+
+	
         {
             "key": "一起看弹幕",
             "name": "一起看｜弹幕",
@@ -91,7 +101,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },
         {
             "key": "JOJO弹幕",
@@ -104,7 +114,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },
 		
 		
@@ -115,7 +125,7 @@
             "api": "csp_Wexyuyueys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "萌米",
@@ -281,7 +291,7 @@
         },
         {
             "key": "追剧迷",
-            "name": "追剧迷｜影视",
+            "name": "剧迷｜影视",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧迷.js"
@@ -299,7 +309,7 @@
             "ext": {
                 "danmu": true
             },
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },
         {
             "key": "厂长",
@@ -320,7 +330,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "兄弟影视",
@@ -329,7 +339,7 @@
             "api": "csp_Wexxiongdiys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "纯享影视",
@@ -338,7 +348,7 @@
             "api": "csp_WexF4kvm",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
 
         {
@@ -348,7 +358,7 @@
             "api": "csp_WexNmys",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "子子影视",
@@ -359,7 +369,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.json",
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "电影港",
@@ -370,7 +380,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/json/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
         {
             "key": "酷吧电影",
@@ -380,7 +390,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./spider.jar"
+            "jar": "./jar/spider.jar"
         },
 		
 		
@@ -442,7 +452,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "jar": "./danmu.jar"
+            "jar": "./jar/danmu.jar"
         },
 		
 
