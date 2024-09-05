@@ -68,7 +68,7 @@
         },	
         {
             "key":"贱贱",
-		"name":"🐭贱贱┃P2P",
+		"name":"🐭荐片┃P2P",
 		"type":3,
 		"searchable":1,
 		"quickSearch":1,
@@ -78,6 +78,18 @@
 		"ext":"https://gitlab.com/fantaiying/ext/-/raw/main/jp.js",
 		"jar": "./jar/fan.txt"
 	},
+	{
+		"key":"追剧",
+		"name":"🍓追剧┃多线",
+		"type":3,
+		"api":"csp_AppTT",
+		"playerType":2,
+		"ext":"AO7TcBkd8IPB+BwH4Qma+opv",
+		"jar": "./jar/fan.txt"
+	},
+
+
+	
         {
             "key": "一起看弹幕",
             "name": "一起看｜弹幕",
@@ -279,7 +291,7 @@
         },
         {
             "key": "追剧迷",
-            "name": "追剧迷｜影视",
+            "name": "剧迷｜影视",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧迷.js"
