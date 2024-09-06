@@ -21,7 +21,7 @@
         },
         {
             "key": "无忧短剧",
-            "name": "无忧｜短剧",
+            "name": "无忧┃短剧",
             "type": 3,
             "api": "csp_Duanj",
             "searchable": 1,
@@ -34,7 +34,7 @@
         },
         {
             "key": "在线短剧",
-            "name": "在线｜短剧",
+            "name": "在线┃短剧",
             "type": 3,
             "api": "csp_Duanju",
             "searchable": 1,
@@ -47,7 +47,7 @@
         },
         {
             "key": "酷看影视",
-            "name": "酷看｜影视",
+            "name": "酷看┃影视",
             "type": 3,
             "api": "csp_Wexkukantv",
             "searchable": 1,
@@ -76,7 +76,7 @@
         },
         {
             "key": "一起看弹幕",
-            "name": "一起看｜弹幕",
+            "name": "一起看┃弹幕",
             "type": 3,
             "api": "csp_Yqk",
             "searchable": 1,
@@ -89,7 +89,7 @@
         },
         {
             "key": "JOJO弹幕",
-            "name": "JOJO｜弹幕",
+            "name": "JOJO┃弹幕",
             "type": 3,
             "api": "csp_Jiohub",
             "searchable": 1,
@@ -102,7 +102,7 @@
         },
         {
             "key": "愉悦影视",
-            "name": "愉悦｜影视",
+            "name": "愉悦┃影视",
             "type": 3,
             "api": "csp_Wexyuyueys",
             "searchable": 1,
@@ -121,7 +121,7 @@
         },
         {
             "key": "新感觉",
-            "name": "新感觉｜APP",
+            "name": "新感觉┃APP",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -131,7 +131,7 @@
         },
         {
             "key": "热播影视",
-            "name": "热播｜APP",
+            "name": "热播┃APP",
             "type": 3,
             "api": "csp_AppRB",
             "searchable": 1,
@@ -140,7 +140,7 @@
         },
         {
             "key": "天天影视",
-            "name": "天天｜APP",
+            "name": "天天┃APP",
             "type": 3,
             "api": "csp_AppTT",
             "searchable": 1,
@@ -149,7 +149,7 @@
         },
         {
             "key": "大米星球",
-            "name": "大米｜APP",
+            "name": "大米┃APP",
             "type": 3,
             "api": "csp_AppDaMi",
             "searchable": 1,
@@ -158,7 +158,7 @@
         },
         {
             "key": "笙歌影视",
-            "name": "笙歌｜APP",
+            "name": "笙歌┃APP",
             "type": 3,
             "api": "csp_AppYY",
             "searchable": 1,
@@ -167,7 +167,7 @@
         },
         {
             "key": "可可影视",
-            "name": "可可｜影视",
+            "name": "可可┃影视",
             "type": 3,
             "api": "csp_Keke",
             "searchable": 1,
@@ -176,7 +176,7 @@
         },
         {
             "key": "圣城影视",
-            "name": "圣城｜影视",
+            "name": "圣城┃影视",
             "type": 3,
             "api": "csp_SC1080",
             "searchable": 1,
@@ -185,7 +185,7 @@
         },
         {
             "key": "子子影视",
-            "name": "子子｜影视",
+            "name": "子子┃影视",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -195,7 +195,7 @@
         },
         {
             "key": "蚂蚁资源",
-            "name": "蚂蚁｜采集",
+            "name": "蚂蚁┃采集",
             "type": 1,
             "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
             "searchable": 1,
@@ -438,7 +438,7 @@
         },
         {
             "key": "极速资源",
-            "name": "极速｜采集",
+            "name": "极速┃采集",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -470,7 +470,7 @@
         },
         {
             "key": "非凡资源",
-            "name": "非凡｜采集",
+            "name": "非凡┃采集",
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -505,14 +505,14 @@
         },
         {
             "key": "追剧迷",
-            "name": "剧迷｜影视",
+            "name": "剧迷┃影视",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧迷.js"
         },
         {
             "key": "文才弹幕",
-            "name": "文才｜弹幕",
+            "name": "文才┃弹幕",
             "type": 3,
             "api": "csp_Jpys",
             "searchable": 1,
@@ -564,7 +564,7 @@
         },
         {
             "key": "农民影视",
-            "name": "农民｜影视",
+            "name": "农民┃影视",
             "type": 3,
             "api": "csp_WexNmys",
             "searchable": 1,
@@ -584,7 +584,7 @@
         },
         {
             "key": "电影港",
-            "name": "电影港｜P2P",
+            "name": "电影港┃P2P",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -595,7 +595,7 @@
         },
         {
             "key": "酷吧电影",
-            "name": "酷吧｜P2P",
+            "name": "酷吧┃P2P",
             "type": 3,
             "api": "csp_KubaCL",
             "searchable": 1,
