@@ -21,7 +21,7 @@
         },
         {
             "key": "无忧短剧",
-            "name": "无忧┃短剧",
+            "name": "无忧｜短剧",
             "type": 3,
             "api": "csp_Duanj",
             "searchable": 1,
@@ -29,12 +29,11 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            },
-            "jar": "./jar/danmu.jar"
+            }
         },
         {
             "key": "在线短剧",
-            "name": "在线┃短剧",
+            "name": "在线｜短剧",
             "type": 3,
             "api": "csp_Duanju",
             "searchable": 1,
@@ -42,16 +41,72 @@
             "style": {
                 "type": "rect",
                 "ratio": 1.433
-            },
-            "jar": "./jar/danmu.jar"
+            }
         },
         {
-            "key": "酷看影视",
-            "name": "酷看┃影视",
+            "key": "星芽短剧",
+            "name": "星芽｜短剧",
             "type": 3,
-            "api": "csp_Wexkukantv",
+            "api": "csp_AppXY",
             "searchable": 1,
-            "changeable": 1
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "天堂短剧",
+            "name": "天堂｜短剧",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/天堂短剧.js"
+        },
+        {
+            "key": "爱你短剧",
+            "name": "爱你｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/爱你短剧.json"
+        },
+        {
+            "key": "河马短剧",
+            "name": "河马｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/河马短剧.json"
+        },
+        {
+            "key": "短剧屋",
+            "name": "短剧屋｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/短剧屋.json"
+        },
+        {
+            "key": "韩小圈",
+            "name": "韩小圈｜APP",
+            "type": 3,
+            "api": "csp_HanXiaoQuan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "新感觉",
+            "name": "新感觉｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://43.248.100.147:9891/api.php/app/"
         },
         {
             "key": "荐片弹幕",
@@ -64,8 +119,7 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "./jar/danmu.jar"
+            }
         },
         {
             "key": "追剧",
@@ -78,7 +132,7 @@
         },
         {
             "key": "一起看弹幕",
-            "name": "一起看┃弹幕",
+            "name": "一起看｜弹幕",
             "type": 3,
             "api": "csp_Yqk",
             "searchable": 1,
@@ -86,12 +140,11 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "./jar/danmu.jar"
+            }
         },
         {
             "key": "JOJO弹幕",
-            "name": "JOJO┃弹幕",
+            "name": "JOJO｜弹幕",
             "type": 3,
             "api": "csp_Jiohub",
             "searchable": 1,
@@ -99,12 +152,11 @@
             "filterable": 1,
             "ext": {
                 "danmu": true
-            },
-            "jar": "./jar/danmu.jar"
+            }
         },
         {
             "key": "愉悦影视",
-            "name": "愉悦┃影视",
+            "name": "愉悦｜影视",
             "type": 3,
             "api": "csp_Wexyuyueys",
             "searchable": 1,
@@ -112,28 +164,8 @@
             "jar": "./jar/spider.jar"
         },
         {
-            "key": "萌米",
-            "name": "👀萌米┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "timeout": 15,
-            "playerType": 1,
-            "ext": "AO7TcBkd8Iifux0Y8Qze6tVlMg==",
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
-        },
-        {
-            "key": "新感觉",
-            "name": "新感觉┃APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://43.248.100.147:9891/api.php/app/"
-        },
-        {
             "key": "热播影视",
-            "name": "热播┃APP",
+            "name": "热播｜APP",
             "type": 3,
             "api": "csp_AppRB",
             "searchable": 1,
@@ -142,7 +174,7 @@
         },
         {
             "key": "天天影视",
-            "name": "天天┃APP",
+            "name": "天天｜APP",
             "type": 3,
             "api": "csp_AppTT",
             "searchable": 1,
@@ -151,7 +183,7 @@
         },
         {
             "key": "大米星球",
-            "name": "大米┃APP",
+            "name": "大米｜APP",
             "type": 3,
             "api": "csp_AppDaMi",
             "searchable": 1,
@@ -160,7 +192,7 @@
         },
         {
             "key": "笙歌影视",
-            "name": "笙歌┃APP",
+            "name": "笙歌｜APP",
             "type": 3,
             "api": "csp_AppYY",
             "searchable": 1,
@@ -169,7 +201,7 @@
         },
         {
             "key": "可可影视",
-            "name": "可可┃影视",
+            "name": "可可｜影视",
             "type": 3,
             "api": "csp_Keke",
             "searchable": 1,
@@ -178,7 +210,7 @@
         },
         {
             "key": "圣城影视",
-            "name": "圣城┃影视",
+            "name": "圣城｜影视",
             "type": 3,
             "api": "csp_SC1080",
             "searchable": 1,
@@ -186,23 +218,79 @@
             "filterable": 1
         },
         {
-            "key": "子子影视",
-            "name": "子子┃影视",
+            "key": "快看影视",
+            "name": "快看｜影视",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "爱看影视",
+            "name": "爱看｜影视",
+            "type": 3,
+            "api": "csp_Ikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_Nongm",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "兄弟影视",
+            "name": "兄弟｜影视",
+            "type": 3,
+            "api": "csp_Xdys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "电影牛",
+            "name": "电影牛｜影视",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/子子影视.json"
+            "ext": "./XYQHiker/电影牛.json"
         },
         {
-            "key": "蚂蚁资源",
-            "name": "蚂蚁┃采集",
-            "type": 1,
-            "api": "http://dsakf23665.com/api.php/provide/vod/from/NBY",
+            "key": "畅梦影视",
+            "name": "畅梦｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/畅梦影视.js"
+        },
+        {
+            "key": "奇趣影视",
+            "name": "奇趣｜影视",
+            "type": 3,
+            "api": "csp_XYQHiker",
             "searchable": 1,
-            "changeable": 1,
-            "playUrl": "json:http://121.62.61.51:6888//api//?key=qMdg1EDXPe9NH3bG0z&url="
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/奇趣影视.json"
+        },
+        {
+            "key": "机器人弹幕",
+            "name": "机器人｜弹幕",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
         },
         {
             "key": "奇优",
@@ -295,45 +383,15 @@
             ]
         },
         {
-            "key": "卧龙资源",
-            "name": "卧龙资源[直连]",
-            "type": 1,
-            "api": "https://wolongzyw.com/api.php/provide/vod/",
+            "key": "新6V",
+            "name": "6V┃边下边播",
+            "type": 3,
+            "api": "csp_SixV",
             "searchable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "记录片",
-                "短片",
-                "动画片",
-                "国产动漫",
-                "欧美动漫",
-                "日本动漫",
-                "港台综艺",
-                "韩国综艺",
-                "大陆综艺",
-                "泰国剧",
-                "欧美综艺",
-                "惊悚片",
-                "家庭片",
-                "古装片",
-                "历史片",
-                "悬疑片",
-                "犯罪片",
-                "短剧"
-            ]
+            "quickSearch": 1,
+            "jar": "./jar/fan.txt",
+            "changeable": 0,
+            "ext": "https://www.xb6v.com/"
         },
         {
             "key": "ikun资源",
@@ -440,7 +498,7 @@
         },
         {
             "key": "极速资源",
-            "name": "极速┃采集",
+            "name": "极速｜采集",
             "type": 1,
             "api": "https://jszyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -472,7 +530,7 @@
         },
         {
             "key": "非凡资源",
-            "name": "非凡┃采集",
+            "name": "非凡｜采集",
             "type": 1,
             "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -507,34 +565,21 @@
         },
         {
             "key": "追剧迷",
-            "name": "剧迷┃影视",
+            "name": "剧迷｜影视",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧迷.js"
         },
         {
-            "key": "文才弹幕",
-            "name": "文才┃弹幕",
+            "key": "厂长",
+            "name": "🌸厂长┃直连",
             "type": 3,
-            "api": "csp_Jpys",
+            "api": "csp_Czzy",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": {
-                "danmu": true
-            },
-            "jar": "./jar/danmu.jar"
-        },
-        {
-            "key": "新6V",
-            "name": "6V┃边下边播",
-            "type": 3,
-            "api": "csp_SixV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "jar": "./jar/fan.txt",
-            "changeable": 0,
-            "ext": "https://www.xb6v.com/"
+            "timeout": 10,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1721215642485/okjpg.txt;md5;c03bfbeea78c7eafc5fef4849e819b39"
         },
         {
             "key": "FreeOK",
@@ -566,7 +611,7 @@
         },
         {
             "key": "农民影视",
-            "name": "农民┃影视",
+            "name": "农民｜影视",
             "type": 3,
             "api": "csp_WexNmys",
             "searchable": 1,
@@ -586,7 +631,7 @@
         },
         {
             "key": "电影港",
-            "name": "电影港┃P2P",
+            "name": "电影港｜P2P",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -597,7 +642,7 @@
         },
         {
             "key": "酷吧电影",
-            "name": "酷吧┃P2P",
+            "name": "酷吧｜P2P",
             "type": 3,
             "api": "csp_KubaCL",
             "searchable": 1,
@@ -1132,6 +1177,15 @@
             "host": "*",
             "rule": [
                 "http((?!http).){12,}\\.(m3u8|mp4|flv|avi|mkv|rm|wmv|mpg|m4a)"
+            ]
+        },
+        {
+            "name": "农民嗅探",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
             ]
         }
     ],
