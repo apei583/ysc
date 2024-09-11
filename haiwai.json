@@ -13,7 +13,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "小米卓越品牌店专用",
+            "name": "小米卓越品牌店独立资源库",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -21,13 +21,13 @@
         },
         {
             "key": "本地",
-            "name": "买盒子认准小米卓越品牌店",
+            "name": "本地｜视频",
             "type": 3,
             "api": "csp_LocalFile"
         },
         {
             "key": "配置中心",
-            "name": "其他店购买此APP请退款差评",
+            "name": "配置｜中心",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -38,7 +38,6 @@
                 "ratio": 1.597
             }
         },
-
 	    
         {
             "key": "无忧短剧",
