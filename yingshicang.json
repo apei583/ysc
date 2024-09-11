@@ -121,15 +121,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "追剧",
-            "name": "🍓追剧┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
-            "jar": "./jar/fan.txt"
-        },
+
         {
             "key": "一起看弹幕",
             "name": "一起看｜弹幕",
@@ -494,6 +486,15 @@
                 "其他综艺",
                 "短剧"
             ],
+            "jar": "./jar/fan.txt"
+        },
+        {
+            "key": "追剧",
+            "name": "🍓追剧┃ijk",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
             "jar": "./jar/fan.txt"
         },
         {
