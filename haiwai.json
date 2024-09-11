@@ -20,12 +20,23 @@
             "jar": "./jar/spider.jar"
         },
         {
-            "key": "豆瓣",
-            "name": "买盒子认准小米卓越品牌店"
+            "key": "本地",
+            "name": "买盒子认准小米卓越品牌店",
+            "type": 3,
+            "api": "csp_LocalFile"
         },
         {
-            "key": "豆瓣",
-            "name": "其他店购买请退款差评"
+            "key": "配置中心",
+            "name": "其他店购买此APP请退款差评",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
 
 	    
