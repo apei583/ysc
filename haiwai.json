@@ -20,26 +20,6 @@
             "jar": "./jar/spider.jar"
         },
         {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-	    
-        {
             "key": "无忧短剧",
             "name": "无忧｜短剧",
             "type": 3,
@@ -128,8 +108,6 @@
             "filterable": 1,
             "ext": "http://43.248.100.147:9891/api.php/app/"
         },
-
-
         {
             "key": "荐片弹幕",
             "name": "荐片┃P2P",
@@ -143,53 +121,10 @@
                 "danmu": true
             }
         },
-
-        {
-            "key": "追剧",
-            "name": "🍓追剧┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "ext": "AO7TcBkd8IPB+BwH4Qma+opv",
-            "jar": "./jar/fan.txt"
-        },
+		
+		
 
 
-        
-        
-        {
-            "key": "一起看弹幕",
-            "name": "一起看｜弹幕",
-            "type": 3,
-            "api": "csp_Yqk",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "JOJO弹幕",
-            "name": "JOJO｜弹幕",
-            "type": 3,
-            "api": "csp_Jiohub",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
-        {
-            "key": "愉悦影视",
-            "name": "愉悦｜影视",
-            "type": 3,
-            "api": "csp_Wexyuyueys",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/spider.jar"
-        },
 
         {
             "key": "热播影视",
@@ -218,35 +153,8 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "笙歌影视",
-            "name": "笙歌｜APP",
-            "type": 3,
-            "api": "csp_AppYY",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1
-        },
-        {
-            "key": "可可影视",
-            "name": "可可｜影视",
-            "type": 3,
-            "api": "csp_Keke",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "圣城影视",
-            "name": "圣城｜影视",
-            "type": 3,
-            "api": "csp_SC1080",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-		
-		
+
+
         {
             "key": "快看影视",
             "name": "快看｜影视",
@@ -264,6 +172,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+		
+        {
+            "key": "追剧猫",
+            "name": "追剧猫｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://jingxiang.lingutv.cn/api.php/app/"
         },
         {
             "key": "农民影视",
@@ -284,15 +203,46 @@
             "filterable": 1
         },
         {
-            "key": "电影牛",
-            "name": "电影牛｜影视",
+            "key": "小苹果弹幕",
+            "name": "小苹果｜弹幕",
             "type": 3,
-            "api": "csp_XYQHiker",
+            "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./XYQHiker/电影牛.json"
+            "ext": {
+                "danmu": true
+            }
         },
+        {
+            "key": "看看影视",
+            "name": "看看｜影视",
+            "type": 3,
+            "api": "csp_WebIV",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "一起看弹幕",
+            "name": "一起看｜弹幕",
+            "type": 3,
+            "api": "csp_Yqk",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "三六零",
+            "name": "三六零｜视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/三六零.js"
+        },
+
         {
             "key": "畅梦影视",
             "name": "畅梦｜影视",
@@ -300,7 +250,7 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/畅梦影视.js"
         },
-		{
+        {
             "key": "奇趣影视",
             "name": "奇趣｜影视",
             "type": 3,
@@ -322,9 +272,6 @@
                 "danmu": true
             }
         },
-
-
-
         {
             "key": "奇优",
             "name": "奇优[直连]",
@@ -336,43 +283,7 @@
             "ext": "./json/奇优.json",
             "jar": "./jar/Yoursmile.jar"
         },
-        {
-            "key": "云播",
-            "name": "云播[直连]",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "影片类型": "分类：&&主演",
-                "导演": "导演：</span>&&</p>",
-                "主演": "主演：</span>&&</p>",
-                "简介": "class=\"sketch content\">&&</span>",
-                "数组": "myui-vodlist__thumb&&</a>",
-                "标题": "title=\"&&\"",
-                "副标题": "pic-tag pic-tag-top\">&&</span>",
-                "图片": "data-original=\"&&\"",
-                "链接": "href=\"&&\"",
-                "搜索模式": "1",
-                "搜索url": "http://www.hktvyun.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=500",
-                "搜索二次截取": "\"list\":[&&]",
-                "搜索数组": "{&&}",
-                "搜索标题": "\"name\":\"&&\"",
-                "搜索图片": "\"pic\":\"&&\"",
-                "搜索链接": "http://www.hktvyun.com/vod/detail/id/+\"id\":&&,+html",
-                "嗅探词": ".m3u8#mp4",
-                "线路数组": "</a><h3&&/h3>",
-                "线路标题": "title\">&&<",
-                "播放数组": "<ul class=\"myui-content__list scrollbar&&</ul>",
-                "播放标题": ">&&<",
-                "播放列表": "<a&&/a>",
-                "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html;;a",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-            },
-            "jar": "./jar/Yoursmile.jar"
-        },
+
         {
             "key": "天空资源",
             "name": "天空资源[直连]",
@@ -426,7 +337,6 @@
             "changeable": 0,
             "ext": "https://www.xb6v.com/"
         },
-
         {
             "key": "ikun资源",
             "name": "ikun资源[直连]",
@@ -461,16 +371,7 @@
                 "欧美综艺"
             ]
         },
-        {
-            "key": "AppMr",
-            "name": "明明[App]",
-            "type": 3,
-            "api": "csp_AppMr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "jar": "./jar/fty.jar",
-            "changeable": 1
-        },
+
         {
             "key": "华为吧",
             "name": "影视 | 华为8",
@@ -530,7 +431,6 @@
             ],
             "jar": "./jar/fan.txt"
         },
-        
         {
             "key": "极速资源",
             "name": "极速｜采集",
@@ -598,25 +498,8 @@
                 "欧美综艺"
             ]
         },
-        {
-            "key": "追剧迷",
-            "name": "剧迷｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/追剧迷.js"
-        },
 
-        {
-            "key": "厂长",
-            "name": "🌸厂长┃直连",
-            "type": 3,
-            "api": "csp_Czzy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 10,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1721215642485/okjpg.txt;md5;c03bfbeea78c7eafc5fef4849e819b39"
-        },
+
         {
             "key": "FreeOK",
             "name": "FreeOK",
@@ -636,15 +519,7 @@
             "changeable": 1,
             "jar": "./jar/spider.jar"
         },
-        {
-            "key": "纯享影视",
-            "name": "纯享影视",
-            "type": 3,
-            "api": "csp_WexF4kvm",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/spider.jar"
-        },
+
         {
             "key": "农民影视",
             "name": "农民｜影视",
@@ -654,38 +529,8 @@
             "changeable": 1,
             "jar": "./jar/spider.jar"
         },
-        {
-            "key": "子子影视",
-            "name": "子子影视",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/%E5%AD%90%E5%AD%90%E5%BD%B1%E8%A7%86.json",
-            "jar": "./jar/spider.jar"
-        },
-        {
-            "key": "电影港",
-            "name": "电影港｜P2P",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/apei583/ysc/main/json/%E7%94%B5%E5%BD%B1%E6%B8%AF.json",
-            "jar": "./jar/spider.jar"
-        },
-        {
-            "key": "酷吧电影",
-            "name": "酷吧｜P2P",
-            "type": 3,
-            "api": "csp_KubaCL",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/spider.jar"
-        },
+
+
         {
             "key": "非凡",
             "name": "非凡┃影视",
@@ -694,17 +539,7 @@
             "searchable": 1,
             "changeable": 1
         },
-        {
-            "key": "小苹果",
-            "name": "🍎苹果┃直连",
-            "type": 3,
-            "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "timeout": 10,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt;md5;541ecc2690e3d3cb1af9b7cbf5fb36d6"
-        },
+
         {
             "key": "南瓜",
             "name": "🎃南瓜┃多线",
@@ -717,16 +552,7 @@
             "changeable": 1,
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
         },
-        {
-            "key": "韩小圈",
-            "name": "韩小圈",
-            "type": 3,
-            "api": "csp_HanXiaoQuan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "./jar/danmu.jar"
-        },
+
         {
             "key": "csp_Nbys",
             "name": "🛫泥巴┃海外",
@@ -848,37 +674,7 @@
                 "经典片"
             ]
         },
-        {
-            "key": "玩偶",
-            "name": "👽玩偶┃4K",
-            "type": 3,
-            "api": "csp_Wogg",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://apei583.top:4567/ali/token/5c3eeae1d995460bbc260ac02d6bbcb6",
-                "wogg": true
-            },
-            "timeout": 30,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt;md5;541ecc2690e3d3cb1af9b7cbf5fb36d6"
-        },
-        {
-            "key": "土豆网盘",
-            "name": "🥔土豆┃4K",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://apei583.top:4567/ali/token/5c3eeae1d995460bbc260ac02d6bbcb6",
-                "cookie": "file://TV/quark_cookie.txt",
-                "site": "https://tudou.lvdoui.top"
-            },
-            "timeout": 25,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720708879516/okjpg.txt;md5;541ecc2690e3d3cb1af9b7cbf5fb36d6"
-        },
+
         {
             "key": "米搜",
             "name": "🦋米搜┃搜索",
@@ -922,34 +718,7 @@
             },
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720763657384/fan.txt;md5;026629a5c54494dc8ae9bd38d0a1a1f6"
         },
-        {
-            "key": "PanSou",
-            "name": "🦊盘搜┃搜索",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            },
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720763657384/fan.txt;md5;026629a5c54494dc8ae9bd38d0a1a1f6"
-        },
-        {
-            "key": "UpYun",
-            "name": "😻Up搜┃搜索",
-            "type": 3,
-            "api": "csp_UpYun",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "ext": {
-                "Cloud-drive": "tvfan/Cloud-drive.txt",
-                "from": "4k|auto"
-            },
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720763657384/fan.txt;md5;026629a5c54494dc8ae9bd38d0a1a1f6"
-        },
+
         {
             "key": "PanSearch",
             "name": "🙀盘Se┃搜索",
@@ -1074,18 +843,25 @@
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
         },
         {
-            "key": "应用商店",
-            "name": "应用商店",
+            "key": "本地",
+            "name": "本地｜视频",
             "type": 3,
-            "api": "csp_Market",
+            "api": "csp_LocalFile"
+        },
+        {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
             "searchable": 0,
             "changeable": 0,
-            "ext": "./market.json",
-            "jar": "./pg.jar"
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         }
     ],
-
-
     "parses": [
         {
             "name": "自动解析",
