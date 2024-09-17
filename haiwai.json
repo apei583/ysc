@@ -121,16 +121,46 @@
                 "danmu": true
             }
         },
-		
-		
-
-
         {
-            "key": "畅梦影视",
-            "name": "畅梦｜影视",
+            "key": "糯米",
+            "name": "糯米┃秒播",
+            "type": 3,
+            "api": "csp_Nmyswv",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/fan.txt",
+            "changeable": 1
+        },
+        {
+            "key": "可可",
+            "name": "可可┃多线",
+            "type": 3,
+            "api": "csp_Kekys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/fan.txt",
+            "changeable": 1
+        },
+        {
+            "key": "AppMr",
+            "name": "明明┃APP",
+            "type": 3,
+            "api": "csp_AppMr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/fty.jar",
+            "changeable": 1
+        },
+        {
+            "key": "drpy_js_4k剧院",
+            "name": "4k剧院",
             "type": 3,
             "api": "./JS/drpy2.min.js",
-            "ext": "./JS/畅梦影视.js"
+            "ext": "./json/4k剧院.js",
+            "jar": "./jar/fan.txt"
         },
         {
             "key": "热播影视",
@@ -159,8 +189,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-
-
         {
             "key": "快看影视",
             "name": "快看｜影视",
@@ -179,7 +207,6 @@
             "quickSearch": 1,
             "filterable": 1
         },
-		
         {
             "key": "追剧猫",
             "name": "追剧猫｜APP",
@@ -248,8 +275,13 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/三六零.js"
         },
-
-
+        {
+            "key": "畅梦影视",
+            "name": "畅梦｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/畅梦影视.js"
+        },
         {
             "key": "奇趣影视",
             "name": "奇趣｜影视",
@@ -283,7 +315,6 @@
             "ext": "./json/奇优.json",
             "jar": "./jar/Yoursmile.jar"
         },
-
         {
             "key": "天空资源",
             "name": "天空资源[直连]",
@@ -371,7 +402,6 @@
                 "欧美综艺"
             ]
         },
-
         {
             "key": "华为吧",
             "name": "影视 | 华为8",
@@ -498,8 +528,6 @@
                 "欧美综艺"
             ]
         },
-
-
         {
             "key": "FreeOK",
             "name": "FreeOK",
@@ -519,7 +547,6 @@
             "changeable": 1,
             "jar": "./jar/spider.jar"
         },
-
         {
             "key": "农民影视",
             "name": "农民｜影视",
@@ -529,8 +556,6 @@
             "changeable": 1,
             "jar": "./jar/spider.jar"
         },
-
-
         {
             "key": "非凡",
             "name": "非凡┃影视",
@@ -539,7 +564,6 @@
             "searchable": 1,
             "changeable": 1
         },
-
         {
             "key": "南瓜",
             "name": "🎃南瓜┃多线",
@@ -552,7 +576,6 @@
             "changeable": 1,
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
         },
-
         {
             "key": "csp_Nbys",
             "name": "🛫泥巴┃海外",
@@ -674,7 +697,6 @@
                 "经典片"
             ]
         },
-
         {
             "key": "米搜",
             "name": "🦋米搜┃搜索",
@@ -718,7 +740,6 @@
             },
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720763657384/fan.txt;md5;026629a5c54494dc8ae9bd38d0a1a1f6"
         },
-
         {
             "key": "PanSearch",
             "name": "🙀盘Se┃搜索",
