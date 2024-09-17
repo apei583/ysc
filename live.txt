@@ -653,14 +653,6 @@ CGTN阿语,https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTe
 河南卫视,http://victoryblackcat.dscloud.me:8888/rtp/239.253.92.137:6144
 广西卫视,http://victoryblackcat.dscloud.me:8888/rtp/239.253.92.76:8043
 
-
-优质个源,#genre#
-丹鸟中文,http://s.cdhongyuan.cn:4022/udp/239.93.0.162:2192
-丹鸟中文,http://s.cdhongyuan.cn:4022/udp/239.93.1.9:2192
-丹鸟中文,http://146.56.153.245:20121/bysid/258
-丹鸟资讯,http://146.56.153.245:20121/bysid/257
-
-
 地方频道,#genre#
 安徽｜卫视,http://mywlkj.ddns.net:754/tv/qqcloud.php?id=24
 安徽｜卫视,http://mywlkj.ddns.net:754/tv/bst8m.php?id=34
@@ -736,8 +728,8 @@ CGTN阿语,https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTe
 广东｜云浮文旅,https://livestream.oeeee.com/slive/17807.m3u8
 广东｜河源综合,http://tmpstream.hyrtv.cn/xwzh/sd/live.m3u8
 广东｜河源公共,http://tmpstream.hyrtv.cn/hygg/sd/live.m3u8
-广东｜潮州综合,http://time-vod-qhlive.sobeylive.com/czbtv2019/czzhpd.m3u8
-广东｜潮州民生,http://time-vod-qhlive.sobeylive.com/czbtv2019/czggpd.m3u8
+广东｜潮州综合,http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czzhpd.m3u8
+广东｜潮州民生,http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8#http://vod-zjst-time.sobeylive.com/czbtv2019/czggpd.m3u8
 广东｜GRTN文化频道,https://glive.grtn.cn/live/wenhua_test0203.m3u8
 广东｜GRTN生活频道,http://glive.grtn.cn/live/life.m3u8
 广东｜GRTN纪录片频道,http://glive.grtn.cn/live/jilupian.m3u8
@@ -1317,6 +1309,21 @@ CGTN阿语,https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTe
 浙江｜龙游生活娱乐,http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 浙江｜龙游生活娱乐,http://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8?zzhed
 
+优质个源,#genre#
+丹鸟卫视,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
+丹鸟资讯,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
+丹鸟卫视,http://122.224.232.218:8888/rtp/233.50.200.191:5140
+丹鸟卫视,http://171.88.42.147:8888/udp/239.93.0.162:2192
+丹鸟卫视,http://60.164.228.49:4040/udp/239.255.30.50:8231
+丹鸟资讯,http://60.164.228.49:4040/udp/239.255.30.70:8231
+丹鸟卫视,http://58.215.231.60/live2.rxip.sc96655.com/live/test1_4000.m3u8
+丹鸟资讯,http://58.215.231.60/live2.rxip.sc96655.com/live/test2_4000.m3u8
+丹鸟卫视,http://103.116.245.163/sxg/sxg.php?id=/test1_4000.m3u8
+丹鸟资讯,http://103.116.245.163/sxg/sxg.php?id=/test2_4000.m3u8
+丹鸟中文,http://s.cdhongyuan.cn:4022/udp/239.93.0.162:2192
+丹鸟中文,http://s.cdhongyuan.cn:4022/udp/239.93.1.9:2192
+丹鸟中文,http://146.56.153.245:20121/bysid/258
+丹鸟资讯,http://146.56.153.245:20121/bysid/257
 
 咪咕直播,#genre#
 咪咕直播 52,http://[2409:8087:1a01:df::404d]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
