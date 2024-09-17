@@ -122,16 +122,42 @@
             }
         },
 		
-		
-
-
-        {
-            "key": "畅梦影视",
-            "name": "畅梦｜影视",
+		{
+            "key": "糯米",
+            "name": "糯米┃秒播",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/畅梦影视.js"
+            "api": "csp_Nmyswv",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar": "./jar/fan.txt",
+            "changeable": 1
+		},
+		{
+            "key": "可可",
+            "name": "可可┃多线",
+            "type": 3,
+            "api": "csp_Kekys",
+            "timeout": 15,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar": "./jar/fan.txt",
+            "changeable": 1
         },
+		{
+            "key": "AppMr",
+            "name": "明明┃APP",
+            "type": 3,
+            "api": "csp_AppMr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/fty.jar",
+            "changeable": 1
+        },
+
+
+
         {
             "key": "热播影视",
             "name": "热播｜APP",
@@ -209,13 +235,16 @@
             "filterable": 1
         },
         {
-            "key": "小苹果",
-            "name": "小苹果｜影视",
+            "key": "小苹果弹幕",
+            "name": "小苹果｜弹幕",
             "type": 3,
             "api": "csp_Xpg",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
         },
         {
             "key": "看看影视",
@@ -246,7 +275,13 @@
             "ext": "./JS/三六零.js"
         },
 
-
+        {
+            "key": "畅梦影视",
+            "name": "畅梦｜影视",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/畅梦影视.js"
+        },
         {
             "key": "奇趣影视",
             "name": "奇趣｜影视",
