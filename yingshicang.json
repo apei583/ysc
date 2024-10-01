@@ -155,6 +155,16 @@
             "changeable": 1
         },
         {
+            "key": "追剧影视",
+            "name": "追剧｜APP",
+            "type": 3,
+            "api": "csp_AppZJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://z.kzjtv.com/"
+        },
+        {
             "key": "drpy_js_4k剧院",
             "name": "4k剧院",
             "type": 3,
