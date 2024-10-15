@@ -3,19 +3,12 @@
 
     "urls": [
 
-        {
-
-            "url": "https://gitee.com/apei583/ysc/raw/main/yingshicang.json",
-
-            "name": "线路1"
-
-        },
 
     	{
 
             "url": "https://ghmirror00.pages.dev/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
 
-            "name": "线路2"
+            "name": "线路1"
 
         },
         
@@ -23,7 +16,7 @@
 
             "url": "https://gh.llkk.cc/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
 
-            "name": "线路3"
+            "name": "线路2"
 
         },
 
@@ -31,7 +24,7 @@
 
             "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
 
-            "name": "线路4"
+            "name": "线路3"
 
         },
 
