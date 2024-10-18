@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar",
+    "spider": "./spider.jar",
     "wallpaper": "https://picsum.photos/1280/720/?blur=10",
     "lives": [
         {
