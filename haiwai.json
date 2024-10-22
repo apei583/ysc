@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/spider.jar",
+    "spider": "./spider.jar",
     "wallpaper": "https://picsum.photos/1280/720/?blur=10",
     "lives": [
         {
@@ -16,79 +16,52 @@
             "name": "小米卓越品牌店独立资源库",
             "type": 3,
             "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "荐片弹幕",
+            "name": "荐片┃P2P",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+        },
+        {
+            "key": "新感觉",
+            "name": "新感觉｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://43.248.100.147:9892/api.php/app/"
+        },
+
+        {
+            "key": "本地",
+            "name": "本地｜视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
+        {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
             "searchable": 0,
-            "jar": "./jar/spider.jar"
-        },
-        {
-            "key": "无忧短剧",
-            "name": "无忧｜短剧",
-            "type": 3,
-            "api": "csp_Duanj",
-            "searchable": 1,
             "changeable": 0,
+            "indexs": 0,
             "style": {
                 "type": "rect",
-                "ratio": 1.433
+                "ratio": 1.597
             }
         },
-        {
-            "key": "在线短剧",
-            "name": "在线｜短剧",
-            "type": 3,
-            "api": "csp_Duanju",
-            "searchable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            }
-        },
-        {
-            "key": "星芽短剧",
-            "name": "星芽｜短剧",
-            "type": 3,
-            "api": "csp_AppXY",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "天堂短剧",
-            "name": "天堂｜短剧",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/天堂短剧.js"
-        },
-        {
-            "key": "爱你短剧",
-            "name": "爱你｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/爱你短剧.json"
-        },
-        {
-            "key": "河马短剧",
-            "name": "河马｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/河马短剧.json"
-        },
-        {
-            "key": "短剧屋",
-            "name": "短剧屋｜短剧",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/短剧屋.json"
-        },
+
         {
             "key": "韩小圈",
             "name": "韩小圈｜APP",
@@ -108,19 +81,8 @@
             "filterable": 1,
             "ext": "http://43.248.100.147:9891/api.php/app/"
         },
-        {
-            "key": "荐片弹幕",
-            "name": "荐片┃P2P",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
+
+        
         {
             "key": "糯米",
             "name": "糯米┃秒播",
@@ -155,6 +117,16 @@
             "changeable": 1
         },
         {
+            "key": "追剧影视",
+            "name": "追剧｜APP",
+            "type": 3,
+            "api": "csp_AppZJ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://z.kzjtv.com/"
+        },
+        {
             "key": "drpy_js_4k剧院",
             "name": "4k剧院",
             "type": 3,
@@ -181,6 +153,15 @@
             "filterable": 1
         },
         {
+            "key": "小苹果",
+            "name": "小苹果｜影视",
+            "type": 3,
+            "api": "csp_Xpg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "大米星球",
             "name": "大米｜APP",
             "type": 3,
@@ -189,6 +170,155 @@
             "quickSearch": 1,
             "filterable": 1
         },
+
+        {
+            "key": "欢视",
+            "name": "👓欢视┃多线",
+            "type": 3,
+            "api": "csp_AppTT",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar": "./jar/fan.txt",
+            "changeable": 1,
+            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
+        {
+            "key": "南瓜",
+            "name": "🎃南瓜┃多线",
+            "type": 3,
+            "api": "csp_NanGua",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "jar": "./jar/fan.txt",
+			"changeable": 1
+        },
+        {
+            "key": "奇优",
+            "name": "影视 | ️奇优[直连]",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/奇优.json",
+            "jar": "./jar/Yoursmile.jar"
+        },
+        {
+            "key": "卧龙资源",
+            "name": "影视 | 卧龙资源[直连]",
+            "type": 1,
+            "api": "https://wolongzyw.com/api.php/provide/vod/",
+            "searchable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "记录片",
+                "短片",
+                "动画片",
+                "国产动漫",
+                "欧美动漫",
+                "日本动漫",
+                "港台综艺",
+                "韩国综艺",
+                "大陆综艺",
+                "泰国剧",
+                "欧美综艺",
+                "惊悚片",
+                "家庭片",
+                "古装片",
+                "历史片",
+                "悬疑片",
+                "犯罪片",
+                "短剧"
+            ]
+        },
+        {
+            "key": "天空资源",
+            "name": "影视 | 天空资源[直连]",
+            "type": 1,
+            "api": "https://api.tiankongapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "categories": [
+                "电影",
+                "电视剧",
+                "综艺",
+                "动漫",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "台湾剧",
+                "韩国剧",
+                "纪录片",
+                "动画片",
+                "日本剧",
+                "泰国剧",
+                "欧美剧",
+                "国产动漫",
+                " 日本动漫",
+                "欧美动漫",
+                "海外动漫",
+                "电影解说",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "其他片",
+                "其他剧",
+                "体育赛事",
+                "短剧"
+            ]
+        },
+		
+
+        {
+            "key": "Mp4电影",
+            "name": "Mp4电影｜P2P",
+            "type": 3,
+            "api": "csp_Mp4Mov",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "电影港",
+            "name": "电影港｜P2P",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/电影港.json"
+        },
+        {
+            "key": "迅雷吧",
+            "name": "迅雷吧｜P2P",
+            "type": 3,
+            "api": "csp_Xunlei8",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        
         {
             "key": "快看影视",
             "name": "快看｜影视",
@@ -235,18 +365,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "小苹果弹幕",
-            "name": "小苹果｜弹幕",
-            "type": 3,
-            "api": "csp_Xpg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
+
         {
             "key": "看看影视",
             "name": "看看｜影视",
@@ -304,59 +423,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "奇优",
-            "name": "奇优[直连]",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/奇优.json",
-            "jar": "./jar/Yoursmile.jar"
-        },
-        {
-            "key": "天空资源",
-            "name": "天空资源[直连]",
-            "type": 1,
-            "api": "https://api.tiankongapi.com/api.php/provide/vod/",
-            "searchable": 1,
-            "categories": [
-                "电影",
-                "电视剧",
-                "综艺",
-                "动漫",
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "香港剧",
-                "台湾剧",
-                "韩国剧",
-                "纪录片",
-                "动画片",
-                "日本剧",
-                "泰国剧",
-                "欧美剧",
-                "国产动漫",
-                " 日本动漫",
-                "欧美动漫",
-                "海外动漫",
-                "电影解说",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "其他片",
-                "其他剧",
-                "体育赛事",
-                "短剧"
-            ]
-        },
+
         {
             "key": "新6V",
             "name": "6V┃边下边播",
@@ -538,15 +605,7 @@
             "filterable": 1,
             "jar": "./jar/spider.jar"
         },
-        {
-            "key": "兄弟影视",
-            "name": "兄弟影视",
-            "type": 3,
-            "api": "csp_Wexxiongdiys",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/spider.jar"
-        },
+
         {
             "key": "农民影视",
             "name": "农民｜影视",
@@ -564,27 +623,155 @@
             "searchable": 1,
             "changeable": 1
         },
+
         {
-            "key": "南瓜",
-            "name": "🎃南瓜┃多线",
+            "key": "无忧短剧",
+            "name": "无忧｜短剧",
             "type": 3,
-            "api": "csp_NanGua",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_Duanj",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "在线短剧",
+            "name": "在线｜短剧",
+            "type": 3,
+            "api": "csp_Duanju",
+            "searchable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "星芽短剧",
+            "name": "星芽｜短剧",
+            "type": 3,
+            "api": "csp_AppXY",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "天堂短剧",
+            "name": "天堂｜短剧",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/天堂短剧.js"
+        },
+        {
+            "key": "爱你短剧",
+            "name": "爱你｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
-            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1718523928408/fan.txt;md5;c75cf198357a3a77f2189ab0764f2a8c"
+            "filterable": 1,
+            "ext": "./XYQHiker/爱你短剧.json"
         },
         {
-            "key": "csp_Nbys",
-            "name": "🛫泥巴┃海外",
+            "key": "河马短剧",
+            "name": "河马｜短剧",
             "type": 3,
-            "api": "csp_NiNi",
+            "api": "csp_XYQHiker",
             "searchable": 1,
-            "changeable": 1,
-            "jar": "https://tv.菜妮丝.top/jar/fm0411.jar;md5;eb9ef1e338ee3b01ef1c1c388841d7bb"
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/河马短剧.json"
         },
+        {
+            "key": "短剧屋",
+            "name": "短剧屋｜短剧",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XYQHiker/短剧屋.json"
+        },
+
+	    
+
+        {
+            "key": "抠搜",
+            "name": "🍄抠抠┃4K网盘",
+            "type": 3,
+            "api": "csp_KkSs",
+            "searchable": 1,
+            "quickSearch": 1,
+			"jar": "./jar/fan.txt",
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            }
+        },
+        {
+            "key": "立播影视",
+            "name": "立播｜网盘",
+            "type": 3,
+            "api": "csp_Libvio",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://libvio.link"
+            }
+        },
+        {
+            "key": "小纸条弹幕",
+            "name": "小纸条｜网盘",
+            "type": 3,
+            "api": "csp_XiaoZhiTiao",
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克木偶弹幕",
+            "name": "木偶｜4K网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://mogg.top",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克蜡笔弹幕",
+            "name": "蜡笔｜4K网盘",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "http://labipan.com",
+                "danmu": true
+            }
+        },
+
+        
         {
             "key": "星星",
             "name": "🛫星星┃海外",
@@ -862,25 +1049,6 @@
             "changeable": 0,
             "ext": "https://gitlab.com/fantaiying/ext/-/raw/main/高中课堂.json",
             "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1723462510172/fan.txt;md5;80004bdf8ea71093c980aa89a7d4e3d9"
-        },
-        {
-            "key": "本地",
-            "name": "本地｜视频",
-            "type": 3,
-            "api": "csp_LocalFile"
-        },
-        {
-            "key": "配置中心",
-            "name": "配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
         }
     ],
     "parses": [
