@@ -71,16 +71,7 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "新感觉",
-            "name": "新感觉｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://43.248.100.147:9891/api.php/app/"
-        },
+
 
         
         {
@@ -133,6 +124,15 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./json/4k剧院.js",
             "jar": "./jar/fan.txt"
+        },
+        {
+            "key": "铁剧影视",
+            "name": "铁剧｜影视",
+            "type": 3,
+            "api": "csp_WebBr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "热播影视",
