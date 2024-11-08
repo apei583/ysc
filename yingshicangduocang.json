@@ -3,22 +3,23 @@
 
     "urls": [
 
+        {
+
+            "url": "https://gh-proxy.com/raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
+
+            "name": "线路1"
+
+        },
 
     	{
 
             "url": "https://ghp.ci/https://raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
 
-            "name": "线路1"
-
-        },
-        
-        {
-
-            "url": "https://gh-proxy.com/raw.githubusercontent.com/apei583/ysc/main/yingshicang.json",
-
             "name": "线路2"
 
         },
+        
+
 
 	{
 
