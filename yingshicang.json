@@ -31,16 +31,7 @@
                 "danmu": true
             }
         },
-        {
-            "key": "新感觉",
-            "name": "新感觉｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://43.248.100.147:9892/api.php/app/"
-        },
+
 
         {
             "key": "本地",
@@ -125,15 +116,7 @@
             "ext": "./json/4k剧院.js",
             "jar": "./jar/fan.txt"
         },
-        {
-            "key": "铁剧影视",
-            "name": "铁剧｜影视",
-            "type": 3,
-            "api": "csp_WebBr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
         {
             "key": "热播影视",
             "name": "热播｜APP",
@@ -143,15 +126,8 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "天天影视",
-            "name": "天天｜APP",
-            "type": 3,
-            "api": "csp_AppTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
+
         {
             "key": "小苹果",
             "name": "小苹果｜影视",
@@ -182,6 +158,15 @@
 			"jar": "./jar/fan.txt",
             "changeable": 1,
             "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
+        },
+        {
+            "key": "农民影视",
+            "name": "农民｜影视",
+            "type": 3,
+            "api": "csp_Nmys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "南瓜",
@@ -288,6 +273,25 @@
                 "短剧"
             ]
         },
+
+        {
+            "key": "铁剧影视",
+            "name": "铁剧｜影视",
+            "type": 3,
+            "api": "csp_WebBr",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "天天影视",
+            "name": "天天｜APP",
+            "type": 3,
+            "api": "csp_AppTT",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
 		
 
         {
@@ -347,15 +351,7 @@
             "filterable": 1,
             "ext": "https://jingxiang.lingutv.cn/api.php/app/"
         },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_Nongm",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
         {
             "key": "兄弟影视",
             "name": "兄弟｜影视",
