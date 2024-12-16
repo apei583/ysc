@@ -90,14 +90,36 @@
         
         {
             "key": "糯米",
-            "name": "糯米┃秒播",
+            "name": "🍓糯米┃秒播",
             "type": 3,
             "api": "csp_Nmyswv",
-            "timeout": 15,
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./jar/fan.txt",
-            "changeable": 1
+            "changeable": 1,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b"
+        },
+        {
+            "key": "alllive",
+            "name": "📽️一直播┃直播",
+            "type": 3,
+            "api": "csp_Alllive",
+            "playerType": 2,
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b"
+        },
+        {
+            "key": "文才弹幕",
+            "name": "文才｜弹幕",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
         },
         {
             "key": "可可",
@@ -146,8 +168,8 @@
             "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
-            "jar": "./jar/fan.txt",
-			"changeable": 1
+            "changeable": 1,
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b"
         },
         {
             "key": "奇优",
