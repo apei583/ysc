@@ -1,5 +1,5 @@
 {
-    "spider": "./spider.jar",
+    "spider": "./jar/spider.txt",
     "wallpaper": "https://picsum.photos/1280/720/?blur=10",
     "lives": [
         {
@@ -62,8 +62,31 @@
             "quickSearch": 1,
             "filterable": 1
         },
-
-
+        {
+            "key": "木星",
+            "name": "🌞木星┃多线",
+            "type": 3,
+            "api": "csp_AppSx",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "FbjDcUxPqpfNr0QF4QvE6sExbctTGI9OTT9b/fj1hQEfFo3ZpT7IjxyVo6ytU3boJSbS02op2WA9SGNlCJpscUJASIjSk1eTbWgFj3BY0O58XL66c3hoMFG1cCcjgoux+ibEY4c2WZ85pgVQ9BW3RV1NZ7a2+xJHJdcafyUM",
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1733932725378/fan.txt;md5;f98827d83bb8ca104b0b1ead61a98c5b"
+        },
+        {
+            "key": "米兔弹幕",
+            "name": "米兔｜弹幕",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
+            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/MTDM.js"
+        },
+        {
+            "key": "小熊弹幕",
+            "name": "小熊｜弹幕",
+            "type": 3,
+            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
+            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/XXDM.js"
+        },
         
         {
             "key": "糯米",
@@ -88,34 +111,9 @@
             "jar": "./jar/fan.txt",
             "changeable": 1
         },
-        {
-            "key": "AppMr",
-            "name": "明明┃APP",
-            "type": 3,
-            "api": "csp_AppMr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "jar": "./jar/fty.jar",
-            "changeable": 1
-        },
-        {
-            "key": "追剧影视",
-            "name": "追剧｜APP",
-            "type": 3,
-            "api": "csp_AppZJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://z.kzjtv.com/"
-        },
-        {
-            "key": "drpy_js_4k剧院",
-            "name": "4k剧院",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./json/4k剧院.js",
-            "jar": "./jar/fan.txt"
-        },
+
+
+
 
         {
             "key": "热播影视",
@@ -137,37 +135,9 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        {
-            "key": "大米星球",
-            "name": "大米｜APP",
-            "type": 3,
-            "api": "csp_AppDaMi",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 
-        {
-            "key": "欢视",
-            "name": "👓欢视┃多线",
-            "type": 3,
-            "api": "csp_AppTT",
-            "playerType": 2,
-            "searchable": 1,
-            "quickSearch": 1,
-			"jar": "./jar/fan.txt",
-            "changeable": 1,
-            "ext": "AO7TcBkd8IPB+BwH4Qma+opv"
-        },
-        {
-            "key": "农民影视",
-            "name": "农民｜影视",
-            "type": 3,
-            "api": "csp_Nmys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
+
+
         {
             "key": "南瓜",
             "name": "🎃南瓜┃多线",
@@ -235,15 +205,6 @@
         },
 
         {
-            "key": "铁剧影视",
-            "name": "铁剧｜影视",
-            "type": 3,
-            "api": "csp_WebBr",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "天天影视",
             "name": "天天｜APP",
             "type": 3,
@@ -283,44 +244,7 @@
             "filterable": 1
         },
         
-        {
-            "key": "快看影视",
-            "name": "快看｜影视",
-            "type": 3,
-            "api": "csp_Kuaikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "爱看影视",
-            "name": "爱看｜影视",
-            "type": 3,
-            "api": "csp_Ikan",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "追剧猫",
-            "name": "追剧猫｜APP",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://jingxiang.lingutv.cn/api.php/app/"
-        },
 
-        {
-            "key": "兄弟影视",
-            "name": "兄弟｜影视",
-            "type": 3,
-            "api": "csp_Xdys",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
 
         {
             "key": "看看影视",
@@ -350,13 +274,7 @@
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/三六零.js"
         },
-        {
-            "key": "畅梦影视",
-            "name": "畅梦｜影视",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/畅梦影视.js"
-        },
+
         {
             "key": "奇趣影视",
             "name": "奇趣｜影视",
@@ -380,17 +298,7 @@
             }
         },
 
-        {
-            "key": "新6V",
-            "name": "6V┃边下边播",
-            "type": 3,
-            "api": "csp_SixV",
-            "searchable": 1,
-            "quickSearch": 1,
-            "jar": "./jar/fan.txt",
-            "changeable": 0,
-            "ext": "https://www.xb6v.com/"
-        },
+
         {
             "key": "ikun资源",
             "name": "ikun资源[直连]",
