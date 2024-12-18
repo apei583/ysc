@@ -67,7 +67,20 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
+            }
+        },
+        {
+            "key": "荐片弹幕",
+            "name": "荐片｜P2P",
+            "type": 3,
+            "api": "csp_Jianpian",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": false
             }
         },
         {
@@ -79,7 +92,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true,
+                "danmu": false,
                 "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
             }
         },
@@ -92,7 +105,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true,
+                "danmu": false,
                 "site": "aHR0cDovL3YucmJvdHYuY24="
             }
         },
@@ -105,7 +118,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -117,7 +130,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -139,7 +152,7 @@
         },
         {
             "key": "立播弹幕",
-            "name": "立播｜弹幕",
+            "name": "立播｜网盘",
             "type": 3,
             "api": "csp_Libvio",
             "searchable": 1,
@@ -150,7 +163,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://www.libvio.cc",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -218,7 +231,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -230,7 +243,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -242,22 +255,10 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "danmu": true
+                "danmu": false
             }
         },
-        {
-            "key": "荐片弹幕",
-            "name": "荐片｜弹幕",
-            "type": 3,
-            "api": "csp_Jianpian",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": true
-            }
-        },
+
         {
             "key": "哔嘀弹幕",
             "name": "哔嘀｜弹幕",
@@ -268,7 +269,7 @@
             "filterable": 1,
             "ext": {
                 "site": "https://www.xlys01.com",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -284,7 +285,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "wogg": true,
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -301,7 +302,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://feimaouc.cloud:666",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -318,7 +319,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://woog.nxog.eu.org",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -334,7 +335,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://ucmi.fun",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -350,7 +351,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://tv.yydsys.top",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -366,7 +367,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://feimaoai.site",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -382,7 +383,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://xiaomiai.site",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -398,7 +399,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://dcyun.cc",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -414,7 +415,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://mogg.小胡.top",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -431,7 +432,7 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "https://wp.0v.fit",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1409,7 +1410,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1422,7 +1423,7 @@
             "changeable": 1,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1435,7 +1436,7 @@
             "changeable": 1,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true,
+                "danmu": false,
                 "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
             }
         },
@@ -1450,7 +1451,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1464,7 +1465,7 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "site": "https://www.misou.fun",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1477,7 +1478,7 @@
             "changeable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1490,7 +1491,7 @@
             "changeable": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1504,7 +1505,7 @@
             "changeable": 1,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
@@ -1517,12 +1518,12 @@
             "changeable": 0,
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "danmu": true
+                "danmu": false
             }
         },
         {
             "key": "荐片",
-            "name": "荐片｜磁力",
+            "name": "荐片｜P2P",
             "type": 3,
             "api": "csp_Jianpian",
             "playerType": 1,
@@ -1532,7 +1533,7 @@
         },
         {
             "key": "New6v",
-            "name": "New6V｜磁力",
+            "name": "New6V｜P2P",
             "type": 3,
             "api": "csp_New6v",
             "searchable": 1,
@@ -1542,7 +1543,7 @@
         },
         {
             "key": "SeedHub",
-            "name": "SeedHub｜磁力",
+            "name": "SeedHub｜P2P",
             "type": 3,
             "api": "csp_SeedHub",
             "searchable": 1,
@@ -1551,7 +1552,7 @@
         },
         {
             "key": "音范丝",
-            "name": "音范丝｜磁力",
+            "name": "音范丝｜P2P",
             "type": 3,
             "api": "csp_XPath",
             "searchable": 1,
@@ -1560,15 +1561,15 @@
             "ext": "https://gitee.com/PizazzXS/four-d/raw/master/magnet/json/YFS.json"
         },
         {
-            "key": "磁力熊",
-            "name": "磁力熊｜磁力",
+            "key": "P2P熊",
+            "name": "P2P熊｜P2P",
             "type": 3,
             "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
             "ext": "https://gitee.com/PizazzXS/four-d/raw/master/magnet/js/CLX.js"
         },
         {
             "key": "美剧迷",
-            "name": "美剧迷｜磁力",
+            "name": "美剧迷｜P2P",
             "type": 3,
             "api": "csp_MeijuMi",
             "searchable": 1,
@@ -1577,7 +1578,7 @@
         },
         {
             "key": "迅雷吧",
-            "name": "迅雷吧｜磁力",
+            "name": "迅雷吧｜P2P",
             "type": 3,
             "api": "csp_Xunlei8",
             "searchable": 1,
@@ -1586,7 +1587,7 @@
         },
         {
             "key": "电影港",
-            "name": "电影港｜磁力",
+            "name": "电影港｜P2P",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -1596,7 +1597,7 @@
         },
         {
             "key": "布谷TV",
-            "name": "布谷TV｜磁力",
+            "name": "布谷TV｜P2P",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -1606,7 +1607,7 @@
         },
         {
             "key": "BT天堂",
-            "name": "BT天堂｜磁力",
+            "name": "BT天堂｜P2P",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -1616,7 +1617,7 @@
         },
         {
             "key": "Mp4电影",
-            "name": "Mp4电影｜磁力",
+            "name": "Mp4电影｜P2P",
             "type": 3,
             "api": "csp_Mp4Mov",
             "searchable": 1,
@@ -1625,7 +1626,7 @@
         },
         {
             "key": "酷吧电影",
-            "name": "酷吧电影｜磁力",
+            "name": "酷吧电影｜P2P",
             "type": 3,
             "api": "csp_KubaCL",
             "searchable": 1,
@@ -1634,7 +1635,7 @@
         },
         {
             "key": "美剧天堂",
-            "name": "美剧天堂｜磁力",
+            "name": "美剧天堂｜P2P",
             "type": 3,
             "api": "csp_MeijuTT",
             "searchable": 1,
@@ -1746,7 +1747,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
+                "danmu": false
             }
         }
     ],
@@ -1970,7 +1971,7 @@
             ]
         },
         {
-            "name": "磁力广告",
+            "name": "P2P广告",
             "hosts": [
                 "magnet"
             ],
