@@ -72,19 +72,7 @@
                 "danmu": false
             }
         },
-        {
-            "key": "天天弹幕",
-            "name": "天天｜弹幕",
-            "type": 3,
-            "api": "csp_TianTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "danmu": false,
-                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
-            }
-        },
+
 
         {
             "key": "糯米弹幕",
@@ -155,18 +143,7 @@
             "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
             "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/XHBDM.js"
         },
-        {
-            "key": "三六零弹幕",
-            "name": "三六零｜弹幕",
-            "type": 3,
-            "api": "csp_Sp360",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "danmu": false
-            }
-        },
+
         {
             "key": "机器人弹幕",
             "name": "机器人｜弹幕",
