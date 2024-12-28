@@ -532,13 +532,7 @@
             "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/json/DYN.json"
         },
 
-        {
-            "key": "三六零",
-            "name": "三六零｜视频",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/SLL.js"
-        },
+
         {
             "key": "剧圈圈",
             "name": "剧圈圈｜影视",
