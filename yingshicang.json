@@ -554,13 +554,7 @@
             "filterable": 1,
             "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/json/DYN.json"
         },
-        {
-            "key": "爱奇艺",
-            "name": "爱奇艺｜视频",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/AQY.js"
-        },
+
         {
             "key": "三六零",
             "name": "三六零｜视频",
@@ -903,34 +897,7 @@
             },
             "timeout": 10
         },
-		        {
-            "key": "腾讯弹幕",
-            "name": "腾讯｜弹幕",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/TXDM.js"
-        },
-        {
-            "key": "优酷弹幕",
-            "name": "优酷｜弹幕",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/YKDM.js"
-        },
-        {
-            "key": "芒果弹幕",
-            "name": "芒果｜弹幕",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/MGDM.js"
-        },
-        {
-            "key": "爱奇艺弹幕",
-            "name": "爱奇艺｜弹幕",
-            "type": 3,
-            "api": "https://gitee.com/PizazzXS/four-d/raw/master/js/drpy2.min.js",
-            "ext": "https://gitee.com/PizazzXS/four-d/raw/master/movie/js/AQYDM.js"
-        },
+
         {
             "key": "碟调影视",
             "name": "碟调｜影视",
