@@ -815,7 +815,105 @@
             "changeable": 1,
             "jar": "https://gitee.com/PizazzXS/four-d/raw/master/wex.txt;md5;c0a0b82a9b66c0a6f8919305ee5c3591"
         },
-
+        {
+            "key": "PanSso",
+            "name": "🐌盘他┃三盘",
+            "type": 3,
+            "api": "csp_PanSso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "YpanSo",
+            "name": "🐟盘她┃三盘",
+            "type": 3,
+            "api": "csp_YpanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "xzso",
+            "name": "👻盘它┃三盘",
+            "type": 3,
+            "api": "csp_xzso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "米搜",
+            "name": "🦋米搜┃夸父",
+            "type": 3,
+            "api": "csp_MIPanSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "夸搜",
+            "name": "😻夸搜┃夸父",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "pan": "quark",
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "Aliso",
+            "name": "🙀盘搜┃阿狸",
+            "type": 3,
+            "api": "csp_PanSearch",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
+        {
+            "key": "YiSo",
+            "name": "😹易搜┃阿狸",
+            "type": 3,
+            "api": "csp_YiSo",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "ext": {
+                "Cloud-drive": "tvfan/Cloud-drive.txt",
+                "from": "4k|auto"
+            },
+            "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1735370809906/fan.txt;md5;9136a7f6aec51c5b18e911121774ab5f"
+        },
 
         {
             "key": "无忧短剧",
