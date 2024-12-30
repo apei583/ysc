@@ -572,7 +572,7 @@
 
         {
             "key": "玩偶弹幕",
-            "name": "玩偶｜4K弹幕",
+            "name": "玩偶｜4K网盘",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -588,7 +588,7 @@
         },
         {
             "key": "夸克肥猫弹幕",
-            "name": "肥猫｜4K弹幕",
+            "name": "肥猫｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -605,7 +605,7 @@
         },
         {
             "key": "夸克欧歌弹幕",
-            "name": "欧哥｜4K弹幕",
+            "name": "欧哥｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -622,7 +622,7 @@
         },
         {
             "key": "夸克小米弹幕",
-            "name": "小米｜4K弹幕",
+            "name": "小米｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -638,7 +638,7 @@
         },
         {
             "key": "夸克多多弹幕",
-            "name": "多多｜4K弹幕",
+            "name": "多多｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -654,7 +654,7 @@
         },
         {
             "key": "夸克蜡笔弹幕",
-            "name": "蜡笔｜4K弹幕",
+            "name": "蜡笔｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -670,7 +670,7 @@
         },
         {
             "key": "夸克至臻弹幕",
-            "name": "至臻｜4K弹幕",
+            "name": "至臻｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -686,7 +686,7 @@
         },
         {
             "key": "夸克土豆弹幕",
-            "name": "土豆｜4K弹幕",
+            "name": "土豆｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -702,7 +702,7 @@
         },
         {
             "key": "夸克木偶弹幕",
-            "name": "木偶｜4K弹幕",
+            "name": "木偶｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -718,7 +718,7 @@
         },
         {
             "key": "夸克六趣弹幕",
-            "name": "六趣｜4K弹幕",
+            "name": "六趣｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -735,7 +735,7 @@
         },
         {
             "key": "夸克奥秘弹幕",
-            "name": "奥秘｜4K弹幕",
+            "name": "奥秘｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -752,7 +752,7 @@
         },
         {
             "key": "夸克白嫖弹幕",
-            "name": "白嫖｜4K弹幕",
+            "name": "白嫖｜4K网盘",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
