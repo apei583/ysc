@@ -34,11 +34,12 @@
       "ext": "KhY021WelCEl+6MsvwnzaPussky6FQJcpCjT9V7/D61ft9vQAhNEPOYSMZVJSODd/JOOSOwUzim+9qfvgpNz7SvUPpAkXAweyrp76WY8s5EBwW7DBMY="
     },
     {
-      "key": "米兔弹幕",
-      "name": "米兔｜弹幕",
+      "key": "小米米兔",
+      "name": "米兔｜APP",
       "type": 3,
-      "api": "https://gitee.com/xiaomi-excellence/ysc/raw/master/JS/drpy2.min.js",
-      "ext": "https://gitee.com/xiaomi-excellence/ysc/raw/master/JS/米兔弹幕.js"
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "csp_MiTuApp"
     },
     {
       "key": "小熊弹幕",
@@ -479,14 +480,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "api": "csp_AppYanjing"
-    },
-    {
-      "key": "小米米兔",
-      "name": "米兔｜APP",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_MiTuApp"
     },
     {
       "key": "小米麻花",
