@@ -85,20 +85,6 @@
     },
 	
     {
-      "key": "悠悠",
-      "name": "悠悠｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://156.225.30.65:5566",
-        "dataKey": "DxwIstrdWbYpblwn",
-        "dataIv": "DxwIstrdWbYpblwn",
-        "deviceId": "",
-        "version": "119"
-      }
-    },
-    {
       "key": "海纳影视",
       "name": "海纳｜影视",
       "type": 3,
