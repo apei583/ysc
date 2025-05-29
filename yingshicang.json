@@ -2286,7 +2286,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u",
+      "url": "https://wget.la/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
