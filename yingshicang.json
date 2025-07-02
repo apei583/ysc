@@ -3,13 +3,15 @@
     "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
-        {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
+{
+    "key" : "豆瓣",
+    "name" : "豆瓣┃推荐",
+    "type" : 3,
+    "api" : "csp_DouDouGuard",
+    "searchable" : 0,
+    "changeable" : 0,
+    "jar" : "https://tv.菜妮丝.top/jar/fty0414.jar;md5;2c6500c44ee7e7b915f8c0afb0723e50"
+  },
         {
             "key": "瓜子影视",
             "name": "瓜子｜影视",
