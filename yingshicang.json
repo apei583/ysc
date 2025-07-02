@@ -89,14 +89,7 @@
                 "url": "http://v.lkuys.cn"
             }
         },
-        {
-            "key": "移动",
-            "name": "移动｜APP",
-            "type": 3,
-            "api": "csp_YD",
-            "searchable": 1,
-            "quickSearch": 1
-        },
+
         {
             "key": "行动",
             "name": "行动｜APP",
