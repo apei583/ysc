@@ -1,5 +1,5 @@
 {
-  "spider": "./pizazz.jar",
+  "spider": "https://codeberg.org/apei583/ysc/raw/branch/main/pizazz.jar",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "sites": [
@@ -2131,3 +2131,4 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
