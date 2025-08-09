@@ -1803,14 +1803,14 @@
         "8.8.4.4",
         "8.8.8.8"
       ]
-    },
+    }，
     {
       "name": "Cloudflare",
       "url": "https://cloudflare-dns.com/dns-query",
       "ips": [
         "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
+        "1.0.0.1"，
+        "2606:4700:4700::1111"，
         "2606:4700:4700::1001"
       ]
     },
@@ -1818,10 +1818,10 @@
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
       "ips": [
-        "94.140.14.140",
+        "94.140.14.140"，
         "94.140.14.141"
       ]
-    },
+    }，
     {
       "name": "DNSWatch",
       "url": "https://resolver2.dns.watch/dns-query",
@@ -1843,7 +1843,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+      "url": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
@@ -2057,3 +2057,4 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
