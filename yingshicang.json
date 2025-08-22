@@ -132,7 +132,7 @@
         },
         {
             "key": "永乐影视",
-            "name": "🐭永乐｜影视",
+            "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/YLYS.json"
@@ -146,6 +146,13 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/NMYS.json"
+        },
+        {
+            "key": "绝对影视",
+            "name": "🐭绝对｜影视",
+            "type": 3,
+            "api": "csp_FourK",
+            "ext": "https://www.4kvm.tv"
         },
         {
             "key": "加菲",
@@ -460,19 +467,19 @@
                 "json": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/BLSP.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
-        }，
+        },
         {
             "key": "短剧合集",
             "name": "短剧｜合集",
             "type": 3,
             "api": "csp_DuanjuHJ"
-        }，
+        },
         {
             "key": "短剧大全",
             "name": "短剧｜大全",
             "type": 3,
             "api": "csp_DuanjuDQ"
-        }，
+        },
         {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
@@ -481,7 +488,7 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
-        }，
+        },
         {
             "key": "甜圈短剧",
             "name": "甜圈｜短剧",
@@ -491,7 +498,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "偷乐短剧",
             "name": "偷乐｜短剧",
@@ -501,7 +508,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "爱看短剧",
             "name": "爱看｜短剧",
@@ -511,7 +518,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "锦鲤短剧",
             "name": "锦鲤｜短剧",
@@ -551,10 +558,10 @@
             "quickSearch": 1,
             "filterable": 1,
             "categories": [
-                "推荐"，
+                "推荐",
                 "电影",
-                "电视剧"，
-                "综艺"，
+                "电视剧",
+                "综艺",
                 "动漫"
             ]
         },
@@ -568,12 +575,12 @@
             "filterable": 1,
             "categories": [
                 "推荐",
-                "电影"，
-                "电视剧"，
-                "综艺"，
+                "电影",
+                "电视剧",
+                "综艺",
                 "动漫"
             ]
-        }，
+        },
         {
             "key": "猎手影视",
             "name": "猎手｜影视",
@@ -583,7 +590,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "厂长影视",
             "name": "厂长｜影视",
@@ -594,14 +601,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://www.czzymovie.com/"
-        }，
-        {
-            "key": "绝对影视",
-            "name": "绝对｜影视",
-            "type": 3,
-            "api": "csp_FourK",
-            "ext": "https://www.4kvm.tv"
-        }，
+        },
         {
             "key": "云播影视",
             "name": "云播｜影视",
@@ -615,26 +615,26 @@
             "type": 3,
             "api": "csp_Quanwk",
             "ext": "https://www.91qkw.com"
-        }，
+        },
         {
             "key": "饺子影视",
             "name": "饺子｜影视",
             "type": 3,
             "api": "csp_Jiaozi"
-        }，
+        },
         {
             "key": "鸭梨影视",
             "name": "鸭梨｜影视",
             "type": 3,
             "api": "csp_KmeiJu"
-        }，
+        },
         {
             "key": "白白影视",
             "name": "白白｜影视",
             "type": 3,
             "api": "csp_SuBaiBai",
             "ext": "https://www.subaibai.com"
-        }，
+        },
         {
             "key": "低端影视",
             "name": "低端｜影视",
@@ -646,7 +646,7 @@
         },
         {
             "key": "采集之王",
-            "name": "采集｜合集",
+            "name": "🐭采集｜合集",
             "type": 3,
             "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
             "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/PizazzXS/another-d/raw/master/movie/json/CJJT.json$1$1"
@@ -773,7 +773,7 @@
                 "deviceId": "",
                 "version": ""
             }
-        }，
+        },
         {
             "key": "多多动漫",
             "name": "多多｜动漫",
@@ -788,7 +788,7 @@
                 "deviceId": "",
                 "version": ""
             }
-        }，
+        },
         {
             "key": "派对动漫",
             "name": "派对｜动漫",
@@ -944,7 +944,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "迅雷吧",
             "name": "迅雷吧｜磁力",
@@ -953,7 +953,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "电影港",
             "name": "电影港｜磁力",
@@ -1001,7 +1001,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "小斑快映",
             "name": "快映｜4K网盘",
@@ -1012,7 +1012,7 @@
             "filterable": 1,
             "changeable": 1,
             "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/xbky.json"
-        }，
+        },
         {
             "key": "玩偶哥哥",
             "name": "玩偶｜4K网盘",
@@ -1022,7 +1022,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json"
-        }，
+        },
         {
             "key": "木偶",
             "name": "木偶｜4K网盘",
@@ -1269,7 +1269,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "音海",
             "name": "音海｜盘搜",
@@ -1278,7 +1278,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "盘搜",
             "name": "盘搜｜盘搜",
@@ -1287,13 +1287,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        }，
+        },
         {
             "key": "百酷",
             "name": "百酷｜盘搜",
             "type": 3,
             "api": "csp_Baiku"
-        }，
+        },
         {
             "key": "米搜",
             "name": "米搜｜盘搜",
@@ -1432,12 +1432,12 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLTS.json"
-            }，
+            },
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             }
-        }，
+        },
         {
             "key": "哔哩哔哩相声",
             "name": "哔哩｜相声",
@@ -1449,12 +1449,12 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLXS.json"
-            }，
+            },
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             }
-        }，
+        },
         {
             "key": "哔哩哔哩小品",
             "name": "哔哩｜小品",
@@ -1483,12 +1483,12 @@
             "ext": {
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
                 "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLXQ.json"
-            }，
+            },
             "style": {
                 "type": "rect",
                 "ratio": 1.597
             }
-        }，
+        },
         {
             "key": "急救教学",
             "name": "急救｜教学",
@@ -1500,9 +1500,9 @@
             "style": {
                 "type": "rect",
                 "ratio": 3.8
-            }，
+            },
             "gridview": "0-0-4.1"
-        }，
+        },
         {
             "key": "养生堂",
             "name": "养生｜知识",
@@ -1513,7 +1513,7 @@
                 "type": "rect",
                 "ratio": 1.597
             }
-        }，
+        },
         {
             "key": "push_agent",
             "name": "手机｜推送",
@@ -1523,7 +1523,7 @@
             "filterable": 0,
             "changeable": 0
         }
-    ]，
+    ],
     "parses": [
         {
             "name": "无上",
@@ -1531,29 +1531,29 @@
             "url": "https://mfjx.iwsyy.xyz/?url=",
             "ext": {
                 "flag": [
-                    "qq"，
-                    "腾讯"，
-                    "qiyi"，
-                    "爱奇艺"，
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
                     "奇艺",
-                    "youku"，
-                    "优酷"，
-                    "sohu"，
-                    "搜狐"，
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
                     "letv",
-                    "乐视"，
-                    "mgtv"，
-                    "芒果"，
-                    "tnmb"，
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
                     "seven",
-                    "bilibili"，
+                    "bilibili",
                     "1905"
-                ]，
+                ],
                 "header": {
                     "User-Agent": "okhttp/4.9.1"
                 }
             }
-        }，
+        },
         {
             "name": "巧计",
             "type": 1,
@@ -1561,19 +1561,19 @@
             "ext": {
                 "flag": [
                     "QD4K",
-                    "iyf"，
-                    "duanju"，
-                    "gzcj"，
-                    "GTV"，
+                    "iyf",
+                    "duanju",
+                    "gzcj",
+                    "GTV",
                     "GZYS",
-                    "weggz"，
+                    "weggz",
                     "Ace"
-                ]，
+                ],
                 "header": {
                     "User-Agent": "okhttp/4.9.1"
                 }
             }
-        }，
+        },
         {
             "name": "咸鱼",
             "type": 0,
@@ -1683,113 +1683,113 @@
             "script": [
                 "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
             ]
-        }，
+        },
         {
             "name": "毛驴点击",
             "hosts": [
                 "www.maolvys.com"
-            ]，
+            ],
             "script": [
                 "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
             ]
-        }，
+        },
         {
             "name": "ofiii",
             "hosts": [
                 "www.ofiii.com"
-            ]，
+            ],
             "script": [
                 "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
             ]
         }
-    ]，
+    ],
     "doh": [
         {
             "name": "Google",
             "url": "https://dns.google/dns-query",
             "ips": [
-                "8.8.4.4"，
+                "8.8.4.4",
                 "8.8.8.8"
             ]
-        }，
+        },
         {
             "name": "Cloudflare",
             "url": "https://cloudflare-dns.com/dns-query",
             "ips": [
-                "1.1.1.1"，
-                "1.0.0.1"，
-                "2606:4700:4700::1111"，
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
                 "2606:4700:4700::1001"
             ]
-        }，
+        },
         {
             "name": "AdGuard",
             "url": "https://dns.adguard.com/dns-query",
             "ips": [
-                "94.140.14.140"，
+                "94.140.14.140",
                 "94.140.14.141"
             ]
-        }，
+        },
         {
             "name": "DNSWatch",
             "url": "https://resolver2.dns.watch/dns-query",
             "ips": [
-                "84.200.69.80"，
+                "84.200.69.80",
                 "84.200.70.40"
             ]
-        }，
+        },
         {
             "name": "Quad9",
             "url": "https://dns.quad9.net/dns-quer",
             "ips": [
-                "9.9.9.9"，
+                "9.9.9.9",
                 "149.112.112.112"
             ]
         }
     ],
     "hosts": [
-        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"，
-        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"，
-        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"，
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"，
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
-    ]，
+    ],
     "flags": [
         "youku",
-        "优酷"，
-        "优 酷"，
-        "优酷视频"，
-        "qq"，
+        "优酷",
+        "优 酷",
+        "优酷视频",
+        "qq",
         "腾讯",
-        "腾 讯"，
-        "腾讯视频"，
-        "iqiyi"，
-        "qiyi"，
+        "腾 讯",
+        "腾讯视频",
+        "iqiyi",
+        "qiyi",
         "奇艺",
-        "爱奇艺"，
-        "爱 奇 艺"，
-        "m1905"，
-        "xigua"，
+        "爱奇艺",
+        "爱 奇 艺",
+        "m1905",
+        "xigua",
         "letv",
-        "leshi"，
-        "乐视"，
-        "乐 视"，
-        "sohu"，
+        "leshi",
+        "乐视",
+        "乐 视",
+        "sohu",
         "搜狐",
-        "搜 狐"，
-        "搜狐视频"，
-        "tudou"，
-        "pptv"，
-        "mgtv"，
+        "搜 狐",
+        "搜狐视频",
+        "tudou",
+        "pptv",
+        "mgtv",
         "芒果",
-        "imgo"，
-        "芒果TV"，
-        "芒 果 T V"，
+        "imgo",
+        "芒果TV",
+        "芒 果 T V",
         "bilibili",
         "哔 哩",
         "哔 哩 哔 哩"
-    ]，
+    ],
     "ijk": [
         {
             "group": "软解码",
@@ -1798,47 +1798,47 @@
                     "category": 4,
                     "name": "opensles",
                     "value": "0"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "overlay-format",
                     "value": "842225234"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "framedrop",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "soundtouch",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "start-on-prepared",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 1,
                     "name": "http-detect-range-support",
                     "value": "0"
-                }，
+                },
                 {
                     "category": 1,
                     "name": "fflags",
                     "value": "fastseek"
-                }，
+                },
                 {
                     "category": 2,
                     "name": "skip_loop_filter",
                     "value": "48"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "reconnect",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "enable-accurate-seek",
@@ -1898,7 +1898,7 @@
                     "category": 4,
                     "name": "start-on-prepared",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 1,
                     "name": "http-detect-range-support",
@@ -1913,7 +1913,7 @@
                     "category": 2,
                     "name": "skip_loop_filter",
                     "value": "48"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "reconnect",
@@ -1928,7 +1928,7 @@
                     "category": 4,
                     "name": "mediacodec",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "mediacodec-auto-rotate",
@@ -1938,12 +1938,12 @@
                     "category": 4,
                     "name": "mediacodec-handle-resolution-change",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 4,
                     "name": "mediacodec-hevc",
                     "value": "1"
-                }，
+                },
                 {
                     "category": 1,
                     "name": "dns_cache_timeout",
@@ -1951,7 +1951,7 @@
                 }
             ]
         }
-    ]，
+    ],
     "ads": [
         "static-mozai.4gtv.tv"
     ]
