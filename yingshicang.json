@@ -6,7 +6,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+      "url": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u1",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
