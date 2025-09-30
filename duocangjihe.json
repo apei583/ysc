@@ -2,23 +2,19 @@
     "storeHouse": [
         {
             "sourceName": "新喵影视",
-            "sourceUrl": "https://ysc-al4.pages.dev/yingshicangduocang.json"
-        },
-        {
-            "sourceName": "欧歌单仓",
-            "sourceUrl": "https://xn--aq2-mf3g9f.h.nxog.top/nxog/ou1.php?b=欧歌aq2"
+            "sourceUrl": "https://bitbucket.org/apei583/ysc/raw/main/duocang.json"
         },
         {
             "sourceName": "多多单仓",
             "sourceUrl": "https://cnb.cool/xduoapi/cool/-/git/raw/main/ck/多多影音1.txt"
         },
         {
-            "sourceName": "拾光单仓",
-            "sourceUrl": "https://4708.kstore.space/ck.json"
-        },
-        {
             "sourceName": "七星单仓",
             "sourceUrl": "https://qixing.myhkw.com/自用测试.txt"
+        },
+        {
+            "sourceName": "拾光单仓",
+            "sourceUrl": "http://xmbjm.fh4u.org/dc.txt"
         },
         {
             "sourceName": "潇洒单仓",
