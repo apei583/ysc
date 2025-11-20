@@ -189,7 +189,7 @@
       "name": "※永乐｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/YLYS.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/YLYS.json"
     },
     {
       "key": "浪酷影视",
@@ -216,7 +216,7 @@
       "name": "※莫小｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/MoXiaoYS.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/MoXiaoYS.json"
     },
     {
       "key": "金牌",
@@ -628,8 +628,8 @@
       "key": "双星",
       "name": "双星｜4K网盘",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/SX.js",
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/SX.js",
       "style": {
         "type": "list"
       }
@@ -638,8 +638,8 @@
       "key": "校长",
       "name": "校长｜4K网盘",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/XZ.js",
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/XZ.js",
       "style": {
         "type": "list"
       }
@@ -648,8 +648,8 @@
       "key": "人人电影网",
       "name": "人人｜4K网盘",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/js/RRDYW.js",
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/RRDYW.js",
       "style": {
         "type": "list"
       }
@@ -924,7 +924,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/BLSP.json",
+        "json": "https://ysc.apei583.dpdns.org/movie/json/BLSP.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       }
     },
@@ -959,7 +959,7 @@
       "key": "甜圈短剧",
       "name": "甜圈｜短剧",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/TQDJ.py",
+      "api": "https://ysc.apei583.dpdns.org/movie/py/TQDJ.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -969,7 +969,7 @@
       "key": "爱看短剧",
       "name": "爱看｜短剧",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/AKDJ.py",
+      "api": "https://ysc.apei583.dpdns.org/movie/py/AKDJ.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -979,7 +979,7 @@
       "key": "锦鲤短剧",
       "name": "锦鲤｜短剧",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/JLDJ.py",
+      "api": "https://ysc.apei583.dpdns.org/movie/py/JLDJ.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -989,7 +989,7 @@
       "key": "剧王短剧",
       "name": "剧王｜短剧",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/JWDJ.py",
+      "api": "https://ysc.apei583.dpdns.org/movie/py/JWDJ.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -1003,7 +1003,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/DJWu.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/DJWu.json"
     },
     {
       "key": "天翼影视",
@@ -1025,7 +1025,7 @@
       "key": "猎手影视",
       "name": "猎手｜影视",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/movie/py/LSYS.py",
+      "api": "https://ysc.apei583.dpdns.org/movie/py/LSYS.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -1078,8 +1078,8 @@
       "key": "采集之王",
       "name": "采集｜合集",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/PizazzXS/another-d/raw/master/movie/json/CJJT.json$1$1"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/movie/js/CJZW.js?type=url&params=https://ysc.apei583.dpdns.org/movie/json/CJJT.json$1$1"
     },
     {
       "key": "爱看机器人",
@@ -1095,7 +1095,7 @@
       "name": "面包｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/MBYS.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/MBYS.json"
     },
     {
       "key": "盒子影视",
@@ -1105,7 +1105,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/HZYS.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/HZYS.json"
     },
     {
       "key": "电影牛",
@@ -1115,7 +1115,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/json/DYN.json"
+      "ext": "https://ysc.apei583.dpdns.org/movie/json/DYN.json"
     },
     {
       "key": "1905",
@@ -1134,28 +1134,28 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/json/DLXFS.json"
+      "ext": "https://ysc.apei583.dpdns.org/anime/json/DLXFS.json"
     },
     {
       "key": "56动漫",
       "name": "56｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/56DM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/56DM.js"
     },
     {
       "key": "NT动漫",
       "name": "NT｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/NTDM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/NTDM.js"
     },
     {
       "key": "Anime1",
       "name": "A1｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/Anime1.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/Anime1.js"
     },
     {
       "key": "漫国",
@@ -1294,77 +1294,77 @@
       "name": "樱花｜动漫",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/json/YHDM.json"
+      "ext": "https://ysc.apei583.dpdns.org/anime/json/YHDM.json"
     },
     {
       "key": "巴士动漫",
       "name": "巴士｜动漫",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/json/bsdm.json"
+      "ext": "https://ysc.apei583.dpdns.org/anime/json/bsdm.json"
     },
     {
       "key": "好看动漫",
       "name": "好看｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/HKDM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/HKDM.js"
     },
     {
       "key": "奇米动漫",
       "name": "奇米｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/QMDM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/QMDM.js"
     },
     {
       "key": "花子动漫",
       "name": "花子｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/HZDM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/HZDM.js"
     },
     {
       "key": "动画片",
       "name": "动画片｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/DHPDQ.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/DHPDQ.js"
     },
     {
       "key": "路漫漫",
       "name": "路漫漫｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/LMM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/LMM.js"
     },
     {
       "key": "动漫岛",
       "name": "动漫岛｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/DMD.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/DMD.js"
     },
     {
       "key": "去看吧",
       "name": "去看吧｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/QKB.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/QKB.js"
     },
     {
       "key": "爱弹幕",
       "name": "爱弹幕｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/ADM.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/ADM.js"
     },
     {
       "key": "异世界",
       "name": "异世界｜动漫",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/anime/js/YSJ.js"
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/anime/js/YSJ.js"
     },
     {
       "key": "修罗",
@@ -1431,7 +1431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/DYG.json"
+      "ext": "https://ysc.apei583.dpdns.org/magnet/json/DYG.json"
     },
     {
       "key": "狐狸君",
@@ -1442,7 +1442,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/HLJ.json"
+      "ext": "https://ysc.apei583.dpdns.org/magnet/json/HLJ.json"
     },
     {
       "key": "Mp4电影",
@@ -1549,13 +1549,13 @@
       "key": "网络直播",
       "name": "网络｜直播",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/webcast/py/WLZB.py"
+      "api": "https://ysc.apei583.dpdns.org/webcast/py/WLZB.py"
     },
     {
       "key": "哔哩直播",
       "name": "哔哩｜直播",
       "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/webcast/py/BLZB.py"
+      "api": "https://ysc.apei583.dpdns.org/webcast/py/BLZB.py"
     },
     {
       "key": "哔哩合集",
@@ -1585,7 +1585,7 @@
       "filterable": 0,
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLYCH.json"
+        "json": "https://ysc.apei583.dpdns.org/other/json/BLYCH.json"
       },
       "style": {
         "type": "rect",
@@ -1602,7 +1602,7 @@
       "filterable": 0,
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLTS.json"
+        "json": "https://ysc.apei583.dpdns.org/other/json/BLTS.json"
       },
       "style": {
         "type": "rect",
@@ -1619,7 +1619,7 @@
       "filterable": 0,
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLXS.json"
+        "json": "https://ysc.apei583.dpdns.org/other/json/BLXS.json"
       },
       "style": {
         "type": "rect",
@@ -1636,7 +1636,7 @@
       "filterable": 0,
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLXP.json"
+        "json": "https://ysc.apei583.dpdns.org/other/json/BLXP.json"
       },
       "style": {
         "type": "rect",
@@ -1653,7 +1653,7 @@
       "filterable": 0,
       "ext": {
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/BLXQ.json"
+        "json": "https://ysc.apei583.dpdns.org/other/json/BLXQ.json"
       },
       "style": {
         "type": "rect",
@@ -1679,7 +1679,7 @@
       "name": "养生｜知识",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/other/json/YST.json",
+      "ext": "https://ysc.apei583.dpdns.org/other/json/YST.json",
       "style": {
         "type": "rect",
         "ratio": 1.597
