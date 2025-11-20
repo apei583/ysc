@@ -394,7 +394,7 @@
         "version": "",
         "ua": ""
       }
-    },
+    }，
     {
       "key": "冷心",
       "name": "※冷心｜APP",
@@ -404,7 +404,7 @@
         "url": "http://app.789dd.cn",
         "name": "火猫影视"
       }
-    },
+    }，
     {
       "key": "小斑快映",
       "name": "快映｜4K网盘",
@@ -414,7 +414,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/xbky.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/xbky.json"
     },
     {
       "key": "玩偶哥哥",
@@ -424,8 +424,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/wogg.json"
-    },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/wogg.json"
+    }，
     {
       "key": "木偶",
       "name": "木偶｜4K网盘",
@@ -434,8 +434,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/mogg.json"
-    },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/mogg.json"
+    }，
     {
       "key": "蜡笔",
       "name": "蜡笔｜4K网盘",
@@ -445,8 +445,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/lb.json"
-    },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lb.json"
+    }，
     {
       "key": "至臻",
       "name": "至臻｜4K网盘",
@@ -456,8 +456,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/zz.json"
-    },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/zz.json"
+    }，
     {
       "key": "多多",
       "name": "多多｜4K网盘",
@@ -467,7 +467,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/yyds.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/yyds.json"
     },
     {
       "key": "欧哥",
@@ -478,7 +478,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/og.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/og.json"
     },
     {
       "key": "二小",
@@ -489,7 +489,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/ex.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/ex.json"
     },
     {
       "key": "虎斑",
@@ -500,7 +500,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/hb.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hb.json"
     },
     {
       "key": "闪电",
@@ -511,7 +511,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/sd.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/sd.json"
     },
     {
       "key": "百家",
@@ -522,7 +522,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/bj.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/bj.json"
     },
     {
       "key": "团长",
@@ -547,7 +547,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/lj.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lj.json"
     },
     {
       "key": "海绵",
@@ -562,7 +562,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/hm.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hm.json"
     },
     {
       "key": "夸父",
@@ -577,7 +577,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/kf.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/kf.json"
     },
     {
       "key": "123",
@@ -592,7 +592,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/123.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/123.json"
     },
     {
       "key": "趣盘",
@@ -1432,7 +1432,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/DYG.json"
-    },
+    }，
     {
       "key": "狐狸君",
       "name": "狐狸君｜磁力",
@@ -1443,7 +1443,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/HLJ.json"
-    },
+    }，
     {
       "key": "Mp4电影",
       "name": "Mp4电影｜磁力",
@@ -1452,7 +1452,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+    }，
     {
       "key": "美剧天堂",
       "name": "美剧天堂｜磁力",
@@ -1461,7 +1461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+    }，
     {
       "key": "电影天堂",
       "name": "电影天堂｜磁力",
@@ -1470,7 +1470,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
+    }，
 
     {
       "key": "夸克云盘",
@@ -1484,8 +1484,8 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/quarkShare.json"
-    },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/quarkShare.json"
+    }，
     {
       "key": "UC",
       "name": "UC｜云盘",
@@ -1497,8 +1497,8 @@
       "style": {
         "type": "list",
         "ratio": 1.433
-      },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/ucShare.json"
+      }，
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/ucShare.json"
     },
     {
       "key": "百度云盘",
@@ -1524,7 +1524,7 @@
       "style": {
         "type": "list"
       },
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/cloud/json/alist.json"
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/alist.json"
     },
     {
       "key": "88看球",
@@ -2240,3 +2240,4 @@
     "static-mozai.4gtv.tv"
   ]
 }
+
