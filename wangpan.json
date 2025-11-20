@@ -46,6 +46,300 @@
       }
     },
     {
+      "key": "小斑快映",
+      "name": "快映｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/xbky.json"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "玩偶｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/wogg.json"
+    },
+    {
+      "key": "木偶",
+      "name": "木偶｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/mogg.json"
+    },
+    {
+      "key": "蜡笔",
+      "name": "蜡笔｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lb.json"
+    },
+    {
+      "key": "至臻",
+      "name": "至臻｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/zz.json"
+    },
+    {
+      "key": "多多",
+      "name": "多多｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/yyds.json"
+    },
+    {
+      "key": "欧哥",
+      "name": "欧哥｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/og.json"
+    },
+    {
+      "key": "二小",
+      "name": "二小｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/ex.json"
+    },
+    {
+      "key": "虎斑",
+      "name": "虎斑｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hb.json"
+    },
+    {
+      "key": "闪电",
+      "name": "闪电｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/sd.json"
+    },
+    {
+      "key": "百家",
+      "name": "百家｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/bj.json"
+    },
+    {
+      "key": "团长",
+      "name": "团长｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebTz",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "雷鲸",
+      "name": "雷鲸｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShareCloudLJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lj.json"
+    },
+    {
+      "key": "海绵",
+      "name": "海绵｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShareCloudHM",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hm.json"
+    },
+    {
+      "key": "夸父",
+      "name": "夸父｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShareCloudKF",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/kf.json"
+    },
+    {
+      "key": "123",
+      "name": "123｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebShareCloud123",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "https://ysc.apei583.dpdns.org/cloud/json/123.json"
+    },
+    {
+      "key": "趣盘",
+      "name": "趣盘｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebQu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": {
+        "url": "https://www.qupanshe.com"
+      }
+    },
+    {
+      "key": "盘库",
+      "name": "盘库｜4K网盘",
+      "type": 3,
+      "api": "csp_PanWebKuBa",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://panku8.com,https://yipanso.com"
+      }
+    },
+    {
+      "key": "双星",
+      "name": "双星｜4K网盘",
+      "type": 3,
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/SX.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "校长",
+      "name": "校长｜4K网盘",
+      "type": 3,
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/XZ.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "人人电影网",
+      "name": "人人｜4K网盘",
+      "type": 3,
+      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
+      "ext": "https://ysc.apei583.dpdns.org/cloud/js/RRDYW.js",
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "糖果",
+      "name": "糖果｜盘搜",
+      "type": 3,
+      "api": "csp_TGSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "音海",
+      "name": "音海｜盘搜",
+      "type": 3,
+      "api": "csp_YinHai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "盘搜",
+      "name": "盘搜｜盘搜",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "百酷",
+      "name": "百酷｜盘搜",
+      "type": 3,
+      "api": "csp_Baiku"
+    },
+    {
+      "key": "米搜",
+      "name": "米搜｜盘搜",
+      "type": 3,
+      "api": "csp_MiSou"
+    },
+    {
+      "key": "派派",
+      "name": "派派｜盘搜",
+      "type": 3,
+      "api": "csp_PPQPan"
+    },
+    {
       "key": "热播影视",
       "name": "※热播｜APP",
       "type": 3,
@@ -405,300 +699,7 @@
         "name": "火猫影视"
       }
     },
-    {
-      "key": "小斑快映",
-      "name": "快映｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/xbky.json"
-    },
-    {
-      "key": "玩偶哥哥",
-      "name": "玩偶｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/wogg.json"
-    },
-    {
-      "key": "木偶",
-      "name": "木偶｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/mogg.json"
-    },
-    {
-      "key": "蜡笔",
-      "name": "蜡笔｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lb.json"
-    },
-    {
-      "key": "至臻",
-      "name": "至臻｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/zz.json"
-    },
-    {
-      "key": "多多",
-      "name": "多多｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/yyds.json"
-    },
-    {
-      "key": "欧哥",
-      "name": "欧哥｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/og.json"
-    },
-    {
-      "key": "二小",
-      "name": "二小｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/ex.json"
-    },
-    {
-      "key": "虎斑",
-      "name": "虎斑｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hb.json"
-    },
-    {
-      "key": "闪电",
-      "name": "闪电｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/sd.json"
-    },
-    {
-      "key": "百家",
-      "name": "百家｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/bj.json"
-    },
-    {
-      "key": "团长",
-      "name": "团长｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebTz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "雷鲸",
-      "name": "雷鲸｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudLJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lj.json"
-    },
-    {
-      "key": "海绵",
-      "name": "海绵｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudHM",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hm.json"
-    },
-    {
-      "key": "夸父",
-      "name": "夸父｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudKF",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/kf.json"
-    },
-    {
-      "key": "123",
-      "name": "123｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloud123",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/123.json"
-    },
-    {
-      "key": "趣盘",
-      "name": "趣盘｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebQu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": {
-        "url": "https://www.qupanshe.com"
-      }
-    },
-    {
-      "key": "盘库",
-      "name": "盘库｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebKuBa",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://panku8.com,https://yipanso.com"
-      }
-    },
-    {
-      "key": "双星",
-      "name": "双星｜4K网盘",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/SX.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "校长",
-      "name": "校长｜4K网盘",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/XZ.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "人人电影网",
-      "name": "人人｜4K网盘",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/RRDYW.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "糖果",
-      "name": "糖果｜盘搜",
-      "type": 3,
-      "api": "csp_TGSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "音海",
-      "name": "音海｜盘搜",
-      "type": 3,
-      "api": "csp_YinHai",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "盘搜",
-      "name": "盘搜｜盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "百酷",
-      "name": "百酷｜盘搜",
-      "type": 3,
-      "api": "csp_Baiku"
-    },
-    {
-      "key": "米搜",
-      "name": "米搜｜盘搜",
-      "type": 3,
-      "api": "csp_MiSou"
-    },
-    {
-      "key": "派派",
-      "name": "派派｜盘搜",
-      "type": 3,
-      "api": "csp_PPQPan"
-    },
+
     {
       "key": "星河",
       "name": "星河｜APP",
