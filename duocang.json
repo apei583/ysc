@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "url": "https://ysc.apei583.dpdns.org/yingshicang.json",
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
       "name": "线路1"
     },
     {
@@ -35,6 +35,7 @@
   ]
 
 }
+
 
 
 
