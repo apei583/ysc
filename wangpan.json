@@ -1471,7 +1471,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-
     {
       "key": "夸克云盘",
       "name": "夸克｜云盘",
@@ -2187,12 +2186,12 @@
           "category": 1,
           "name": "http-detect-range-support",
           "value": "0"
-        }，
+        },
         {
           "category": 1,
           "name": "fflags",
           "value": "fastseek"
-        }，
+        },
         {
           "category": 2,
           "name": "skip_loop_filter",
@@ -2202,12 +2201,12 @@
           "category": 4,
           "name": "reconnect",
           "value": "1"
-        }，
+        },
         {
           "category": 4,
           "name": "enable-accurate-seek",
           "value": "0"
-        }，
+        },
         {
           "category": 4,
           "name": "mediacodec",
@@ -2217,7 +2216,7 @@
           "category": 4,
           "name": "mediacodec-auto-rotate",
           "value": "1"
-        }，
+        },
         {
           "category": 4,
           "name": "mediacodec-handle-resolution-change",
