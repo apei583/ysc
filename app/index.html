@@ -4,56 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV应用合集</title>
-    <!-- 改用CDN加速的Tailwind，确保加载稳定 -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* 遥控器焦点样式：电视端关键 */
-        .focusable {
+        /* 完全原生CSS，不依赖任何外部资源 */
+        body {
+            background: #f3f4f6;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
             outline: none;
-            transition: all 0.2s ease;
         }
-        .focusable:focus {
-            transform: scale(1.05);
-            box-shadow: 0 0 15px rgba(37, 99, 235, 0.8);
-            z-index: 10;
+        h1 {
+            color: #1e40af;
+            font-size: 28px;
+            margin: 0 0 10px 0;
         }
-        /* 应用卡片基础样式：固定高度，避免渲染错乱 */
+        .tips {
+            color: #6b7280;
+            font-size: 16px;
+        }
+        /* 应用网格布局（原生CSS Grid） */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* 强制6列 */
+            gap: 15px;
+        }
+        /* 应用卡片样式 */
         .app-card {
             background: white;
             border-radius: 8px;
-            overflow: hidden;
+            padding: 15px;
+            text-align: center;
             cursor: pointer;
-            height: 180px; /* 固定高度，确保所有卡片一致 */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            height: 160px;
+            outline: none;
+            transition: all 0.2s;
         }
-        /* 网格布局兼容写法：适配所有浏览器 */
-        .app-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* 自动适配，最小宽度120px */
-            gap: 16px;
+        .app-card:focus {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #3b82f6;
+            z-index: 10;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin: 0 auto 10px;
+            display: block;
+        }
+        .app-name {
+            font-size: 14px;
+            color: #1f2937;
+            margin: 0 0 10px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .download-btn {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            width: 100%;
         }
     </style>
 </head>
-<body class="bg-gray-100 min-h-screen p-4">
+<body>
     <!-- 标题区 -->
-    <header class="text-center mb-6 focusable" tabindex="0">
-        <h1 class="text-3xl font-bold text-blue-700">TV应用合集</h1>
-        <p class="text-gray-500 mt-2">遥控器上下左右选择，回车下载</p>
+    <header tabindex="0">
+        <h1>TV应用合集</h1>
+        <p class="tips">遥控器上下左右选择，回车下载</p>
     </header>
 
-    <!-- 应用列表（横排6列，兼容写法，不会空白） -->
-    <main class="container mx-auto">
-        <div id="appList" class="app-grid">
-            <!-- 动态生成应用卡片 -->
-        </div>
-    </main>
+    <!-- 应用列表容器 -->
+    <div id="appList" class="app-grid">
+        <!-- 应用卡片将通过JS动态生成 -->
+    </div>
 
     <script>
-        // 应用数据（不变）
-        const appData = [
+        // 应用数据（直接嵌入，不依赖外部请求）
+        var appData = [
             {"name":"戏曲多多","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/戏曲多多.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/戏曲多多.apk"},
             {"name":"小学名师课堂","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/小学名师课堂.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/小学名师课堂.apk"},
             {"name":"儿歌多多","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/儿歌多多.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/儿歌多多.apk"},
@@ -71,93 +107,94 @@
             {"name":"饭太硬影视","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk"}
         ];
 
-        // 渲染应用卡片：恢复合适尺寸，避免空白
+        // 渲染应用卡片（原生JS，不依赖任何框架）
         function renderApps() {
-            const appList = document.getElementById('appList');
-            // 清空列表（避免重复渲染）
-            appList.innerHTML = '';
-            
-            appData.forEach((app, index) => {
-                const appCard = document.createElement('div');
-                appCard.className = 'app-card p-3 focusable';
-                appCard.tabIndex = index + 1; // 遥控器导航索引
-                appCard.dataset.apk = app.apk;
-                // 恢复图标和文字尺寸，确保显示完整
+            var appList = document.getElementById('appList');
+            // 循环生成卡片
+            for (var i = 0; i < appData.length; i++) {
+                var app = appData[i];
+                var appCard = document.createElement('div');
+                appCard.className = 'app-card';
+                appCard.tabIndex = i + 1;
+                appCard.setAttribute('data-apk', app.apk);
+                // 卡片内容（纯HTML字符串，避免复杂操作）
                 appCard.innerHTML = `
-                    <div class="flex flex-col items-center text-center">
-                        <img src="${app.icon}" alt="${app.name}" class="w-20 h-20 object-contain mb-2">
-                        <h3 class="text-sm font-bold text-gray-800 leading-tight">${app.name}</h3> <!-- 换行显示长名称 -->
-                        <button class="mt-2 w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded text-sm focus:outline-none">
-                            <i class="fas fa-download mr-1"></i> 下载
-                        </button>
-                    </div>
+                    <img src="${app.icon}" alt="${app.name}" class="app-icon">
+                    <h3 class="app-name">${app.name}</h3>
+                    <button class="download-btn">下载</button>
                 `;
                 appList.appendChild(appCard);
-            });
+            }
         }
 
-        // 遥控器导航：适配6列，修复跳转逻辑
+        // 遥控器导航（原生JS事件，兼容所有浏览器）
         function initRemoteControl() {
-            const focusableElements = document.querySelectorAll('.focusable');
-            const total = focusableElements.length;
-            const colCount = 6; // 横排6列
-            let currentIndex = 0;
+            var focusable = document.querySelectorAll('.app-card, header');
+            var total = focusable.length;
+            var current = 0; // 默认选中标题
 
-            // 确保元素存在再聚焦（避免报错）
-            if (focusableElements。length > 0) {
-                focusableElements[currentIndex].focus();
-            }
+            // 聚焦初始元素
+            if (total > 0) focusable[current].focus();
 
-            document.addEventListener('keydown'， (e) => {
-                // 避免无元素时报错
-                if (total === 0) return;
+            // 键盘事件（原生写法，不依赖箭头函数）
+            document.onkeydown = function(e) {
+                e = e || window.event;
+                var key = e.key || e.keyCode;
 
-                switch(e.key) {
-                    case 'ArrowDown': // 下键：同列下一行（+6）
-                        // 修复最后一行下键不越界
-                        const nextDownIndex = currentIndex + colCount;
-                        currentIndex = nextDownIndex < total ? nextDownIndex : currentIndex;
-                        focusableElements[currentIndex]。focus();
-                        e。preventDefault();
-                        break;
-                    case 'ArrowUp': // 上键：同列上一行（-6）
-                        const nextUpIndex = currentIndex - colCount;
-                        currentIndex = nextUpIndex >= 0 ? nextUpIndex : currentIndex;
-                        focusableElements[currentIndex]。focus();
-                        e。preventDefault();
-                        break;
-                    case 'ArrowLeft': // 左键：左移1个
-                        currentIndex = (currentIndex - 1 + total) % total;
-                        focusableElements[currentIndex].focus();
-                        e.preventDefault();
-                        break;
-                    case 'ArrowRight': // 右键：右移1个
-                        currentIndex = (currentIndex + 1) % total;
-                        focusableElements[currentIndex]。focus();
-                        e.preventDefault();
-                        break;
-                    case 'Enter': // 回车下载
-                        const apkUrl = focusableElements[currentIndex].dataset.apk;
+                // 处理按键（兼容键名和键码）
+                if (key === 'ArrowDown' || key === 40) {
+                    // 下键：从标题跳第一个应用，应用间跳6个
+                    current = current === 0 ? 1 : Math。min(current + 6, total - 1);
+                    focusable[current]。focus();
+                    e.preventDefault ? e.preventDefault() : (e.returnValue = false);
+                } else if (key === 'ArrowUp' || key === 38) {
+                    // 上键：从应用跳标题，应用间减6个
+                    current = current === 1 ? 0 : Math.max(current - 6, 1);
+                    focusable[current].focus();
+                    e。preventDefault ? e。preventDefault() : (e.returnValue = false);
+                } else if (key === 'ArrowLeft' || key === 37) {
+                    // 左键：减1（标题不能左移）
+                    if (current > 0) current = Math.max(current - 1, 0);
+                    focusable[current]。focus();
+                    e。preventDefault ? e。preventDefault() : (e.returnValue = false);
+                } else if (key === 'ArrowRight' || key === 39) {
+                    // 右键：加1
+                    current = Math.min(current + 1, total - 1);
+                    focusable[current].focus();
+                    e。preventDefault ? e。preventDefault() : (e.returnValue = false);
+                } else if (key === 'Enter' || key === 13) {
+                    // 回车：下载（只处理应用卡片）
+                    if (current !== 0) {
+                        var apkUrl = focusable[current].getAttribute('data-apk');
                         if (apkUrl) window.open(apkUrl, '_blank');
-                        e.preventDefault();
-                        break;
+                    }
+                    e。preventDefault ? e。preventDefault() : (e.returnValue = false);
                 }
-            });
+            };
 
             // 点击下载（兼容鼠标）
-            focusableElements.forEach(el => {
-                el.addEventListener('click', () => {
-                    const apkUrl = el.dataset.apk;
-                    if (apkUrl) window。open(apkUrl， '_blank');
-                });
-            });
+            for (var i = 0; i < focusable.length; i++) {
+                if (i > 0) { // 跳过标题
+                    focusable[i]。onclick = function() {
+                        var apkUrl = this.getAttribute('data-apk');
+                        if (apkUrl) window.open(apkUrl, '_blank');
+                    };
+                }
+            }
         }
 
-        // 初始化：确保DOM加载完成再渲染
-        document.addEventListener('DOMContentLoaded'， () => {
-            renderApps();
-            initRemoteControl();
-        });
+        // 页面加载完成后执行（兼容所有浏览器的写法）
+        if (window.attachEvent) {
+            window.attachEvent('onload', function() {
+                renderApps();
+                initRemoteControl();
+            });
+        } else {
+            window.addEventListener('load', function() {
+                renderApps();
+                initRemoteControl();
+            });
+        }
     </script>
 </body>
 </html>
