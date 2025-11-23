@@ -33,9 +33,9 @@
         <p class="text-gray-500 mt-2">遥控器上下左右选择，回车下载</p>
     </header>
 
-    <!-- 应用列表（3列布局，适配电视屏幕） -->
+    <!-- 应用列表（横排6列布局，适配电视大屏） -->
     <main class="container mx-auto">
-        <div id="appList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div id="appList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             <!-- 动态生成应用卡片 -->
         </div>
     </main>
@@ -60,53 +60,54 @@
             {"name":"饭太硬影视","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk"}
         ];
 
-        // 渲染应用卡片（简化布局，突出可操作性）
+        // 渲染应用卡片（适配6列布局，调整图标和文字大小）
         function renderApps() {
             const appList = document.getElementById('appList');
             appData.forEach((app, index) => {
                 const appCard = document.createElement('div');
-                appCard.className = 'app-card p-4 focusable';
+                appCard.className = 'app-card p-3 focusable'; // 减小内边距，适配6列
                 appCard.tabIndex = index + 1; // 给每个卡片分配tab索引，支持遥控器导航
                 appCard.dataset.apk = app.apk; // 存储下载链接
                 appCard.innerHTML = `
                     <div class="flex flex-col items-center">
-                        <img src="${app.icon}" alt="${app.name}" class="w-24 h-24 object-contain mb-3">
-                        <h3 class="text-lg font-bold text-center text-gray-800">${app.name}</h3>
-                        <button class="mt-3 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded focus:outline-none">
+                        <img src="${app.icon}" alt="${app.name}" class="w-18 h-18 object-contain mb-2"> <!-- 缩小图标，适配6列 -->
+                        <h3 class="text-base font-bold text-center text-gray-800">${app.name}</h3> <!-- 缩小文字 -->
+                        <button class="mt-2 w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded text-sm focus:outline-none">
                             <i class="fas fa-download mr-1"></i> 下载
-                        </button>
+                        </button> <!-- 缩小按钮 -->
                     </div>
                 `;
                 appList.appendChild(appCard);
             });
         }
 
-        // 遥控器导航逻辑（上下左右切换焦点，回车下载）
+        // 遥控器导航逻辑（适配6列布局：上下键跳6个，左右键正常切换）
         function initRemoteControl() {
             const focusableElements = document.querySelectorAll('.focusable');
             const total = focusableElements.length;
+            const colCount = 6; // 关键：设置为6列，上下键跳转数量同步
             let currentIndex = 0;
 
             // 默认选中第一个元素
-            focusableElements[currentIndex].focus();
+            focusableElements[currentIndex]。focus();
 
             // 键盘/遥控器按键处理
             document.addEventListener('keydown', (e) => {
                 switch(e.key) {
-                    case 'ArrowDown': // 下键：选中下一个
-                        currentIndex = (currentIndex + 3) % total; // 3列布局，下键跳3个（同列下一行）
-                        focusableElements[currentIndex].focus();
+                    case 'ArrowDown': // 下键：选中同列下一行（跳6个）
+                        currentIndex = (currentIndex + colCount) % total;
+                        focusableElements[currentIndex]。focus();
                         e.preventDefault();
                         break;
-                    case 'ArrowUp': // 上键：选中上一个
-                        currentIndex = (currentIndex - 3 + total) % total;
-                        focusableElements[currentIndex].focus();
+                    case 'ArrowUp': // 上键：选中同列上一行（减6个）
+                        currentIndex = (currentIndex - colCount + total) % total;
+                        focusableElements[currentIndex]。focus();
                         e.preventDefault();
                         break;
                     case 'ArrowLeft': // 左键：选中左边
                         currentIndex = (currentIndex - 1 + total) % total;
-                        focusableElements[currentIndex].focus();
-                        e.preventDefault();
+                        focusableElements[currentIndex]。focus();
+                        e。preventDefault();
                         break;
                     case 'ArrowRight': // 右键：选中右边
                         currentIndex = (currentIndex + 1) % total;
@@ -114,8 +115,8 @@
                         e.preventDefault();
                         break;
                     case 'Enter': // 回车：下载
-                        const apkUrl = focusableElements[currentIndex].dataset.apk;
-                        if (apkUrl) window.open(apkUrl, '_blank');
+                        const apkUrl = focusableElements[currentIndex]。dataset。apk;
+                        if (apkUrl) window。open(apkUrl， '_blank');
                         e.preventDefault();
                         break;
                 }
