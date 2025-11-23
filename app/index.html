@@ -4,136 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV应用合集</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* 遥控器焦点样式：电视端关键，突出显示当前选中项 */
-        .focusable {
+        /* 所有样式写在内部，不依赖任何外部资源 */
+        body {
+            background: #f3f4f6;
+            margin: 0;
+            padding: 20px;
+            font-family: "Microsoft Yahei", Arial;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
             outline: none;
-            transition: all 0.2s ease;
         }
-        .focusable:focus {
-            transform: scale(1.05);
-            box-shadow: 0 0 15px rgba(37, 99, 235, 0.8);
-            z-index: 10;
+        h1 {
+            color: #1e40af;
+            font-size: 28px;
+            margin: 0;
         }
-        /* 应用卡片基础样式 */
+        .tips {
+            color: #6b7280;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        /* 6列布局（强制） */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+        }
         .app-card {
             background: white;
             border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .app-card:focus {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #3b82f6;
+        }
+        .app-icon {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+            margin: 0 auto 8px;
+        }
+        .app-name {
+            font-size: 14px;
+            color: #1f2937;
+            margin: 0 0 8px 0;
+            white-space: nowrap;
             overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .download-btn {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 6px 0;
+            border-radius: 4px;
+            font-size: 12px;
+            width: 100%;
             cursor: pointer;
         }
     </style>
 </head>
-<body class="bg-gray-100 min-h-screen p-4">
-    <!-- 标题区 -->
-    <header class="text-center mb-6 focusable" tabindex="0">
-        <h1 class="text-3xl font-bold text-blue-700">TV应用合集</h1>
-        <p class="text-gray-500 mt-2">遥控器上下左右选择，回车下载</p>
+<body>
+    <header tabindex="0">
+        <h1>TV应用合集</h1>
+        <p class="tips">遥控器上下左右选择，回车下载</p>
     </header>
 
-    <!-- 应用列表（3列布局，适配电视屏幕） -->
-    <main class="container mx-auto">
-        <div id="appList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- 动态生成应用卡片 -->
+    <div class="app-grid">
+        <!-- 直接写死应用卡片，不依赖JS渲染！彻底解决动态加载问题 -->
+        <div class="app-card" tabindex="1" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/戏曲多多.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/戏曲多多.png" class="app-icon" alt="戏曲多多">
+            <div class="app-name">戏曲多多</div>
+            <button class="download-btn">下载</button>
         </div>
-    </main>
+        <div class="app-card" tabindex="2" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/小学名师课堂.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/小学名师课堂.png" class="app-icon" alt="小学名师课堂">
+            <div class="app-name">小学名师课堂</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="3" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/儿歌多多.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/儿歌多多.png" class="app-icon" alt="儿歌多多">
+            <div class="app-name">儿歌多多</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="4" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/高清播放器.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/高清播放器.png" class="app-icon" alt="小米高清播放器">
+            <div class="app-name">小米高清播放器</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="5" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/千寻电视.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/千寻电视.png" class="app-icon" alt="千寻直播">
+            <div class="app-name">千寻直播</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="6" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/VIP影视.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/VIP影视.png" class="app-icon" alt="VIP影视">
+            <div class="app-name">VIP影视</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="7" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/茶杯狐TV.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/茶杯狐TV.png" class="app-icon" alt="茶杯狐TV">
+            <div class="app-name">茶杯狐TV</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="8" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/电视直播.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/电视直播.png" class="app-icon" alt="电视直播">
+            <div class="app-name">电视直播</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="9" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/新特狗TV.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/新特狗TV.png" class="app-icon" alt="新特狗TV">
+            <div class="app-name">新特狗TV</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="10" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/小苹果影视盒子.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/小苹果影视盒子.png" class="app-icon" alt="小苹果影视盒子">
+            <div class="app-name">小苹果影视盒子</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="11" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/米家.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/米家.png" class="app-icon" alt="米家">
+            <div class="app-name">米家</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="12" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/音速直播.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/音速直播.png" class="app-icon" alt="音速直播">
+            <div class="app-name">音速直播</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="13" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/小飞电视.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/小飞电视.png" class="app-icon" alt="小飞电视2.61">
+            <div class="app-name">小飞电视2.61</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="14" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/直播大全.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/直播大全.png" class="app-icon" alt="直播大全">
+            <div class="app-name">直播大全</div>
+            <button class="download-btn">下载</button>
+        </div>
+        <div class="app-card" tabindex="15" onclick="window.open('https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk')">
+            <img src="https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png" class="app-icon" alt="饭太硬影视">
+            <div class="app-name">饭太硬影视</div>
+            <button class="download-btn">下载</button>
+        </div>
+    </div>
 
     <script>
-        // 应用数据（简化版，保留核心字段）
-        const appData = [
-            {"name":"戏曲多多","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/戏曲多多.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/戏曲多多.apk"},
-            {"name":"小学名师课堂","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/小学名师课堂.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/小学名师课堂.apk"},
-            {"name":"儿歌多多","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/儿歌多多.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/儿歌多多.apk"},
-            {"name":"小米高清播放器","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/高清播放器.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/高清播放器.apk"},
-            {"name":"千寻直播","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/千寻电视.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/千寻电视.apk"},
-            {"name":"VIP影视","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/VIP影视.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/VIP影视.apk"},
-            {"name":"茶杯狐TV","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/茶杯狐TV.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/茶杯狐TV.apk"},
-            {"name":"电视直播","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/电视直播.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/电视直播.apk"},
-            {"name":"新特狗TV","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/新特狗TV.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/新特狗TV.apk"},
-            {"name":"小苹果影视盒子","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/小苹果影视盒子.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/小苹果影视盒子.apk"},
-            {"name":"米家","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/米家.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/米家.apk"},
-            {"name":"音速直播","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/音速直播.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/音速直播.apk"},
-            {"name":"小飞电视2.61","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/小飞电视.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/小飞电视.apk"},
-            {"name":"直播大全","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/直播大全.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/直播大全.apk"},
-            {"name":"饭太硬影视","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk"}
-        ];
+        // 仅保留遥控器导航逻辑，不涉及数据渲染
+        const focusable = document.querySelectorAll('.app-card, header');
+        let current = 0;
+        focusable[current].focus();
 
-        // 渲染应用卡片（简化布局，突出可操作性）
-        function renderApps() {
-            const appList = document.getElementById('appList');
-            appData.forEach((app, index) => {
-                const appCard = document.createElement('div');
-                appCard.className = 'app-card p-4 focusable';
-                appCard.tabIndex = index + 1; // 给每个卡片分配tab索引，支持遥控器导航
-                appCard.dataset.apk = app.apk; // 存储下载链接
-                appCard.innerHTML = `
-                    <div class="flex flex-col items-center">
-                        <img src="${app.icon}" alt="${app.name}" class="w-24 h-24 object-contain mb-3">
-                        <h3 class="text-lg font-bold text-center text-gray-800">${app.name}</h3>
-                        <button class="mt-3 w-full bg-green-600 hover:bg-green-700 text-white py-2 rounded focus:outline-none">
-                            <i class="fas fa-download mr-1"></i> 下载
-                        </button>
-                    </div>
-                `;
-                appList.appendChild(appCard);
-            });
-        }
-
-        // 遥控器导航逻辑（上下左右切换焦点，回车下载）
-        function initRemoteControl() {
-            const focusableElements = document。querySelectorAll('.focusable');
-            const total = focusableElements。length;
-            let currentIndex = 0;
-
-            // 默认选中第一个元素
-            focusableElements[currentIndex].focus();
-
-            // 键盘/遥控器按键处理
-            document。addEventListener('keydown'， (e) => {
-                switch(e。key) {
-                    case 'ArrowDown': // 下键：选中下一个
-                        currentIndex = (currentIndex + 3) % total; // 3列布局，下键跳3个（同列下一行）
-                        focusableElements[currentIndex]。focus();
-                        e。preventDefault();
-                        break;
-                    case 'ArrowUp': // 上键：选中上一个
-                        currentIndex = (currentIndex - 3 + total) % total;
-                        focusableElements[currentIndex]。focus();
-                        e。preventDefault();
-                        break;
-                    case 'ArrowLeft': // 左键：选中左边
-                        currentIndex = (currentIndex - 1 + total) % total;
-                        focusableElements[currentIndex].focus();
-                        e.preventDefault();
-                        break;
-                    case 'ArrowRight': // 右键：选中右边
-                        currentIndex = (currentIndex + 1) % total;
-                        focusableElements[currentIndex]。focus();
-                        e.preventDefault();
-                        break;
-                    case 'Enter': // 回车：下载
-                        const apkUrl = focusableElements[currentIndex]。dataset。apk;
-                        if (apkUrl) window。open(apkUrl， '_blank');
-                        e.preventDefault();
-                        break;
-                }
-            });
-
-            // 点击卡片也触发下载（兼容鼠标操作）
-            focusableElements。forEach(el => {
-                el.addEventListener('click'， () => {
-                    const apkUrl = el。dataset。apk;
-                    if (apkUrl) window。open(apkUrl， '_blank');
-                });
-            });
-        }
-
-        // 初始化
-        window.onload = () => {
-            renderApps();
-            initRemoteControl();
+        document.onkeydown = function(e) {
+            e = e || window.event;
+            switch(e.key || e.keyCode) {
+                case 'ArrowDown': case 40:
+                    current = Math.min(current + 6, focusable.length - 1);
+                    break;
+                case 'ArrowUp': case 38:
+                    current = Math.max(current - 6, 0);
+                    break;
+                case 'ArrowLeft': case 37:
+                    current = Math.max(current - 1, 0);
+                    break;
+                case 'ArrowRight': case 39:
+                    current = Math.min(current + 1, focusable.length - 1);
+                    break;
+                case 'Enter': case 13:
+                    if (current > 0) focusable[current].click();
+                    break;
+                default: return;
+            }
+            focusable[current].focus();
+            e.preventDefault ? e.preventDefault() : (e.returnValue = false);
         };
     </script>
 </body>
