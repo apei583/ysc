@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV应用合集</title>
+    <!-- 改用CDN加速的Tailwind，确保加载稳定 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        /* 遥控器焦点样式：电视端关键，突出显示当前选中项 */
+        /* 遥控器焦点样式：电视端关键 */
         .focusable {
             outline: none;
             transition: all 0.2s ease;
@@ -17,12 +18,22 @@
             box-shadow: 0 0 15px rgba(37, 99, 235, 0.8);
             z-index: 10;
         }
-        /* 应用卡片基础样式 */
+        /* 应用卡片基础样式：固定高度，避免渲染错乱 */
         .app-card {
             background: white;
             border-radius: 8px;
             overflow: hidden;
             cursor: pointer;
+            height: 180px; /* 固定高度，确保所有卡片一致 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        /* 网格布局兼容写法：适配所有浏览器 */
+        .app-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* 自动适配，最小宽度120px */
+            gap: 16px;
         }
     </style>
 </head>
@@ -33,15 +44,15 @@
         <p class="text-gray-500 mt-2">遥控器上下左右选择，回车下载</p>
     </header>
 
-    <!-- 应用列表（横排6列布局，适配电视大屏） -->
+    <!-- 应用列表（横排6列，兼容写法，不会空白） -->
     <main class="container mx-auto">
-        <div id="appList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        <div id="appList" class="app-grid">
             <!-- 动态生成应用卡片 -->
         </div>
     </main>
 
     <script>
-        // 应用数据（简化版，保留核心字段）
+        // 应用数据（不变）
         const appData = [
             {"name":"戏曲多多","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/戏曲多多.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/戏曲多多.apk"},
             {"name":"小学名师课堂","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/小学名师课堂.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/小学名师课堂.apk"},
@@ -60,82 +71,93 @@
             {"name":"饭太硬影视","icon":"https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png","apk":"https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk"}
         ];
 
-        // 渲染应用卡片（适配6列布局，调整图标和文字大小）
+        // 渲染应用卡片：恢复合适尺寸，避免空白
         function renderApps() {
             const appList = document.getElementById('appList');
+            // 清空列表（避免重复渲染）
+            appList.innerHTML = '';
+            
             appData.forEach((app, index) => {
                 const appCard = document.createElement('div');
-                appCard.className = 'app-card p-3 focusable'; // 减小内边距，适配6列
-                appCard.tabIndex = index + 1; // 给每个卡片分配tab索引，支持遥控器导航
-                appCard.dataset.apk = app.apk; // 存储下载链接
+                appCard.className = 'app-card p-3 focusable';
+                appCard.tabIndex = index + 1; // 遥控器导航索引
+                appCard.dataset.apk = app.apk;
+                // 恢复图标和文字尺寸，确保显示完整
                 appCard.innerHTML = `
-                    <div class="flex flex-col items-center">
-                        <img src="${app.icon}" alt="${app.name}" class="w-18 h-18 object-contain mb-2"> <!-- 缩小图标，适配6列 -->
-                        <h3 class="text-base font-bold text-center text-gray-800">${app.name}</h3> <!-- 缩小文字 -->
+                    <div class="flex flex-col items-center text-center">
+                        <img src="${app.icon}" alt="${app.name}" class="w-20 h-20 object-contain mb-2">
+                        <h3 class="text-sm font-bold text-gray-800 leading-tight">${app.name}</h3> <!-- 换行显示长名称 -->
                         <button class="mt-2 w-full bg-green-600 hover:bg-green-700 text-white py-1.5 rounded text-sm focus:outline-none">
                             <i class="fas fa-download mr-1"></i> 下载
-                        </button> <!-- 缩小按钮 -->
+                        </button>
                     </div>
                 `;
                 appList.appendChild(appCard);
             });
         }
 
-        // 遥控器导航逻辑（适配6列布局：上下键跳6个，左右键正常切换）
+        // 遥控器导航：适配6列，修复跳转逻辑
         function initRemoteControl() {
             const focusableElements = document.querySelectorAll('.focusable');
             const total = focusableElements.length;
-            const colCount = 6; // 关键：设置为6列，上下键跳转数量同步
+            const colCount = 6; // 横排6列
             let currentIndex = 0;
 
-            // 默认选中第一个元素
-            focusableElements[currentIndex]。focus();
+            // 确保元素存在再聚焦（避免报错）
+            if (focusableElements。length > 0) {
+                focusableElements[currentIndex].focus();
+            }
 
-            // 键盘/遥控器按键处理
-            document.addEventListener('keydown', (e) => {
+            document.addEventListener('keydown'， (e) => {
+                // 避免无元素时报错
+                if (total === 0) return;
+
                 switch(e.key) {
-                    case 'ArrowDown': // 下键：选中同列下一行（跳6个）
-                        currentIndex = (currentIndex + colCount) % total;
-                        focusableElements[currentIndex]。focus();
-                        e.preventDefault();
-                        break;
-                    case 'ArrowUp': // 上键：选中同列上一行（减6个）
-                        currentIndex = (currentIndex - colCount + total) % total;
-                        focusableElements[currentIndex]。focus();
-                        e.preventDefault();
-                        break;
-                    case 'ArrowLeft': // 左键：选中左边
-                        currentIndex = (currentIndex - 1 + total) % total;
+                    case 'ArrowDown': // 下键：同列下一行（+6）
+                        // 修复最后一行下键不越界
+                        const nextDownIndex = currentIndex + colCount;
+                        currentIndex = nextDownIndex < total ? nextDownIndex : currentIndex;
                         focusableElements[currentIndex]。focus();
                         e。preventDefault();
                         break;
-                    case 'ArrowRight': // 右键：选中右边
-                        currentIndex = (currentIndex + 1) % total;
+                    case 'ArrowUp': // 上键：同列上一行（-6）
+                        const nextUpIndex = currentIndex - colCount;
+                        currentIndex = nextUpIndex >= 0 ? nextUpIndex : currentIndex;
+                        focusableElements[currentIndex]。focus();
+                        e。preventDefault();
+                        break;
+                    case 'ArrowLeft': // 左键：左移1个
+                        currentIndex = (currentIndex - 1 + total) % total;
                         focusableElements[currentIndex].focus();
                         e.preventDefault();
                         break;
-                    case 'Enter': // 回车：下载
-                        const apkUrl = focusableElements[currentIndex]。dataset。apk;
-                        if (apkUrl) window。open(apkUrl， '_blank');
+                    case 'ArrowRight': // 右键：右移1个
+                        currentIndex = (currentIndex + 1) % total;
+                        focusableElements[currentIndex]。focus();
+                        e.preventDefault();
+                        break;
+                    case 'Enter': // 回车下载
+                        const apkUrl = focusableElements[currentIndex].dataset.apk;
+                        if (apkUrl) window.open(apkUrl, '_blank');
                         e.preventDefault();
                         break;
                 }
             });
 
-            // 点击卡片也触发下载（兼容鼠标操作）
+            // 点击下载（兼容鼠标）
             focusableElements.forEach(el => {
                 el.addEventListener('click', () => {
                     const apkUrl = el.dataset.apk;
-                    if (apkUrl) window.open(apkUrl, '_blank');
+                    if (apkUrl) window。open(apkUrl， '_blank');
                 });
             });
         }
 
-        // 初始化
-        window.onload = () => {
+        // 初始化：确保DOM加载完成再渲染
+        document.addEventListener('DOMContentLoaded'， () => {
             renderApps();
             initRemoteControl();
-        };
+        });
     </script>
 </body>
 </html>
