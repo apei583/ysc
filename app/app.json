@@ -1,0 +1,137 @@
+[
+    {
+        "order": 12,
+        "status": true,
+        "version": "1.0.4.0",
+        "name": "戏曲多多",
+        "packagename": "com.duoduo.opreatv",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/戏曲多多.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/戏曲多多.apk"
+    },
+    {
+        "order": 1,
+        "status": true,
+        "version": "2.8",
+        "name": "小学名师课堂",
+        "packagename": "com.geling.view.gelingtv_XX_tongbu_dangbei",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/小学名师课堂.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/小学名师课堂.apk"
+    },
+    {
+        "order": 14,
+        "status": true,
+        "version": "1.2.6.0",
+        "name": "儿歌多多",
+        "packagename": "com.duoduo.child.story4tv",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/儿歌多多.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/儿歌多多.apk"
+    },
+    {
+        "order": 13,
+        "status": true,
+        "version": "1.0",
+        "name": "小米高清播放器",
+        "packagename": "com.droidvn.midiaexplorer",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/高清播放器.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/高清播放器.apk"
+    },
+    {
+        "order": 7,
+        "status": true,
+        "version": "1.0.9",
+        "name": "千寻直播",
+        "packagename": "com.tv.qx",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/千寻电视.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/千寻电视.apk"
+    },
+    {
+        "order": 2,
+        "status": true,
+        "version": "1.0.0",
+        "name": "VIP影视",
+        "packagename": "com.github.tvbox.osc",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/VIP影视.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/VIP影视.apk"
+    },
+    {
+        "order": 4,
+        "status": true,
+        "version": "2.3.6",
+        "name": "茶杯狐TV",
+        "packagename": "com.cupfox.android.tv",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/茶杯狐TV.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/茶杯狐TV.apk"
+    },
+    {
+        "order": 6,
+        "status": true,
+        "version": "1.0.25",
+        "name": "电视直播",
+        "packagename": "com.jerry.live.dszb",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/电视直播.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/电视直播.apk"
+    },
+    {
+        "order": 3,
+        "status": true,
+        "version": "1.1",
+        "name": "新特狗TV",
+        "packagename": "com.tg666.a",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/新特狗TV.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/新特狗TV.apk"
+    },
+    {
+        "order": 11,
+        "status": true,
+        "version": "1.3.6",
+        "name": "小苹果影视盒子",
+        "packagename": "com.phoenix.tv",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/小苹果影视盒子.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/小苹果影视盒子.apk"
+    },
+    {
+        "order": 15,
+        "status": true,
+        "version": "1.0",
+        "name": "米家",
+        "packagename": "com.xiaomi.smarthome.tv.xiaomi",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/米家.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/米家.apk"
+    },
+    {
+        "order": 8,
+        "status": true,
+        "version": "6.0.2",
+        "name": "音速直播",
+        "packagename": "bukatv.com",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/音速直播.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/音速直播.apk"
+    },
+    {
+        "order": 9,
+        "status": true,
+        "version": "2.6.1",
+        "name": "小飞电视2.61",
+        "packagename": "com.xftv.tv",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/小飞电视.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/小飞电视.apk"
+    },
+    {
+        "order": 10,
+        "status": true,
+        "version": "1.4.0",
+        "name": "直播大全",
+        "packagename": "com.zbdq.tvhd",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/直播大全.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/直播大全.apk"
+    },
+    {
+        "order": 5,
+        "status": true,
+        "version": "0606",
+        "name": "饭太硬影视",
+        "packagename": "com.TomatoFTY0606.android.ty",
+        "icon": "https://vip.123yx.com/1836335803/tvbox/app/icon/饭太硬.png",
+        "apk": "https://vip.123yx.com/1836335803/tvbox/app/apk/饭太硬.apk"
+    }
+]
