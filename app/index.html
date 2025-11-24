@@ -35,18 +35,20 @@
             margin-top: 10px;
         }
         
-        /* 应用网格布局（适配电视屏幕比例） */
+        /* 应用网格布局（统一卡片宽度，自动换行） */
         .app-grid { 
-            display: grid;
-            /* 电视端推荐4-5列（根据屏幕大小自动适配） */
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 25px; /* 增大间距，避免拥挤 */
-            max-width: 1600px; /* 限制最大宽度，避免大屏过宽 */
+            display: flex;
+            flex-wrap: wrap; /* 自动换行 */
+            gap: 25px; /* 间距保持一致 */
+            justify-content: flex-start; /* 从左到右排列 */
+            max-width: 1920px; /* 适配电视最大宽度 */
             margin: 0 auto;
+            padding-bottom: 50px; /* 底部留白 */
         }
         
-        /* 应用卡片样式（电视遥控器友好） */
+        /* 应用卡片样式（统一宽度，电视遥控器友好） */
         .app-card { 
+            width: 180px; /* 固定统一宽度，所有卡片一样宽 */
             background: #2d2d2d; 
             border-radius: 12px; 
             padding: 20px 15px; 
@@ -58,6 +60,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            flex-shrink: 0; /* 禁止卡片缩小，保持宽度一致 */
         }
         
         /* 焦点样式（遥控器选中时高亮） */
@@ -66,6 +69,7 @@
             box-shadow: 0 0 20px rgba(64, 158, 255, 0.8);
             border-color: #409eff;
             background: #333;
+            z-index: 10; /* 焦点卡片置顶，避免被其他卡片遮挡 */
         }
         
         /* 统一图标容器大小 */
@@ -115,31 +119,45 @@
             background: #2585e6; /* 焦点时按钮加深 */
         }
         
-        /* 响应式适配（小屏电视） */
+        /* 响应式适配（小屏电视自动调整每行个数） */
+        @media (max-width: 1600px) {
+            .app-grid {
+                max-width: 1400px;
+            }
+        }
         @media (max-width: 1200px) {
             .app-grid {
-                grid-template-columns: repeat(4, 1fr);
-                gap: 20px;
+                max-width: 1000px;
             }
         }
         @media (max-width: 900px) {
             .app-grid {
-                grid-template-columns: repeat(3, 1fr);
+                max-width: 700px;
             }
-            h1 { font-size: 32px; }
         }
         @media (max-width: 600px) {
-            .app-grid {
-                grid-template-columns: repeat(2, 1fr);
+            .app-card {
+                width: 150px; /* 小屏时适当缩小卡片宽度 */
+                height: 220px;
             }
-            body { padding: 20px; }
+            .icon-container {
+                width: 100px;
+                height: 100px;
+            }
+            .app-icon {
+                width: 80px;
+                height: 80px;
+            }
+            .app-name {
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body>
     <header tabindex="0">
         <h1>TV应用合集</h1>
-        <p class="tips">遥控器上下左右选择，回车下载 | 共 12 个应用</p>
+        <p class="tips">遥控器上下左右选择（顺序导航），回车下载 | 共 12 个应用</p>
     </header>
 
     <div class="app-grid">
@@ -230,20 +248,24 @@
     </div>
 
     <script>
-        // 增强遥控器控制逻辑
+        // 顺序导航逻辑（不循环，按顺序切换）
         const focusable = document.querySelectorAll('.app-card, header');
         let currentIndex = 0;
-        const columnCount = getColumnCount(); // 动态获取列数
+        const totalItems = focusable.length;
+        let columnCount = getColumnCount(); // 动态获取当前行的列数
+        
+        // 初始聚焦到头部
         focusable[currentIndex].focus();
 
-        // 动态计算当前屏幕的列数（适配不同电视尺寸）
+        // 动态计算当前屏幕的列数（用于上下键换行）
         function getColumnCount() {
             const grid = document.querySelector('.app-grid');
-            if (!grid) return 4;
-            const computedStyle = window.getComputedStyle(grid);
-            const gap = parseFloat(computedStyle.gap);
-            const itemWidth = parseFloat(computedStyle.gridTemplateColumns.split(' ')[0]);
-            return Math.floor((grid.clientWidth + gap) / (itemWidth + gap)) || 4;
+            const card = document.querySelector('.app-card');
+            if (!grid || !card) return 4;
+            
+            const gridWidth = grid.clientWidth;
+            const cardWidth = card.offsetWidth + parseFloat(window.getComputedStyle(grid).gap);
+            return Math.max(1, Math.floor(gridWidth / cardWidth));
         }
 
         // 窗口大小变化时重新计算列数
@@ -251,54 +273,64 @@
             columnCount = getColumnCount();
         });
 
-        // 遥控器按键处理
+        // 遥控器按键处理（顺序导航，不循环）
         document.onkeydown = function(e) {
-            e = e || window。event;
-            const key = e。key || e。keyCode;
+            e = e || window.event;
+            const key = e.key || e.keyCode;
             let newIndex = currentIndex;
 
             switch(key) {
-                // 向下（下一行）
+                // 向下（下一行同列）
                 case 'ArrowDown': case 40:
                     newIndex = currentIndex + columnCount;
-                    if (newIndex >= focusable。length) newIndex = currentIndex; // 禁止超出底部
+                    // 顺序导航：不循环，超过最大索引则保持当前位置
+                    if (newIndex >= totalItems) newIndex = currentIndex;
                     break;
-                // 向上（上一行）
+                // 向上（上一行同列）
                 case 'ArrowUp': case 38:
                     newIndex = currentIndex - columnCount;
-                    if (newIndex < 0) newIndex = currentIndex; // 禁止超出顶部
+                    // 顺序导航：不循环，小于0则保持当前位置
+                    if (newIndex < 0) newIndex = currentIndex;
                     break;
-                // 向左（前一个）
+                // 向左（前一个项目）
                 case 'ArrowLeft': case 37:
                     newIndex = currentIndex - 1;
-                    if (newIndex < 0) newIndex = focusable。length - 1; // 循环到最后一个
+                    // 顺序导航：不循环，最小到0（header）
+                    if (newIndex < 0) newIndex = 0;
                     break;
-                // 向右（后一个）
+                // 向右（后一个项目）
                 case 'ArrowRight': case 39:
                     newIndex = currentIndex + 1;
-                    if (newIndex >= focusable。length) newIndex = 0; // 循环到第一个
+                    // 顺序导航：不循环，最大到最后一个应用
+                    if (newIndex >= totalItems) newIndex = totalItems - 1;
                     break;
                 // 回车（下载/进入）
                 case 'Enter': case 13:
-                    if (currentIndex > 0) { // 跳过header
+                    if (currentIndex > 0) { // 跳过header，只处理应用卡片
                         focusable[currentIndex]。click();
-                        // 下载时给出反馈（可选：弹出提示）
-                        const appName = focusable[currentIndex]。querySelector('.app-name')。textContent;
-                        console.log(`正在下载：${appName}`);
-                        // 如需弹出提示，可添加：alert(`正在下载 ${appName}...`);
+                        // 下载反馈
+                        const appName = focusable[currentIndex].querySelector('.app-name').textContent;
+                        console。log(`正在下载：${appName}`);
                     }
                     break;
-                // 退出键（可选：返回/关闭）
+                // 退出键（可选）
                 case 'Escape': case 27:
                     return;
-                default:
+                默认:
                     return; // 其他按键不处理
             }
 
-            // 更新焦点
+            // 更新焦点（只有索引变化时才切换）
             if (newIndex !== currentIndex) {
                 currentIndex = newIndex;
                 focusable[currentIndex].focus();
+                
+                // 滚动到可视区域（避免焦点超出屏幕）
+                focusable[currentIndex].scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest',
+                    inline: 'nearest'
+                });
             }
 
             // 阻止默认行为（避免页面滚动）
