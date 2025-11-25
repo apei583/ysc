@@ -3,513 +3,366 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>TV应用合集</title>
     <style>
-        /* 重置样式 - 电视浏览器兼容 */
-        * { 
-            margin: 0; 
-            padding: 0; 
-            box-sizing: border-box; 
-            outline: none; 
-            -webkit-tap-highlight-color: transparent;
-            -ms-tap-highlight-color: transparent;
-        }
-        
-        /* 基础响应式设置 - 使用相对单位确保适配不同屏幕 */
-        :root {
-            /* 基础比例：以1920px为基准，其他屏幕按比例缩放 */
-            --base-font-size: 1vw;
-            --base-spacing: 1vw;
-            --card-height: 10vw;
-            --icon-size: 5vw;
-            --max-card-height: 220px;
-            --min-card-height: 140px;
-            --max-icon-size: 90px;
-            --min-icon-size: 60px;
-        }
-        
-        /* 电视屏幕基础设置 - 16:9优化+响应式适配 */
+        /* 重置样式 + 16:9基础设置 */
+        * { margin: 0; padding: 0; box-sizing: border-box; outline: none; }
         body { 
-            background: #0f0f0f; 
+            background: #1a1a1a; 
             margin: 0; 
-            padding: calc(var(--base-spacing) * 1.2); 
-            font-family: "Microsoft Yahei", "Heiti SC", Arial, sans-serif; 
+            padding: 15px; /* 最小边距，最大化显示空间 */
+            font-family: "Microsoft Yahei", Arial, sans-serif; 
             color: #fff;
             overflow-x: hidden;
-            overflow-y: auto;
-            font-size: calc(var(--base-font-size) * 1.4);
-            /* 电视浏览器滚动优化 */
-            -webkit-overflow-scrolling: touch;
+            font-size: 12px;
         }
         
-        /* 头部样式 - 响应式字体和间距 */
+        /* 头部样式（精简，不占用过多16:9空间） */
         header { 
             text-align: center; 
-            margin-bottom: calc(var(--base-spacing) * 1.8); 
-            padding: calc(var(--base-spacing) * 1) 0;
-            border-bottom: 2px solid #333;
+            margin-bottom: 15px; 
+            padding: 8px 0;
+            border-bottom: 1px solid #333;
         }
         h1 { 
             color: #409eff; 
-            font-size: calc(var(--base-font-size) * 2.2); 
+            font-size: 24px; 
             margin: 0;
-            text-shadow: 0 0 8px rgba(64, 158, 255, 0.6);
-            letter-spacing: 2px;
-            /* 限制最大最小字体 */
-            max-font-size: 40px;
-            min-font-size: 24px;
+            text-shadow: 0 0 6px rgba(64, 158, 255, 0.5);
         }
         .tips { 
-            color: #aaa; 
-            font-size: calc(var(--base-font-size) * 1.3); 
-            margin-top: calc(var(--base-spacing) * 0.5);
-            letter-spacing: 1px;
-            max-font-size: 22px;
-            min-font-size: 14px;
+            color: #999; 
+            font-size: 14px; 
+            margin-top: 5px;
         }
         
-        /* 应用网格布局 - 固定8列+响应式间距 */
+        /* 应用网格布局（16:9优先多列，自动填充） */
         .app-grid { 
-            display: grid;
-            grid-template-columns: repeat(8, 1fr); /* 强制8列，宽度自适应 */
-            grid-template-rows: repeat(auto-fill, minmax(var(--min-card-height), var(--max-card-height))); /* 响应式行高 */
-            gap: calc(var(--base-spacing) * 0.8);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px; /* 极小间距，支持更多列 */
+            justify-content: center; /* 16:9居中填充，无多余空白 */
             width: 100%;
-            max-width: 1920px; /* 16:9大屏上限 */
-            min-width: 960px; /* 最小宽度保证8列不挤压 */
+            max-width: 1920px; /* 适配16:9大屏上限 */
             margin: 0 auto;
-            padding-bottom: calc(var(--base-spacing) * 2);
+            padding-bottom: 20px;
         }
         
-        /* 卡片样式 - 响应式大小+完全统一结构 */
+        /* 超小卡片设计（16:9下支持6列以上） */
         .app-card { 
-            background: #1e1e1e; 
+            width: 120px; /* 超小宽度，16:9下720P(1280px)可显示10列，1080P(1920px)可显示15列 */
+            background: #2d2d2d; 
             border-radius: 8px; 
-            padding: calc(var(--base-spacing) * 1) calc(var(--base-spacing) * 0.6); 
+            padding: 10px 8px; 
             text-align: center; 
             cursor: pointer; 
-            transition: all 0.2s ease; 
-            border: 3px solid transparent;
-            width: 100%;
-            height: 100%; /* 继承行高，确保统一 */
+            transition: all 0.15s ease; /* 快速过渡，一键切换更流畅 */
+            border: 2px solid transparent;
+            height: 140px; /* 超小高度，节省纵向空间 */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            /* 电视浏览器兼容 */
-            -webkit-transition: all 0.2s ease;
+            flex-shrink: 0; /* 强制保持宽度，确保多列整齐 */
         }
         
-        /* 焦点样式 - 远距离明显可见（响应式缩放） */
+        /* 焦点样式（小卡片仍清晰可见） */
         .app-card:focus { 
-            transform: scale(1.06); 
-            box-shadow: 0 0 calc(var(--base-spacing) * 1.2) rgba(64, 158, 255, 0.9);
+            transform: scale(1.05); /* 小幅放大，不遮挡周围卡片 */
+            box-shadow: 0 0 12px rgba(64, 158, 255, 0.8);
             border-color: #409eff;
-            background: #2a2a2a;
-            z-index: 100;
-            outline: none;
+            background: #333;
+            z-index: 10;
         }
         
-        /* 图标容器 - 响应式大小 */
+        /* 超小图标容器 */
         .icon-container {
-            width: clamp(var(--min-icon-size), var(--icon-size), var(--max-icon-size)); 
-            height: clamp(var(--min-icon-size), var(--icon-size), var(--max-icon-size));
-            margin: 0 auto calc(var(--base-spacing) * 0.7);
+            width: 70px; /* 匹配70x70图标 */
+            height: 70px;
+            margin: 0 auto 8px;
             background: #fff;
-            border-radius: 12%;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
         
-        /* 图标大小 - 响应式适配容器 */
+        /* 图标大小匹配容器 */
         .app-icon { 
-            width: 85%; 
-            height: 85%;
+            width: 60px; 
+            height: 60px;
             object-fit: contain;
-            display: block;
         }
         
-        /* 应用名称 - 响应式字体+溢出处理 */
+        /* 应用名称（超小字体，不换行） */
         .app-name { 
-            font-size: calc(var(--base-font-size) * 1.2); 
+            font-size: 13px; 
             color: #eee; 
-            margin: 0 0 calc(var(--base-spacing) * 0.5) 0; 
+            margin: 0 0 6px 0; 
             white-space: nowrap; 
             overflow: hidden; 
             text-overflow: ellipsis;
-            padding: 0 5px;
-            width: 100%;
-            height: calc(var(--base-font-size) * 1.8); /* 固定高度确保对齐 */
-            line-height: calc(var(--base-font-size) * 1.8);
-            max-font-size: 18px;
-            min-font-size: 13px;
+            padding: 0 3px;
         }
         
-        /* 下载按钮 - 响应式大小+遥控器易操作 */
+        /* 超小下载按钮 */
         .download-btn { 
             background: #409eff; 
             color: white; 
             border: none; 
-            padding: calc(var(--base-font-size) * 0.4) 0; 
-            border-radius: 6px; 
-            font-size: calc(var(--base-font-size) * 1.1); 
-            width: 90%; 
+            padding: 4px 0; 
+            border-radius: 4px; 
+            font-size: 12px; 
+            width: 100%; 
             cursor: pointer;
-            transition: background 0.2s;
-            -webkit-transition: background 0.2s;
-            height: calc(var(--base-font-size) * 2.2);
-            line-height: calc(var(--base-font-size) * 1.6);
-            max-font-size: 18px;
-            min-font-size: 13px;
+            transition: background 0.15s;
         }
         .app-card:focus .download-btn {
             background: #2585e6;
-            transform: scale(1.05);
-            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
         }
         
-        /* 媒体查询 - 精细化响应式调整（覆盖不同电视尺寸） */
-        /* 大屏电视（65寸+，1920px以上） */
-        @media (min-width: 1920px) {
-            :root {
-                --base-font-size: 1.1vw;
-                --card-height: 9vw;
-            }
-            .app-grid { gap: 18px; }
-            .app-card { border-radius: 12px; }
-            .icon-container { border-radius: 15%; }
+        /* 16:9响应式适配（自动调整列数，始终保持多列） */
+        /* 大屏16:9（≥1600px）：12+列 */
+        @media (min-width: 1600px) {
+            .app-card { width: 130px; }
         }
-        
-        /* 中屏电视（55寸左右，1600px-1919px） */
-        @media (min-width: 1600px) and (max-width: 1919px) {
-            :root {
-                --base-font-size: 1.05vw;
-                --card-height: 9.5vw;
-            }
-            .app-grid { gap: 15px; }
+        /* 中屏16:9（1280px-1599px，如720P）：10列左右 */
+        @media (min-width: 1280px) and (max-width: 1599px) {
+            .app-card { width: 120px; }
         }
-        
-        /* 小屏电视（43寸左右，1366px-1599px） */
-        @media (min-width: 1366px) and (max-width: 1599px) {
-            :root {
-                --base-font-size: 1vw;
-                --card-height: 10vw;
-            }
-            .app-grid { gap: 12px; }
+        /* 小屏16:9（960px-1279px）：8列左右 */
+        @media (min-width: 960px) and (max-width: 1279px) {
+            .app-card { width: 110px; }
         }
-        
-        /* 迷你电视（32寸左右，1024px-1365px） */
-        @media (min-width: 1024px) and (max-width: 1365px) {
-            :root {
-                --base-font-size: 1.1vw;
-                --card-height: 11vw;
-            }
-            body { padding: 15px; }
-            .app-grid { 
-                gap: 10px;
-                min-width: 1024px;
-            }
-        }
-        
-        /* 极小屏幕适配（避免布局错乱） */
-        @media (max-width: 1023px) {
-            :root {
-                --base-font-size: 1.2vw;
-                --card-height: 12vw;
-            }
-            body { padding: 12px; }
-            .app-grid { 
-                min-width: 960px;
-                gap: 8px;
-            }
-            h1 { font-size: 28px; }
-            .tips { font-size: 16px; }
-        }
-        
-        /* 电视浏览器滚动条优化 */
-        ::-webkit-scrollbar {
-            width: 10px;
-            height: 10px;
-        }
-        ::-webkit-scrollbar-track {
-            background: #1a1a1a;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: #444;
-            border-radius: 5px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #666;
-        }
-        
-        /* 确保在低分辨率电视上文字不模糊 */
-        * {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+        /* 迷你16:9（<960px）：6列左右 */
+        @media (max-width: 959px) {
+            .app-card { width: 100px; height: 130px; }
+            .icon-container { width: 60px; height: 60px; }
+            .app-icon { width: 50px; height: 50px; }
+            .app-name { font-size: 12px; }
         }
     </style>
 </head>
 <body>
     <header tabindex="0">
         <h1>TV应用合集</h1>
-        <p class="tips">遥控器上下左右选择 | 回车下载 | 共 12 个应用 | 响应式8列布局</p>
+        <p class="tips">遥控器上下左右一键切换，回车下载 | 共 12 个应用</p>
     </header>
 
     <div class="app-grid">
-        <div class="app-card" tabindex="1">
+        <div class="app-card" tabindex="1" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/野草助手小米海信版_2.0.8.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/野草助手小米海信版_2.0.8.png" class="app-icon" alt="野草助手小米海信版_2...." title="野草助手小米海信版_2.0.8">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/野草助手小米海信版_2.0.8.png" class="app-icon" alt="野草助手小米海信版_2.0.8">
             </div>
-            <div class="app-name" title="野草助手小米海信版_2.0.8">野草助手小米海信版_2....</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/野草助手小米海信版_2.0.8.apk', '_blank')">下载</button>
+            <div class="app-name">野草助手小米海信版_2.0.8</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="2">
+        <div class="app-card" tabindex="2" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/爱壹帆_2.3.4.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/爱壹帆_2.3.4.png" class="app-icon" alt="爱壹帆_2.3.4" title="爱壹帆_2.3.4">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/爱壹帆_2.3.4.png" class="app-icon" alt="爱壹帆_2.3.4">
             </div>
-            <div class="app-name" title="爱壹帆_2.3.4">爱壹帆_2.3.4</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/爱壹帆_2.3.4.apk', '_blank')">下载</button>
+            <div class="app-name">爱壹帆_2.3.4</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="3">
+        <div class="app-card" tabindex="3" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/独播库TV_6.2.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/独播库TV_6.2.png" class="app-icon" alt="独播库TV_6.2" title="独播库TV_6.2">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/独播库TV_6.2.png" class="app-icon" alt="独播库TV_6.2">
             </div>
-            <div class="app-name" title="独播库TV_6.2">独播库TV_6.2</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/独播库TV_6.2.apk', '_blank')">下载</button>
+            <div class="app-name">独播库TV_6.2</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="4">
+        <div class="app-card" tabindex="4" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/小苹果影视盒子_1.6.1.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/小苹果影视盒子_1.6.1.png" class="app-icon" alt="小苹果影视盒子_1.6...." title="小苹果影视盒子_1.6.1">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/小苹果影视盒子_1.6.1.png" class="app-icon" alt="小苹果影视盒子_1.6.1">
             </div>
-            <div class="app-name" title="小苹果影视盒子_1.6.1">小苹果影视盒子_1.6....</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/小苹果影视盒子_1.6.1.apk', '_blank')">下载</button>
+            <div class="app-name">小苹果影视盒子_1.6.1</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="5">
+        <div class="app-card" tabindex="5" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/千寻_1.1.2.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/千寻_1.1.2.png" class="app-icon" alt="千寻_1.1.2" title="千寻_1.1.2">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/千寻_1.1.2.png" class="app-icon" alt="千寻_1.1.2">
             </div>
-            <div class="app-name" title="千寻_1.1.2">千寻_1.1.2</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/千寻_1.1.2.apk', '_blank')">下载</button>
+            <div class="app-name">千寻_1.1.2</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="6">
+        <div class="app-card" tabindex="6" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/昭昭TV_1.0.3.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/昭昭TV_1.0.3.png" class="app-icon" alt="昭昭TV_1.0.3" title="昭昭TV_1.0.3">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/昭昭TV_1.0.3.png" class="app-icon" alt="昭昭TV_1.0.3">
             </div>
-            <div class="app-name" title="昭昭TV_1.0.3">昭昭TV_1.0.3</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/昭昭TV_1.0.3.apk', '_blank')">下载</button>
+            <div class="app-name">昭昭TV_1.0.3</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="7">
+        <div class="app-card" tabindex="7" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/SmartTube_30.48.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/SmartTube_30.48.png" class="app-icon" alt="SmartTube_30..." title="SmartTube_30.48">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/SmartTube_30.48.png" class="app-icon" alt="SmartTube_30.48">
             </div>
-            <div class="app-name" title="SmartTube_30.48">SmartTube_30...</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/SmartTube_30.48.apk', '_blank')">下载</button>
+            <div class="app-name">SmartTube_30.48</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="8">
+        <div class="app-card" tabindex="8" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/新喵影视_1.1.3.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/新喵影视_1.1.3.png" class="app-icon" alt="新喵影视_1.1.3" title="新喵影视_1.1.3">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/新喵影视_1.1.3.png" class="app-icon" alt="新喵影视_1.1.3">
             </div>
-            <div class="app-name" title="新喵影视_1.1.3">新喵影视_1.1.3</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/新喵影视_1.1.3.apk', '_blank')">下载</button>
+            <div class="app-name">新喵影视_1.1.3</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="9">
+        <div class="app-card" tabindex="9" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/BrowseHere浏览器_8.02.085_eb15043_251031_gp.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/BrowseHere浏览器_8.02.085_eb15043_251031_gp.png" class="app-icon" alt="BrowseHere浏览..." title="BrowseHere浏览器_8.02.085_eb15043_251031_gp">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/BrowseHere浏览器_8.02.085_eb15043_251031_gp.png" class="app-icon" alt="BrowseHere浏览器_8.02.085_eb15043_251031_gp">
             </div>
-            <div class="app-name" title="BrowseHere浏览器_8.02.085_eb15043_251031_gp">BrowseHere浏览...</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/BrowseHere浏览器_8.02.085_eb15043_251031_gp.apk', '_blank')">下载</button>
+            <div class="app-name">BrowseHere浏览器_8.02.085_eb15043_251031_gp</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="10">
+        <div class="app-card" tabindex="10" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/高清电视_2.96.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/高清电视_2.96.png" class="app-icon" alt="高清电视_2.96" title="高清电视_2.96">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/高清电视_2.96.png" class="app-icon" alt="高清电视_2.96">
             </div>
-            <div class="app-name" title="高清电视_2.96">高清电视_2.96</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/高清电视_2.96.apk', '_blank')">下载</button>
+            <div class="app-name">高清电视_2.96</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="11">
+        <div class="app-card" tabindex="11" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/QuickFox_1.2.6.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/QuickFox_1.2.6.png" class="app-icon" alt="QuickFox_1.2..." title="QuickFox_1.2.6">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/default.png" class="app-icon" alt="QuickFox_1.2.6">
             </div>
-            <div class="app-name" title="QuickFox_1.2.6">QuickFox_1.2...</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/QuickFox_1.2.6.apk', '_blank')">下载</button>
+            <div class="app-name">QuickFox_1.2.6</div>
+            <button class="download-btn">下载</button>
         </div>
-        <div class="app-card" tabindex="12">
+        <div class="app-card" tabindex="12" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/丰彩TV_1.0.2.apk')">
             <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/丰彩TV_1.0.2.png" class="app-icon" alt="丰彩TV_1.0.2" title="丰彩TV_1.0.2">
+                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/丰彩TV_1.0.2.png" class="app-icon" alt="丰彩TV_1.0.2">
             </div>
-            <div class="app-name" title="丰彩TV_1.0.2">丰彩TV_1.0.2</div>
-            <button class="download-btn" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/丰彩TV_1.0.2.apk', '_blank')">下载</button>
+            <div class="app-name">丰彩TV_1.0.2</div>
+            <button class="download-btn">下载</button>
         </div>
     </div>
 
     <script>
-        // 电视遥控器优化核心脚本 - 响应式布局兼容
-        (function() {
-            // 缓存DOM元素，减少查询
-            const focusable = document.querySelectorAll('.app-card, header');
-            const cardElements = document.querySelectorAll('.app-card');
-            const totalItems = focusable.length;
-            const columnCount = 8; // 固定8列（核心不变）
-            const totalApps = cardElements.length;
+        // 核心优化：16:9适配+一键切换（按一下直接选中下一个）
+        const focusable = document.querySelectorAll('.app-card, header');
+        let currentIndex = 0;
+        const totalItems = focusable.length;
+        let columnCount = calculateColumnCount(); // 16:9比例精准列数
+        let cardElements = Array.from(document.querySelectorAll('.app-card'));
+        
+        // 初始聚焦到头部（一键切换生效）
+        focusable[currentIndex].focus();
+
+        // 16:9比例优化列数计算（确保多列显示）
+        function calculateColumnCount() {
+            const grid = document.querySelector('.app-grid');
+            const card = document.querySelector('.app-card');
+            if (!grid || !card) return 6; // 最低保证6列
+            
+            const gridWidth = grid.clientWidth;
+            const cardWidth = card.offsetWidth;
+            const gap = parseFloat(window.getComputedStyle(grid).gap);
+            
+            // 16:9下强制最少6列，最多根据宽度自动扩展
+            const count = Math.max(6, Math.floor(gridWidth / (cardWidth + gap)));
+            console.log(`16:9屏幕列数：${count}（网格宽：${gridWidth}，卡片宽：${cardWidth}）`);
+            return count;
+        }
+
+        // 窗口大小变化时实时更新列数（16:9比例自适应）
+        window.addEventListener('resize', () => {
+            columnCount = calculateColumnCount();
+        });
+
+        // 一键切换逻辑（按一下直接选中，无延迟）
+        document.onkeydown = function(e) {
+            e = e || window.event;
+            const key = e.key || e.keyCode;
+            let newIndex = currentIndex;
+
+            const isOnHeader = currentIndex === 0;
             const firstAppIndex = 1;
             const lastAppIndex = totalItems - 1;
-            
-            // 初始聚焦到头部（电视启动可见）
-            focusable[0].focus();
-            
-            // 存储当前焦点位置
-            let currentFocusIndex = 0;
-            
-            // 电视按键优化 - 防抖处理
-            let keyPressTimer = null;
-            const debounceTime = 80; // 响应式调整防抖时间，更流畅
-            
-            // 遥控器导航处理
-            document.addEventListener('keydown', function(e) {
-                // 防抖处理，防止按键重复触发
-                if (keyPressTimer) {
-                    clearTimeout(keyPressTimer);
-                }
-                keyPressTimer = setTimeout(function() {
-                    handleKeyPress(e);
-                }, debounceTime);
-                
-                // 阻止默认行为（电视浏览器兼容）
-                e.preventDefault ? e.preventDefault() : (e.returnValue = false);
-                e.stopPropagation ? e.stopPropagation() : (e.cancelBubble = true);
-                return false;
-            }, false);
-            
-            // 按键处理核心函数（保持8列导航逻辑不变）
-            function handleKeyPress(e) {
-                const eEvent = e || window.event;
-                const keyCode = eEvent.keyCode || eEvent.which;
-                let newIndex = currentFocusIndex;
-                const isOnHeader = currentFocusIndex === 0;
-                
-                // 按键映射（电视遥控器常见键值）
-                switch(keyCode) {
-                    // 右箭头/数字键6
-                    case 39: case 102:
-                        if (isOnHeader) {
-                            newIndex = firstAppIndex; // 头部→第一个应用
+
+            // 取消按键重复触发延迟（关键：实现一键切换）
+            e.repeat = false;
+
+            switch(key) {
+                // 向右：按一下→下一个（无延迟）
+                case 'ArrowRight': case 39:
+                    if (isOnHeader) {
+                        newIndex = firstAppIndex; // 头部→第一个应用
+                    } else {
+                        newIndex = Math.min(currentIndex + 1, lastAppIndex); // 不循环
+                    }
+                    break;
+
+                // 向左：按一下→上一个（无延迟）
+                case 'ArrowLeft': case 37:
+                    if (currentIndex === firstAppIndex) {
+                        newIndex = 0; // 第一个应用→头部
+                    } else if (!isOnHeader) {
+                        newIndex = currentIndex - 1;
+                    }
+                    break;
+
+                // 向下：按一下→同列下一行（无延迟）
+                case 'ArrowDown': case 40:
+                    if (isOnHeader) {
+                        newIndex = firstAppIndex; // 头部→第一个应用
+                    } else {
+                        const cardIndex = currentIndex - 1;
+                        const nextCardIndex = cardIndex + columnCount;
+                        if (nextCardIndex < cardElements.length) {
+                            newIndex = nextCardIndex + 1;
                         } else {
-                            newIndex = Math.min(currentFocusIndex + 1, lastAppIndex);
+                            newIndex = currentIndex; // 底部不循环
                         }
-                        break;
-                        
-                    // 左箭头/数字键4
-                    case 37: case 100:
-                        if (currentFocusIndex === firstAppIndex) {
-                            newIndex = 0; // 第一个应用→头部
-                        } else if (!isOnHeader) {
-                            newIndex = currentFocusIndex - 1;
-                        }
-                        break;
-                        
-                    // 下箭头/数字键2
-                    case 40: case 98:
-                        if (isOnHeader) {
-                            newIndex = firstAppIndex; // 头部→第一个应用
+                    }
+                    break;
+
+                // 向上：按一下→同列上一行（无延迟）
+                case 'ArrowUp': case 38:
+                    if (isOnHeader) {
+                        newIndex = 0; // 头部向上无效
+                    } else {
+                        const cardIndex = currentIndex - 1;
+                        const prevCardIndex = cardIndex - columnCount;
+                        if (prevCardIndex >= 0) {
+                            newIndex = prevCardIndex + 1;
                         } else {
-                            const cardIndex = currentFocusIndex - 1;
-                            const nextCardIndex = cardIndex + columnCount;
-                            // 检查是否有下一行（响应式布局不影响列数）
-                            if (nextCardIndex < totalApps) {
-                                newIndex = nextCardIndex + 1;
-                            } else {
-                                // 到达底部时保持原位
-                                newIndex = currentFocusIndex;
-                            }
+                            newIndex = 0; // 顶部→头部
                         }
-                        break;
-                        
-                    // 上箭头/数字键8
-                    case 38: case 104:
-                        if (isOnHeader) {
-                            newIndex = 0; // 头部向上无效
-                        } else {
-                            const cardIndex = currentFocusIndex - 1;
-                            const prevCardIndex = cardIndex - columnCount;
-                            // 检查是否有上一行
-                            if (prevCardIndex >= 0) {
-                                newIndex = prevCardIndex + 1;
-                            } else {
-                                // 到达顶部时回到头部
-                                newIndex = 0;
-                            }
-                        }
-                        break;
-                        
-                    // 回车/确认键/数字键5
-                    case 13: case 101:
-                        if (!isOnHeader) {
-                            // 触发点击事件（电视浏览器兼容）
-                            const event = document.createEvent('MouseEvents');
-                            event.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-                            focusable[currentFocusIndex].dispatchEvent(event);
-                            
-                            const appName = focusable[currentFocusIndex].querySelector('.app-name').textContent;
-                            console.log(`开始下载：${appName}`);
-                        }
-                        break;
-                        
-                    // 退出/返回键
-                    case 27: case 8:
-                        return;
-                        
-                    默认:
-                        return;
-                }
-                
-                // 更新焦点并滚动到可视区域
-                if (newIndex !== currentFocusIndex) {
-                    currentFocusIndex = newIndex;
-                    
-                    // 确保焦点元素可见（适配不同屏幕大小）
-                    const element = focusable[currentFocusIndex];
-                    element.focus();
-                    
-                    // 平滑滚动（响应式优化）
-                    element。scrollIntoView({
-                        behavior: 'smooth'，
-                        block: 'nearest',
-                        inline: 'nearest'
-                    });
-                    
-                    // 焦点视觉反馈增强
-                    element。classList。add('focus-visible');
-                    setTimeout(() => {
-                        element。classList。remove('focus-visible');
-                    }, 300);
-                }
+                    }
+                    break;
+
+                // 回车下载（按一下触发）
+                case 'Enter': case 13:
+                    if (!isOnHeader) {
+                        focusable[currentIndex]。click();
+                        const appName = focusable[currentIndex]。querySelector('.app-name')。textContent;
+                        console。log(`正在下载：${appName}`);
+                    }
+                    break;
+
+                case 'Escape': case 27:
+                    return;
+                default:
+                    return;
             }
-            
-            // 电视浏览器兼容性处理：确保焦点可见
-            document。addEventListener('DOMContentLoaded'， function() {
-                // 为所有卡片添加tabindex，确保可聚焦
-                cardElements.forEach((card, index) => {
-                    card.setAttribute('tabindex', index + 1);
-                });
-            });
-            
-            // 窗口大小变化时重新计算布局（响应式优化）
-            window.addEventListener('resize', function() {
-                // 触发重绘，确保响应式样式生效
-                document.body.style.display = 'none';
-                document.body.offsetHeight; // 强制重绘
-                document.body.style.display = '';
+
+            // 立即更新焦点（无延迟，实现一键切换）
+            if (newIndex !== currentIndex) {
+                currentIndex = newIndex;
+                focusable[currentIndex].focus();
                 
-                // 保持当前焦点位置不变
-                if (currentFocusIndex >= 0 && currentFocusIndex < focusable.length) {
-                    focusable[currentFocusIndex].focus();
-                }
-            }, false);
-        })();
+                // 快速滚动到可视区域（不卡顿）
+                focusable[currentIndex].scrollIntoView({
+                    behavior: 'instant', // 即时滚动，无平滑延迟
+                    block: 'nearest',
+                    inline: 'nearest'
+                });
+            }
+
+            // 阻止默认行为和按键重复（关键：避免按一下触发多次）
+            e.preventDefault();
+            e.stopPropagation();
+            return false;
+        };
     </script>
 </body>
 </html>
