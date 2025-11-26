@@ -10,24 +10,25 @@
         body { 
             background: #1a1a1a; 
             margin: 0; 
-            padding: 15px; /* 最小边距，最大化显示空间 */
+            padding: 20px 15px; 
             font-family: "Microsoft Yahei", Arial, sans-serif; 
             color: #fff;
             overflow-x: hidden;
             font-size: 12px;
+            line-height: 1.5;
         }
         
-        /* 头部样式（精简，不占用过多16:9空间） */
+        /* 头部样式 */
         header { 
             text-align: center; 
-            margin-bottom: 15px; 
-            padding: 8px 0;
+            margin-bottom: 25px; 
+            padding: 10px 0;
             border-bottom: 1px solid #333;
         }
         h1 { 
             color: #409eff; 
-            font-size: 24px; 
-            margin: 0;
+            font-size: 28px; 
+            margin: 0 0 10px 0;
             text-shadow: 0 0 6px rgba(64, 158, 255, 0.5);
         }
         .tips { 
@@ -36,333 +37,632 @@
             margin-top: 5px;
         }
         
-        /* 应用网格布局（16:9优先多列，自动填充） */
+        /* 分类导航 */
+        .category-nav {
+            display: flex;
+            overflow-x: auto;
+            gap: 12px;
+            padding: 12px 0;
+            margin-bottom: 25px;
+            border-bottom: 1px solid #333;
+            scrollbar-width: thin;
+            scrollbar-color: #409eff #222;
+        }
+        .category-nav::-webkit-scrollbar {
+            height: 6px;
+        }
+        .category-nav::-webkit-scrollbar-track {
+            background: #222;
+            border-radius: 3px;
+        }
+        .category-nav::-webkit-scrollbar-thumb {
+            background: #409eff;
+            border-radius: 3px;
+        }
+        .nav-item {
+            background: #2d2d2d;
+            padding: 10px 20px;
+            border-radius: 25px;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+            flex-shrink: 0;
+            border: 1px solid transparent;
+        }
+        .nav-item:hover, .nav-item:focus {
+            background: #409eff;
+            color: white;
+            transform: scale(1.05);
+            border-color: #66b1ff;
+            outline: none;
+        }
+        
+        /* 分类内容 */
+        .category-content {
+            display: none;
+            margin-bottom: 30px;
+            padding: 10px;
+        }
+        .category-content h2 {
+            color: #409eff;
+            margin-bottom: 20px;
+            font-size: 20px;
+            padding-left: 10px;
+            border-left: 4px solid #409eff;
+        }
+        
+        /* 应用网格布局 - 增大间距避免重叠 */
         .app-grid { 
             display: flex;
             flex-wrap: wrap;
-            gap: 10px; /* 极小间距，支持更多列 */
-            justify-content: center; /* 16:9居中填充，无多余空白 */
+            gap: 20px; /* 增大间距 */
+            justify-content: flex-start;
             width: 100%;
-            max-width: 1920px; /* 适配16:9大屏上限 */
+            max-width: 1920px;
             margin: 0 auto;
-            padding-bottom: 20px;
+            padding: 10px 0 20px 0;
         }
         
-        /* 超小卡片设计（16:9下支持6列以上） */
+        /* 应用卡片样式 - 优化布局，解决文字遮挡问题 */
         .app-card { 
-            width: 120px; /* 超小宽度，16:9下720P(1280px)可显示10列，1080P(1920px)可显示15列 */
+            width: 130px; /* 稍微增大宽度 */
             background: #2d2d2d; 
-            border-radius: 8px; 
-            padding: 10px 8px; 
+            border-radius: 10px; 
+            padding: 15px 10px; 
             text-align: center; 
             cursor: pointer; 
-            transition: all 0.15s ease; /* 快速过渡，一键切换更流畅 */
+            transition: all 0.2s ease;
             border: 2px solid transparent;
-            height: 140px; /* 超小高度，节省纵向空间 */
+            height: 170px; /* 增加高度，解决文字遮挡 */
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            flex-shrink: 0; /* 强制保持宽度，确保多列整齐 */
+            justify-content: space-between; /* 均匀分布内容 */
+            flex-shrink: 0;
+            margin: 5px; /* 额外的外边距 */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
         
-        /* 焦点样式（小卡片仍清晰可见） */
         .app-card:focus { 
-            transform: scale(1.05); /* 小幅放大，不遮挡周围卡片 */
-            box-shadow: 0 0 12px rgba(64, 158, 255, 0.8);
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(64, 158, 255, 0.8);
             border-color: #409eff;
             background: #333;
             z-index: 10;
+            outline: none;
         }
         
-        /* 超小图标容器 */
+        .app-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 12px rgba(64, 158, 255, 0.5);
+            border-color: #66b1ff;
+        }
+        
+        /* 图标容器 */
         .icon-container {
-            width: 70px; /* 匹配70x70图标 */
+            width: 70px;
             height: 70px;
-            margin: 0 auto 8px;
+            margin: 0 auto;
             background: #fff;
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            padding: 2px;
+            flex-shrink: 0;
         }
         
-        /* 图标大小匹配容器 */
         .app-icon { 
             width: 60px; 
             height: 60px;
             object-fit: contain;
         }
         
-        /* 应用名称（超小字体，不换行） */
         .app-name { 
             font-size: 13px; 
             color: #eee; 
-            margin: 0 0 6px 0; 
+            margin: 10px 0; 
             white-space: nowrap; 
             overflow: hidden; 
             text-overflow: ellipsis;
-            padding: 0 3px;
+            padding: 0 5px;
+            height: 20px;
+            flex-shrink: 0;
         }
         
-        /* 超小下载按钮 */
         .download-btn { 
             background: #409eff; 
             color: white; 
             border: none; 
-            padding: 4px 0; 
-            border-radius: 4px; 
+            padding: 6px 0; 
+            border-radius: 6px; 
             font-size: 12px; 
-            width: 100%; 
+            width: 90%; 
             cursor: pointer;
-            transition: background 0.15s;
+            transition: background 0.2s;
+            margin: 0 auto;
+            flex-shrink: 0;
         }
         .app-card:focus .download-btn {
             background: #2585e6;
+            transform: scale(1.05);
         }
         
-        /* 16:9响应式适配（自动调整列数，始终保持多列） */
-        /* 大屏16:9（≥1600px）：12+列 */
-        @media (min-width: 1600px) {
-            .app-card { width: 130px; }
+        /* 响应式适配 - 不同屏幕尺寸的优化 */
+        @media (min-width: 1920px) {
+            .app-grid {
+                gap: 25px;
+            }
+            .app-card {
+                width: 140px;
+                height: 180px;
+            }
         }
-        /* 中屏16:9（1280px-1599px，如720P）：10列左右 */
+        
+        @media (min-width: 1600px) and (max-width: 1919px) {
+            .app-grid {
+                gap: 22px;
+            }
+            .app-card {
+                width: 135px;
+                height: 175px;
+            }
+        }
+        
         @media (min-width: 1280px) and (max-width: 1599px) {
-            .app-card { width: 120px; }
+            .app-grid {
+                gap: 20px;
+            }
+            .app-card {
+                width: 130px;
+                height: 170px;
+            }
         }
-        /* 小屏16:9（960px-1279px）：8列左右 */
+        
         @media (min-width: 960px) and (max-width: 1279px) {
-            .app-card { width: 110px; }
+            .app-grid {
+                gap: 18px;
+            }
+            .app-card {
+                width: 125px;
+                height: 165px;
+            }
         }
-        /* 迷你16:9（<960px）：6列左右 */
+        
         @media (max-width: 959px) {
-            .app-card { width: 100px; height: 130px; }
-            .icon-container { width: 60px; height: 60px; }
-            .app-icon { width: 50px; height: 50px; }
-            .app-name { font-size: 12px; }
+            .app-grid {
+                gap: 15px;
+                justify-content: center;
+            }
+            .app-card {
+                width: 120px;
+                height: 160px;
+                margin: 8px;
+            }
+            .icon-container {
+                width: 65px;
+                height: 65px;
+            }
+            .app-icon {
+                width: 55px;
+                height: 55px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .app-grid {
+                gap: 12px;
+            }
+            .app-card {
+                width: 110px;
+                height: 150px;
+            }
         }
     </style>
 </head>
 <body>
     <header tabindex="0">
         <h1>TV应用合集</h1>
-        <p class="tips">遥控器上下左右一键切换，回车下载 | 共 12 个应用</p>
+        <p class="tips">遥控器上下左右一键切换，回车下载 | 共 14 个应用</p>
     </header>
 
-    <div class="app-grid">
-        <div class="app-card" tabindex="1" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/野草助手小米海信版_2.0.8.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/野草助手小米海信版_2.0.8.png" class="app-icon" alt="野草助手小米海信版_2.0.8">
-            </div>
-            <div class="app-name">野草助手小米海信版_2.0.8</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="2" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/爱壹帆_2.3.4.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/爱壹帆_2.3.4.png" class="app-icon" alt="爱壹帆_2.3.4">
-            </div>
-            <div class="app-name">爱壹帆_2.3.4</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="3" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/独播库TV_6.2.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/独播库TV_6.2.png" class="app-icon" alt="独播库TV_6.2">
-            </div>
-            <div class="app-name">独播库TV_6.2</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="4" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/小苹果影视盒子_1.6.1.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/小苹果影视盒子_1.6.1.png" class="app-icon" alt="小苹果影视盒子_1.6.1">
-            </div>
-            <div class="app-name">小苹果影视盒子_1.6.1</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="5" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/千寻_1.1.2.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/千寻_1.1.2.png" class="app-icon" alt="千寻_1.1.2">
-            </div>
-            <div class="app-name">千寻_1.1.2</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="6" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/昭昭TV_1.0.3.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/昭昭TV_1.0.3.png" class="app-icon" alt="昭昭TV_1.0.3">
-            </div>
-            <div class="app-name">昭昭TV_1.0.3</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="7" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/SmartTube_30.48.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/SmartTube_30.48.png" class="app-icon" alt="SmartTube_30.48">
-            </div>
-            <div class="app-name">SmartTube_30.48</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="8" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/新喵影视_1.1.3.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/新喵影视_1.1.3.png" class="app-icon" alt="新喵影视_1.1.3">
-            </div>
-            <div class="app-name">新喵影视_1.1.3</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="9" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/BrowseHere浏览器_8.02.085_eb15043_251031_gp.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/BrowseHere浏览器_8.02.085_eb15043_251031_gp.png" class="app-icon" alt="BrowseHere浏览器_8.02.085_eb15043_251031_gp">
-            </div>
-            <div class="app-name">BrowseHere浏览器_8.02.085_eb15043_251031_gp</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="10" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/高清电视_2.96.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/高清电视_2.96.png" class="app-icon" alt="高清电视_2.96">
-            </div>
-            <div class="app-name">高清电视_2.96</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="11" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/QuickFox_1.2.6.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/default.png" class="app-icon" alt="QuickFox_1.2.6">
-            </div>
-            <div class="app-name">QuickFox_1.2.6</div>
-            <button class="download-btn">下载</button>
-        </div>
-        <div class="app-card" tabindex="12" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/丰彩TV_1.0.2.apk')">
-            <div class="icon-container">
-                <img src="http://abc.apei583.top:5244/d/APP/tvapp/icon/丰彩TV_1.0.2.png" class="app-icon" alt="丰彩TV_1.0.2">
-            </div>
-            <div class="app-name">丰彩TV_1.0.2</div>
-            <button class="download-btn">下载</button>
-        </div>
+    <div class="category-nav">
+        <div class="nav-item" id="nav-1" onclick="showCategory('category-1')" tabindex="1">
+                    全部应用 (14)
+                </div><div class="nav-item" id="nav-2" onclick="showCategory('category-2')" tabindex="2">
+                    海外 (3)
+                </div><div class="nav-item" id="nav-3" onclick="showCategory('category-3')" tabindex="3">
+                    影视 (3)
+                </div><div class="nav-item" id="nav-4" onclick="showCategory('category-4')" tabindex="4">
+                    直播 (6)
+                </div><div class="nav-item" id="nav-5" onclick="showCategory('category-5')" tabindex="5">
+                    工具 (2)
+                </div>
+    </div>
+
+    <div class="categories-container">
+        <div class="category-content" id="category-1" style="display:block">
+                    <h2>全部应用</h2>
+                    <div class="app-grid">
+                        <div class="app-card" id="category-1-card-1" tabindex="101" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/QuickFox_1.2.6.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="QuickFox_1.2.6">
+                        </div>
+                        <div class="app-name">QuickFox_1.2.6</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-2" tabindex="102" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/爱壹帆_2.3.4.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/爱壹帆_2.3.4.png" class="app-icon" alt="爱壹帆_2.3.4">
+                        </div>
+                        <div class="app-name">爱壹帆_2.3.4</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-3" tabindex="103" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/SmartTube_30.48.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/SmartTube_30.48.png" class="app-icon" alt="SmartTube_30.48">
+                        </div>
+                        <div class="app-name">SmartTube_30.48</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-4" tabindex="104" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/新喵影视_1.1.3.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/新喵影视_1.1.3.png" class="app-icon" alt="新喵影视_1.1.3">
+                        </div>
+                        <div class="app-name">新喵影视_1.1.3</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-5" tabindex="105" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/独播库TV_6.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/独播库TV_6.2.png" class="app-icon" alt="独播库TV_6.2">
+                        </div>
+                        <div class="app-name">独播库TV_6.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-6" tabindex="106" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/小苹果影视盒子_1.6.1.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/小苹果影视盒子_1.6.1.png" class="app-icon" alt="小苹果影视盒子_1.6.1">
+                        </div>
+                        <div class="app-name">小苹果影视盒子_1.6.1</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-7" tabindex="107" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/高清电视_2.96.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/高清电视_2.96.png" class="app-icon" alt="高清电视_2.96">
+                        </div>
+                        <div class="app-name">高清电视_2.96</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-8" tabindex="108" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/千寻_1.1.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/千寻_1.1.2.png" class="app-icon" alt="千寻_1.1.2">
+                        </div>
+                        <div class="app-name">千寻_1.1.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-9" tabindex="109" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/老李米古TV [3.5.2].apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="老李米古TV [3.5.2]">
+                        </div>
+                        <div class="app-name">老李米古TV [3.5.2]</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-10" tabindex="110" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/丰彩TV_1.0.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/丰彩TV_1.0.2.png" class="app-icon" alt="丰彩TV_1.0.2">
+                        </div>
+                        <div class="app-name">丰彩TV_1.0.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-11" tabindex="111" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/星火电视 [1.0.50].apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="星火电视 [1.0.50]">
+                        </div>
+                        <div class="app-name">星火电视 [1.0.50]</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-12" tabindex="112" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/昭昭TV_1.0.3.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/昭昭TV_1.0.3.png" class="app-icon" alt="昭昭TV_1.0.3">
+                        </div>
+                        <div class="app-name">昭昭TV_1.0.3</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-13" tabindex="113" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/工具/野草助手小米海信版_2.0.8.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/野草助手小米海信版_2.0.8.png" class="app-icon" alt="野草助手小米海信版_2.0.8">
+                        </div>
+                        <div class="app-name">野草助手小米海信版_2.0.8</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-1-card-14" tabindex="114" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/工具/BrowseHere浏览器_8.02.085_eb15043_251031_gp.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/BrowseHere浏览器_8.02.085_eb15043_251031_gp.png" class="app-icon" alt="BrowseHere浏览器_8.02.085_eb15043_251031_gp">
+                        </div>
+                        <div class="app-name">BrowseHere浏览器_8.02.085_eb15043_251031_gp</div>
+                        <button class="download-btn">下载</button>
+                    </div>
+                    </div>
+                </div><div class="category-content" id="category-2" style="display:none">
+                    <h2>海外</h2>
+                    <div class="app-grid">
+                        <div class="app-card" id="category-2-card-1" tabindex="201" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/QuickFox_1.2.6.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="QuickFox_1.2.6">
+                        </div>
+                        <div class="app-name">QuickFox_1.2.6</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-2-card-2" tabindex="202" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/爱壹帆_2.3.4.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/爱壹帆_2.3.4.png" class="app-icon" alt="爱壹帆_2.3.4">
+                        </div>
+                        <div class="app-name">爱壹帆_2.3.4</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-2-card-3" tabindex="203" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/海外/SmartTube_30.48.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/SmartTube_30.48.png" class="app-icon" alt="SmartTube_30.48">
+                        </div>
+                        <div class="app-name">SmartTube_30.48</div>
+                        <button class="download-btn">下载</button>
+                    </div>
+                    </div>
+                </div><div class="category-content" id="category-3" style="display:none">
+                    <h2>影视</h2>
+                    <div class="app-grid">
+                        <div class="app-card" id="category-3-card-1" tabindex="301" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/新喵影视_1.1.3.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/新喵影视_1.1.3.png" class="app-icon" alt="新喵影视_1.1.3">
+                        </div>
+                        <div class="app-name">新喵影视_1.1.3</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-3-card-2" tabindex="302" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/独播库TV_6.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/独播库TV_6.2.png" class="app-icon" alt="独播库TV_6.2">
+                        </div>
+                        <div class="app-name">独播库TV_6.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-3-card-3" tabindex="303" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/影视/小苹果影视盒子_1.6.1.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/小苹果影视盒子_1.6.1.png" class="app-icon" alt="小苹果影视盒子_1.6.1">
+                        </div>
+                        <div class="app-name">小苹果影视盒子_1.6.1</div>
+                        <button class="download-btn">下载</button>
+                    </div>
+                    </div>
+                </div><div class="category-content" id="category-4" style="display:none">
+                    <h2>直播</h2>
+                    <div class="app-grid">
+                        <div class="app-card" id="category-4-card-1" tabindex="401" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/高清电视_2.96.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/高清电视_2.96.png" class="app-icon" alt="高清电视_2.96">
+                        </div>
+                        <div class="app-name">高清电视_2.96</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-4-card-2" tabindex="402" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/千寻_1.1.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/千寻_1.1.2.png" class="app-icon" alt="千寻_1.1.2">
+                        </div>
+                        <div class="app-name">千寻_1.1.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-4-card-3" tabindex="403" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/老李米古TV [3.5.2].apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="老李米古TV [3.5.2]">
+                        </div>
+                        <div class="app-name">老李米古TV [3.5.2]</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-4-card-4" tabindex="404" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/丰彩TV_1.0.2.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/丰彩TV_1.0.2.png" class="app-icon" alt="丰彩TV_1.0.2">
+                        </div>
+                        <div class="app-name">丰彩TV_1.0.2</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-4-card-5" tabindex="405" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/星火电视 [1.0.50].apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/default.png" class="app-icon" alt="星火电视 [1.0.50]">
+                        </div>
+                        <div class="app-name">星火电视 [1.0.50]</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-4-card-6" tabindex="406" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/直播/昭昭TV_1.0.3.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/昭昭TV_1.0.3.png" class="app-icon" alt="昭昭TV_1.0.3">
+                        </div>
+                        <div class="app-name">昭昭TV_1.0.3</div>
+                        <button class="download-btn">下载</button>
+                    </div>
+                    </div>
+                </div><div class="category-content" id="category-5" style="display:none">
+                    <h2>工具</h2>
+                    <div class="app-grid">
+                        <div class="app-card" id="category-5-card-1" tabindex="501" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/工具/野草助手小米海信版_2.0.8.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/野草助手小米海信版_2.0.8.png" class="app-icon" alt="野草助手小米海信版_2.0.8">
+                        </div>
+                        <div class="app-name">野草助手小米海信版_2.0.8</div>
+                        <button class="download-btn">下载</button>
+                    </div><div class="app-card" id="category-5-card-2" tabindex="502" onclick="window.open('http://abc.apei583.top:5244/d/APP/tvapp/工具/BrowseHere浏览器_8.02.085_eb15043_251031_gp.apk')">
+                        <div class="icon-container">
+                            <img src="http://abc.apei583.top:5244/d/APP/icon/BrowseHere浏览器_8.02.085_eb15043_251031_gp.png" class="app-icon" alt="BrowseHere浏览器_8.02.085_eb15043_251031_gp">
+                        </div>
+                        <div class="app-name">BrowseHere浏览器_8.02.085_eb15043_251031_gp</div>
+                        <button class="download-btn">下载</button>
+                    </div>
+                    </div>
+                </div>
     </div>
 
     <script>
-        // 核心优化：16:9适配+一键切换（按一下直接选中下一个）
-        const focusable = document.querySelectorAll('.app-card, header');
-        let currentIndex = 0;
-        const totalItems = focusable.length;
-        let columnCount = calculateColumnCount(); // 16:9比例精准列数
-        let cardElements = Array.from(document.querySelectorAll('.app-card'));
+        // 当前激活的分类
+        let currentCategory = document.querySelector('.category-content[style*="display:block"]');
+        let currentNavItem = document.querySelector('.nav-item');
         
-        // 初始聚焦到头部（一键切换生效）
-        focusable[currentIndex].focus();
-
-        // 16:9比例优化列数计算（确保多列显示）
-        function calculateColumnCount() {
-            const grid = document.querySelector('.app-grid');
-            const card = document.querySelector('.app-card');
-            if (!grid || !card) return 6; // 最低保证6列
+        // 显示指定分类
+        function showCategory(categoryId) {
+            // 隐藏所有分类
+            document.querySelectorAll('.category-content').forEach(el => {
+                el.style.display = 'none';
+            });
             
-            const gridWidth = grid.clientWidth;
-            const cardWidth = card.offsetWidth;
-            const gap = parseFloat(window.getComputedStyle(grid).gap);
-            
-            // 16:9下强制最少6列，最多根据宽度自动扩展
-            const count = Math.max(6, Math.floor(gridWidth / (cardWidth + gap)));
-            console.log(`16:9屏幕列数：${count}（网格宽：${gridWidth}，卡片宽：${cardWidth}）`);
-            return count;
+            // 显示选中分类
+            const targetCategory = document.getElementById(categoryId);
+            if (targetCategory) {
+                targetCategory.style.display = 'block';
+                currentCategory = targetCategory;
+                
+                // 更新导航选中状态
+                document.querySelectorAll('.nav-item').forEach(el => {
+                    el.style.background = '';
+                    el.style.color = '';
+                    el.style.borderColor = 'transparent';
+                });
+                
+                const navId = categoryId.replace('category-', 'nav-');
+                const targetNav = document.getElementById(navId);
+                if (targetNav) {
+                    targetNav.style.background = '#409eff';
+                    targetNav.style.color = 'white';
+                    targetNav.style.borderColor = '#66b1ff';
+                    currentNavItem = targetNav;
+                }
+                
+                // 聚焦到第一个应用卡片
+                const firstCard = targetCategory.querySelector('.app-card');
+                if (firstCard) {
+                    // firstCard.focus(); // 可选：自动聚焦第一个卡片
+                }
+            }
         }
-
-        // 窗口大小变化时实时更新列数（16:9比例自适应）
-        window.addEventListener('resize', () => {
-            columnCount = calculateColumnCount();
-        });
-
-        // 一键切换逻辑（按一下直接选中，无延迟）
+        
+        // 初始化第一个分类
+        document.querySelectorAll('.nav-item')[0].style.background = '#409eff';
+        document.querySelectorAll('.nav-item')[0].style.color = 'white';
+        document.querySelectorAll('.nav-item')[0].style.borderColor = '#66b1ff';
+        
+        // 遥控器导航控制
+        const navItems = Array.from(document.querySelectorAll('.nav-item'));
+        
+        // 获取所有可聚焦元素
+        function getAllFocusable() {
+            const focusable = [];
+            focusable.push(document.querySelector('header'));
+            navItems.forEach(item => focusable.push(item));
+            
+            // 添加当前分类的应用卡片
+            if (currentCategory) {
+                const cards = currentCategory.querySelectorAll('.app-card');
+                cards.forEach(card => focusable.push(card));
+            }
+            
+            return focusable;
+        }
+        
+        // 导航控制
         document.onkeydown = function(e) {
             e = e || window.event;
             const key = e.key || e.keyCode;
-            let newIndex = currentIndex;
-
-            const isOnHeader = currentIndex === 0;
-            const firstAppIndex = 1;
-            const lastAppIndex = totalItems - 1;
-
-            // 取消按键重复触发延迟（关键：实现一键切换）
+            
+            const focusable = getAllFocusable();
+            const columnCount = calculateColumnCount();
+            
+            // 取消按键重复触发延迟
             e.repeat = false;
-
+            
+            // 查找当前焦点位置
+            let currentIndex = focusable.findIndex(el => el === document.activeElement);
+            if (currentIndex === -1) currentIndex = 0;
+            
+            let newIndex = currentIndex;
+            
             switch(key) {
-                // 向右：按一下→下一个（无延迟）
                 case 'ArrowRight': case 39:
-                    if (isOnHeader) {
-                        newIndex = firstAppIndex; // 头部→第一个应用
-                    } else {
-                        newIndex = Math.min(currentIndex + 1, lastAppIndex); // 不循环
-                    }
+                    newIndex = Math.min(currentIndex + 1, focusable.length - 1);
                     break;
-
-                // 向左：按一下→上一个（无延迟）
+                    
                 case 'ArrowLeft': case 37:
-                    if (currentIndex === firstAppIndex) {
-                        newIndex = 0; // 第一个应用→头部
-                    } else if (!isOnHeader) {
-                        newIndex = currentIndex - 1;
-                    }
+                    newIndex = Math.max(currentIndex - 1, 0);
                     break;
-
-                // 向下：按一下→同列下一行（无延迟）
+                    
                 case 'ArrowDown': case 40:
-                    if (isOnHeader) {
-                        newIndex = firstAppIndex; // 头部→第一个应用
-                    } else {
-                        const cardIndex = currentIndex - 1;
+                    if (currentIndex === 0) { // header
+                        newIndex = 1; // 第一个导航项
+                    } else if (currentIndex <= navItems.length) { // 导航项
+                        // 切换到当前分类的第一个应用
+                        const firstCardIndex = navItems.length + 1;
+                        if (firstCardIndex < focusable.length) {
+                            newIndex = firstCardIndex;
+                        }
+                    } else { // 应用卡片
+                        const cardIndex = currentIndex - (navItems.length + 1);
                         const nextCardIndex = cardIndex + columnCount;
-                        if (nextCardIndex < cardElements.length) {
-                            newIndex = nextCardIndex + 1;
-                        } else {
-                            newIndex = currentIndex; // 底部不循环
+                        const totalCards = focusable.length - (navItems.length + 1);
+                        
+                        if (nextCardIndex < totalCards) {
+                            newIndex = currentIndex + columnCount;
                         }
                     }
                     break;
-
-                // 向上：按一下→同列上一行（无延迟）
+                    
                 case 'ArrowUp': case 38:
-                    if (isOnHeader) {
-                        newIndex = 0; // 头部向上无效
-                    } else {
-                        const cardIndex = currentIndex - 1;
+                    if (currentIndex <= navItems.length) { // 导航项或header
+                        newIndex = Math.max(currentIndex - 1, 0);
+                    } else { // 应用卡片
+                        const cardIndex = currentIndex - (navItems.length + 1);
                         const prevCardIndex = cardIndex - columnCount;
+                        
                         if (prevCardIndex >= 0) {
-                            newIndex = prevCardIndex + 1;
+                            newIndex = currentIndex - columnCount;
                         } else {
-                            newIndex = 0; // 顶部→头部
+                            // 回到最后一个导航项
+                            newIndex = navItems.length;
                         }
                     }
                     break;
-
-                // 回车下载（按一下触发）
+                    
                 case 'Enter': case 13:
-                    if (!isOnHeader) {
-                        focusable[currentIndex]。click();
-                        const appName = focusable[currentIndex]。querySelector('.app-name')。textContent;
-                        console。log(`正在下载：${appName}`);
+                    if (currentIndex === 0) { // header
+                        // 无操作
+                    } else if (currentIndex <= navItems.length) { // 导航项
+                        const navItem = focusable[currentIndex];
+                        const categoryId = navItem.id.replace('nav-', 'category-');
+                        showCategory(categoryId);
+                    } else { // 应用卡片
+                        focusable[currentIndex].click();
+                        const appName = focusable[currentIndex].querySelector('.app-name').textContent;
+                        console.log(`正在下载：${appName}`);
                     }
                     break;
-
+                    
                 case 'Escape': case 27:
                     return;
                 default:
                     return;
             }
-
-            // 立即更新焦点（无延迟，实现一键切换）
-            if (newIndex !== currentIndex) {
-                currentIndex = newIndex;
-                focusable[currentIndex].focus();
+            
+            if (newIndex !== currentIndex && newIndex < focusable.length) {
+                focusable[newIndex].focus();
                 
-                // 快速滚动到可视区域（不卡顿）
-                focusable[currentIndex].scrollIntoView({
-                    behavior: 'instant', // 即时滚动，无平滑延迟
+                focusable[newIndex].scrollIntoView({
+                    behavior: 'instant',
                     block: 'nearest',
                     inline: 'nearest'
                 });
             }
-
-            // 阻止默认行为和按键重复（关键：避免按一下触发多次）
+            
             e.preventDefault();
             e.stopPropagation();
             return false;
         };
+        
+        // 计算列数
+        function calculateColumnCount() {
+            const grid = document.querySelector('.app-grid');
+            if (!grid) return 6;
+            
+            // 根据屏幕宽度计算列数
+            const screenWidth = window.innerWidth;
+            if (screenWidth >= 1920) return Math.floor(screenWidth / 150);
+            if (screenWidth >= 1600) return Math.floor(screenWidth / 145);
+            if (screenWidth >= 1280) return Math.floor(screenWidth / 140);
+            if (screenWidth >= 960) return Math.floor(screenWidth / 135);
+            if (screenWidth >= 768) return Math.floor(screenWidth / 130);
+            return Math.floor(screenWidth / 120) || 3;
+        }
+        
+        // 初始聚焦
+        document.querySelector('header').focus();
+        
+        // 窗口大小变化时重新计算布局
+        window.addEventListener('resize', function() {
+            // 重新计算列数以适应新的窗口大小
+            calculateColumnCount();
+        });
     </script>
 </body>
 </html>
