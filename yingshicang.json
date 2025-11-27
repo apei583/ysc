@@ -46,6 +46,45 @@
       }
     },
     {
+      "key": "csp_Gz360",
+      "name": "※瓜子┃影视",
+      "type": 3,
+      "api": "csp_Gz360",
+      "playerType": 2,
+      "jar": "https://img2.gelonghui.com/library/d6746-1ca6a028-b1c2-4ea1-9676-c6add8e48614.png;md5;d674699ad956f05cb6bdaa24dc765967"
+    },
+    {
+      "key": "csp_Tvyb",
+      "name": "※云播┃影视",
+      "type": 3,
+      "api": "csp_Tvyb",
+      "jar": "https://img2.gelonghui.com/library/d6746-1ca6a028-b1c2-4ea1-9676-c6add8e48614.png;md5;d674699ad956f05cb6bdaa24dc765967"
+    },
+    {
+      "key": "一碗",
+      "name": "※一碗┃APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "http://www.zjcvod.com|ab4e9a421675f14b",
+      "jar": "https://img2.gelonghui.com/library/d6746-1ca6a028-b1c2-4ea1-9676-c6add8e48614.png;md5;d674699ad956f05cb6bdaa24dc765967"
+    },
+    {
+      "key": "猫抓",
+      "name": "※猫抓┃APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://dy.8ttv.cn|1111111111111111",
+      "jar": "https://img2.gelonghui.com/library/d6746-1ca6a028-b1c2-4ea1-9676-c6add8e48614.png;md5;d674699ad956f05cb6bdaa24dc765967"
+    },
+    {
+      "key": "肥猫",
+      "name": "※肥猫┃APP",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": "https://bind.315999.xyz/89.txt|#getapp@TMD@2025|120",
+      "jar": "https://img2.gelonghui.com/library/d6746-1ca6a028-b1c2-4ea1-9676-c6add8e48614.png;md5;d674699ad956f05cb6bdaa24dc765967"
+    },
+    {
       "key": "热播影视",
       "name": "※热播｜APP",
       "type": 3,
@@ -124,15 +163,6 @@
       "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
     },
     {
-      "key": "csp_Tvyb",
-      "name": "※云播┃影视",
-      "type": 3,
-      "api": "csp_Tvyb",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
-    },
-    {
       "key": "苹果影视",
       "name": "※苹果｜影视",
       "type": 3,
@@ -140,15 +170,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "csp_Gz360",
-      "name": "※瓜子┃影视",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "changeable": 1,
-      "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
     },
     {
       "key": "火火",
