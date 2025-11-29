@@ -46,12 +46,13 @@
       }
     },
     {
-      "key": "csp_Gz360",
-      "name": "※瓜子┃影视",
+      "key": "瓜子影视",
+      "name": "※瓜子｜影视",
       "type": 3,
       "api": "csp_Gz360",
-      "playerType": 2,
-      "jar": "https://tv.菜妮丝.top/jar/feimao0731.jar;md5;4bb05945b726cf06209fb3b562f6aa83"
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "csp_Tvyb",
