@@ -6,7 +6,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u1",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
@@ -2207,12 +2207,12 @@
           "category": 1,
           "name": "http-detect-range-support",
           "value": "0"
-        },
+        }，
         {
           "category": 1,
           "name": "fflags",
           "value": "fastseek"
-        },
+        }，
         {
           "category": 2,
           "name": "skip_loop_filter",
@@ -2222,7 +2222,7 @@
           "category": 4,
           "name": "reconnect",
           "value": "1"
-        },
+        }，
         {
           "category": 4,
           "name": "enable-accurate-seek",
@@ -2232,12 +2232,12 @@
           "category": 4,
           "name": "mediacodec",
           "value": "1"
-        },
+        }，
         {
           "category": 4,
           "name": "mediacodec-auto-rotate",
           "value": "1"
-        },
+        }，
         {
           "category": 4,
           "name": "mediacodec-handle-resolution-change",
@@ -2259,4 +2259,5 @@
   "ads": [
     "static-mozai.4gtv.tv"
   ]
+
 }
