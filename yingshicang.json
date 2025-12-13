@@ -179,16 +179,6 @@
       "jar": "https://oss4liview.moji.com/thd_file/2025/10/22/9a7c45e81b717d4c6e7f9fc96d9ad6f5.jpg;md5;1910aa90425fdf206d3a39697e9ffe1b"
     },
     {
-      "key": "80S",
-      "name": "※80S｜磁力",
-      "type": 3,
-      "api": "csp_BLSGod",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "磁力",
       "name": "※新6V｜磁力",
       "type": 3,
