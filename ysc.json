@@ -55,6 +55,18 @@
       "filterable": 1
     },
     {
+      "key": "瓜子",
+      "name": "🍉瓜子┃App",
+      "type": 3,
+      "api": "csp_GuaziGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
       "key": "农民",
       "name": "※农民┃影视",
       "type": 3,

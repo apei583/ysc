@@ -27,23 +27,32 @@
       "searchable": 0
     },
     {
-      "key": "本地",
-      "name": "本地｜视频",
+      "key": "本地播放",
+      "name": "🐼本地┃播放",
       "type": 3,
-      "api": "csp_LocalFile"
+      "api": "csp_LocalGuard",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      },
+      "timeout": 5,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
     },
     {
       "key": "配置中心",
-      "name": "配置｜中心",
+      "name": "👨‍🍳‍配置┃中心",
       "type": 3,
-      "api": "csp_Config",
+      "api": "csp_ConfigGuard",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
       "style": {
         "type": "rect",
-        "ratio": 1.597
-      }
+        "ratio": 1.43
+      },
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
     },
     {
       "key": "瓜子影视",
@@ -227,313 +236,247 @@
       "api": "csp_Tvyb",
       "ext": "http://www.viptv01.com"
     },
-    {
-      "key": "小斑快映",
-      "name": "快映｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/xbky.json"
-    },
-    {
-      "key": "玩偶哥哥",
-      "name": "玩偶｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/wogg.json"
-    },
-    {
-      "key": "木偶",
-      "name": "木偶｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/mogg.json"
-    },
-    {
-      "key": "蜡笔",
-      "name": "蜡笔｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lb.json"
-    },
-    {
-      "key": "至臻",
-      "name": "至臻｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/zz.json"
-    },
-    {
-      "key": "多多",
-      "name": "多多｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/yyds.json"
-    },
-    {
-      "key": "欧哥",
-      "name": "欧哥｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/og.json"
-    },
+
+
+
     {
       "key": "二小",
-      "name": "二小｜4K网盘",
+      "name": "🦢二小┃4K",
       "type": 3,
-      "api": "csp_PanWebShare",
+      "api": "csp_ErXiaoGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/ex.json"
-    },
-    {
-      "key": "虎斑",
-      "name": "虎斑｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hb.json"
-    },
-    {
-      "key": "闪电",
-      "name": "闪电｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/sd.json"
-    },
-    {
-      "key": "百家",
-      "name": "百家｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/bj.json"
-    },
-    {
-      "key": "团长",
-      "name": "团长｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebTz",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "雷鲸",
-      "name": "雷鲸｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudLJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/lj.json"
-    },
-    {
-      "key": "海绵",
-      "name": "海绵｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudHM",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/hm.json"
-    },
-    {
-      "key": "夸父",
-      "name": "夸父｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloudKF",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/kf.json"
-    },
-    {
-      "key": "123",
-      "name": "123｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebShareCloud123",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/123.json"
-    },
-    {
-      "key": "趣盘",
-      "name": "趣盘｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebQu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": {
-        "url": "https://www.qupanshe.com"
-      }
-    },
-    {
-      "key": "盘库",
-      "name": "盘库｜4K网盘",
-      "type": 3,
-      "api": "csp_PanWebKuBa",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://panku8.com,https://yipanso.com"
-      }
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
     },
     {
       "key": "双星",
-      "name": "双星｜4K网盘",
+      "name": "🤩双星┃4K",
       "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/SX.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "校长",
-      "name": "校长｜4K网盘",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/XZ.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "人人电影网",
-      "name": "人人｜4K网盘",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/js/drpy2.min.js",
-      "ext": "https://ysc.apei583.dpdns.org/cloud/js/RRDYW.js",
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "糖果",
-      "name": "糖果｜盘搜",
-      "type": 3,
-      "api": "csp_TGSou",
+      "api": "csp_Star2Guard",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "音海",
-      "name": "音海｜盘搜",
-      "type": 3,
-      "api": "csp_YinHai",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "盘搜",
-      "name": "盘搜｜盘搜",
-      "type": 3,
-      "api": "csp_PanSou",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "百酷",
-      "name": "百酷｜盘搜",
-      "type": 3,
-      "api": "csp_Baiku"
-    },
-    {
-      "key": "米搜",
-      "name": "米搜｜盘搜",
-      "type": 3,
-      "api": "csp_MiSou"
-    },
-    {
-      "key": "派派",
-      "name": "派派｜盘搜",
-      "type": 3,
-      "api": "csp_PPQPan"
-    },
-    {
-      "key": "夸克云盘",
-      "name": "夸克｜云盘",
-      "type": 3,
-      "api": "csp_PanQuark",
-      "searchable": 0,
-      "filterable": 0,
+      "filterable": 1,
       "changeable": 0,
       "style": {
-        "type": "list",
-        "ratio": 1.433
+        "type": "list"
       },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/quarkShare.json"
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "玩偶",
+      "name": "👽玩偶┃4K",
+      "type": 3,
+      "api": "csp_WoggGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 30,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "立播版",
+      "name": "🌟立播┃4K",
+      "type": 3,
+      "api": "csp_LibvioGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "timeout": 30,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "蜡笔",
+      "name": "👠蜡笔┃4K",
+      "type": 3,
+      "api": "csp_LabiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "木偶",
+      "name": "🪵木偶┃4K",
+      "type": 3,
+      "api": "csp_MuouGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "多多",
+      "name": "🪅多多┃4K",
+      "type": 3,
+      "api": "csp_DuoDuoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "小飒",
+      "name": "💒小飒┃4K",
+      "type": 3,
+      "api": "csp_XsayangGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "至臻",
+      "name": "💌至臻┃4K",
+      "type": 3,
+      "api": "csp_ZhiZhenGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "虎斑",
+      "name": "🐯虎斑┃4K",
+      "type": 3,
+      "api": "csp_HuBanGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "SeedHub",
+      "name": "🍀种子┃4K",
+      "type": 3,
+      "api": "csp_SeedHubGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "光影",
+      "name": "🎥光影┃4K",
+      "type": 3,
+      "api": "csp_GuanyingGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "timeout": 30,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "云集",
+      "name": "🍊云集┃4K",
+      "type": 3,
+      "api": "csp_YunJiGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "极狐",
+      "name": "🦊极狐┃4K",
+      "type": 3,
+      "api": "csp_Fox4kGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "盘他",
+      "name": "🎸盘他┃4K",
+      "type": 3,
+      "api": "csp_PantaGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "海绵",
+      "name": "🧽海绵┃4K",
+      "type": 3,
+      "api": "csp_HaiMianGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "雷鲸",
+      "name": "🐳雷鲸┃4K",
+      "type": 3,
+      "api": "csp_LeiJingGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "123分享",
+      "name": "🌂123┃4K",
+      "type": 3,
+      "api": "csp_Time123Guard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "timeout": 25,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "瓜子",
+      "name": "🍉瓜子┃App",
+      "type": 3,
+      "api": "csp_GuaziGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+    },
+    {
+      "key": "文才",
+      "name": "🌺文才┃在线",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
     },
     {
       "key": "星空",
