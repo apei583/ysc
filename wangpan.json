@@ -27,43 +27,6 @@
       "searchable": 0
     },
     {
-      "key": "本地播放",
-      "name": "🐼本地┃播放",
-      "type": 3,
-      "api": "csp_LocalGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "list"
-      },
-      "timeout": 5,
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
-    },
-    {
-      "key": "配置中心",
-      "name": "👨‍🍳‍配置┃中心",
-      "type": 3,
-      "api": "csp_ConfigGuard",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.43
-      },
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
-    },
-    {
-      "key": "豆瓣",
-      "name": "🤓公众号┃OK杰克",
-      "type": 3,
-      "api": "csp_DoubanGuard",
-      "searchable": 0,
-      "changeable": 1,
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/23/4d69a3d7a09d4373b4e29975b3ab6fef.jpg;md5;5023ec17f535853867ba160423a8d22a"
-    },
-    {
       "key": "配置中心",
       "name": "👨‍🍳‍配置┃中心",
       "type": 3,
