@@ -64,7 +64,7 @@
       "changeable": 1,
       "filterable": 1,
       "timeout": 10,
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/21/09723629ca796890dbb6b2a0bfcaa78d.jpg;md5;5bd52ccfa5af38c6049178b8ed82729f"
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "农民",
@@ -134,7 +134,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://oss4liview.moji.com/thd_file/2025/10/22/9a7c45e81b717d4c6e7f9fc96d9ad6f5.jpg;md5;1910aa90425fdf206d3a39697e9ffe1b"
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "欢视",
@@ -147,7 +147,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT9fFAy5mE5qU=",
-      "jar": "https://oss4liview.moji.com/thd_file/2025/10/22/9a7c45e81b717d4c6e7f9fc96d9ad6f5.jpg;md5;1910aa90425fdf206d3a39697e9ffe1b"
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "潮流",
@@ -188,15 +188,18 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://oss4liview.moji.com/thd_file/2025/10/22/9a7c45e81b717d4c6e7f9fc96d9ad6f5.jpg;md5;1910aa90425fdf206d3a39697e9ffe1b"
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
-      "key": "磁力",
-      "name": "※新6V｜磁力",
+      "key": "新6V",
+      "name": "🧲新6V┃磁力",
       "type": 3,
-      "api": "csp_New6v",
-      "ext": "https://www.xb6v.com",
-      "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
+      "api": "csp_Xb6vGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "timeout": 20,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "影港",
@@ -794,152 +797,260 @@
         "ratio": 1.433
       }
     },
+
     {
-      "key": "AList",
-      "name": "AList｜合集",
+      "key": "聚合直播",
+      "name": "📽️聚合┃直播",
       "type": 3,
-      "api": "csp_Alist",
-      "searchable": 1,
+      "api": "csp_LivingGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "filterable": 1,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "快手直播",
+      "name": "😎快手┃直播",
+      "type": 3,
+      "api": "csp_KsLiveGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "虎牙直播",
+      "name": "🐯虎牙┃直播",
+      "type": 3,
+      "api": "csp_HuyaGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "瓜子看球",
+      "name": "⚽瓜子┃看球",
+      "type": 3,
+      "api": "csp_GzSportGuard",
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "style": {
         "type": "list"
       },
-      "ext": "https://ysc.apei583.dpdns.org/cloud/json/alist.json"
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "88看球",
-      "name": "88｜看球",
+      "name": "⚽88┃看球",
       "type": 3,
-      "api": "csp_Kanqiu",
-      "gridview": 3,
+      "api": "csp_KanqiuGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
-      "key": "戏曲多多",
-      "name": "戏曲｜多多",
+      "key": "世界听书",
+      "name": "🎸世界┃听书",
       "type": 3,
-      "api": "csp_AppLY",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "网络直播",
-      "name": "网络｜直播",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/webcast/py/WLZB.py"
-    },
-    {
-      "key": "哔哩直播",
-      "name": "哔哩｜直播",
-      "type": 3,
-      "api": "https://ysc.apei583.dpdns.org/webcast/py/BLZB.py"
-    },
-    {
-      "key": "哔哩合集",
-      "name": "哔哩｜合集",
-      "type": 3,
-      "api": "csp_Bili",
+      "api": "csp_BookTingGuard",
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 0,
       "changeable": 0,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "六月听书",
+      "name": "🎤六月┃听书",
+      "type": 3,
+      "api": "csp_WeiTingGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "bilimd",
+      "name": "🅱哔哩┃影视",
+      "type": 3,
+      "api": "csp_BilimdGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "timeout": 10,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "bili",
+      "name": "🅱哔哩┃合集",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
       "ext": {
-        "json": "https://9877.kstore.space/Moive/json/哔哩合集.json",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-      }
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/57EAD2E_773_bili_20251204145747516newMediaFile.bmp"
+      },
+      "timeout": 20,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
-      "key": "哔哩哔哩演唱会",
-      "name": "哔哩｜音乐",
+      "key": "biliych",
+      "name": "🅱哔哩┃歌曲",
       "type": 3,
-      "api": "csp_Bili",
+      "api": "csp_BiliGuard",
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
-      "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://ysc.apei583.dpdns.org/other/json/BLYCH.json"
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
       },
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/28CD73E_773_biliych_20251204150624308newMediaFile.bmp"
+      },
+      "timeout": 20,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "bilixs",
+      "name": "🅱哔哩┃相声",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/C7FB4B_773_bilixs_20251204150416832newMediaFile.bmp"
+      },
+      "timeout": 20,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "bilixp",
+      "name": "🅱哔哩┃小品",
+      "type": 3,
+      "api": "csp_BiliGuard",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/41F4D38_773_bilixp_20251204150443351newMediaFile.bmp"
+      },
+      "timeout": 20,
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "少儿教育",
+      "name": "📚少儿┃教育",
+      "type": 3,
+      "api": "csp_BiliGuard",
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
-    },
-    {
-      "key": "哔哩哔哩听书",
-      "name": "哔哩｜听书",
-      "type": 3,
-      "api": "csp_Bili",
+      },
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://ysc.apei583.dpdns.org/other/json/BLTS.json"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/32EF375_773_bilisejy_20251204150311837newMediaFile.bmp"
       },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "小学课堂",
+      "name": "📚小学┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
-    },
-    {
-      "key": "哔哩哔哩相声",
-      "name": "哔哩｜相声",
-      "type": 3,
-      "api": "csp_Bili",
+      },
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://ysc.apei583.dpdns.org/other/json/BLXS.json"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3753221_773_bilixxkt_20251204150347660newMediaFile.bmp"
       },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "初中课堂",
+      "name": "📚初中┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
-    },
-    {
-      "key": "哔哩哔哩小品",
-      "name": "哔哩｜小品",
-      "type": 3,
-      "api": "csp_Bili",
+      },
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://ysc.apei583.dpdns.org/other/json/BLXP.json"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3ED04A6_773_biliczkt_20251204150157889newMediaFile.bmp"
       },
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
+    },
+    {
+      "key": "高中教育",
+      "name": "📚高中┃课堂",
+      "type": 3,
+      "api": "csp_BiliGuard",
       "style": {
         "type": "rect",
         "ratio": 1.597
-      }
-    },
-    {
-      "key": "哔哩哔哩戏曲",
-      "name": "哔哩｜戏曲",
-      "type": 3,
-      "api": "csp_Bili",
+      },
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0,
+      "changeable": 0,
       "ext": {
-        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-        "json": "https://ysc.apei583.dpdns.org/other/json/BLXQ.json"
+        "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/531DD35_773_biligzkt_20251204150243460newMediaFile.bmp"
       },
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57"
     },
     {
       "key": "急救教学",
