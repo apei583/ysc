@@ -107,13 +107,6 @@
       "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
     },
     {
-      "key": "奇优",
-      "name": "奇优┃影视",
-      "type": 3,
-      "api": "csp_Qiyou",
-      "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
-    },
-    {
       "key": "热播影视",
       "name": "※热播｜APP",
       "type": 3,
