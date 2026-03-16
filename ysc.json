@@ -188,12 +188,6 @@
             "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
         },
         {
-            "key": "柚子",
-            "name": "※柚子┃影视",
-            "type": 0,
-            "api": "https://api.yzzy-api.com/inc/api.php"
-        },
-        {
             "key": "三四",
             "name": "※三四┃影视",
             "type": 3,
