@@ -68,13 +68,20 @@
             "jar": "https://oss4liview.moji.com/thd_file/2026/02/20/b5bb5a60fbb9b26fe6f59ac609fca9ce.jpg;md5;32091ed00f3c6bab72ba657bdc1599c8"
         },
         {
-            "key": "瓜子影视",
-            "name": "※瓜子｜影视",
+            "key": "瓜子",
+            "name": "瓜子┃影视",
             "type": 3,
-            "api": "csp_Gz360",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Guazi",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
         },
         {
             "key": "瓜子",
@@ -151,24 +158,34 @@
             "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
         },
         {
-            "key": "荐片",
+            "key": "荐片弹幕版",
             "name": "※荐片┃磁力",
             "type": 3,
-            "api": "csp_JPJGuard",
-            "timeout": 15,
-            "playerType": 2,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Jianpian",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
+        },
+        {
+            "key": "新6V",
+            "name": "🧲新6V┃磁力",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 0,
-            "jar": "https://oss4liview.moji.com/thd_file/2026/02/20/b5bb5a60fbb9b26fe6f59ac609fca9ce.jpg;md5;32091ed00f3c6bab72ba657bdc1599c8"
-        },
-        {
-            "key": "磁力",
-            "name": "※新6V｜磁力",
-            "type": 3,
-            "api": "csp_New6v",
-            "ext": "https://www.xb6v.com",
-            "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
+            "ext": {
+                "sp": "Xb6v"
+            },
+            "timeout": 20,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
         },
         {
             "key": "影港",
@@ -179,11 +196,21 @@
             "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
         },
         {
-            "key": "天堂",
-            "name": "※天堂｜磁力",
+            "key": "电影天堂",
+            "name": "🎞️天堂┃弹幕",
             "type": 3,
-            "api": "csp_DyGod",
-            "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "Caiji",
+                "api": "http://dyttzy5.tv/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
         },
         {
             "key": "永乐",
@@ -200,12 +227,20 @@
             "api": "https://api.yzzy-api.com/inc/api.php"
         },
         {
-            "key": "三四",
-            "name": "※三四┃影视",
+            "key": "厂长弹幕版",
+            "name": "📔厂长┃弹幕",
             "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "https://tv.youdu.fan:666/duhe/js/三四.js",
-            "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "filterable": 1,
+            "ext": {
+                "sp": "Czzy",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
         },
         {
             "key": "金牌",
@@ -226,23 +261,52 @@
             "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
         },
         {
-            "key": "爱看",
-            "name": "※爱看┃影视",
+            "key": "️爱看Bot弹幕版",
+            "name": "⛅️爱看┃弹幕",
             "type": 3,
-            "api": "csp_Ikanbot",
-            "jar": "https://tv.youdu.fan:666/duhe/xs.jar;md5;68176d3e5c5e6c10b53fe0bda2b51ee9"
-        },
-        {
-            "key": "热播影视",
-            "name": "※热播｜APP",
-            "type": 3,
-            "api": "csp_AppRJ",
+            "api": "csp_AweSomeGuard",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0,
+            "changeable": 1,
+            "filterable": 1,
             "ext": {
-                "url": "http://v.rbotv.cn"
-            }
+                "sp": "Ikanbot",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
+        },
+        {
+            "key": "热播弹幕版",
+            "name": "📺热播┃弹幕",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "sp": "TianTian",
+                "danmu": true,
+                "site": 0
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
+        },
+        {
+            "key": "csp_Btt",
+            "name": "🌞比特┃弹幕",
+            "type": 3,
+            "api": "csp_AweSomeGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "sp": "Btt",
+                "danmu": true
+            },
+            "timeout": 10,
+            "jar": "http://oss4liview.moji.com/thd_file/2026/01/26/0e8629c873fea38d04bc58cbeb28c3c5.jpg;md5;127ea82cb8bf8a82f0cf64da66e39b60"
         },
         {
             "key": "糯米",
