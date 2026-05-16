@@ -17,11 +17,7 @@
       "name": "少儿频道"
     },
     {
-      "url": "https://raw.githubusercontent.com/apei583/ysc/main/haiwai.json",
-      "name": "海外线路"
-    },
-    {
-      "url": "https://bitbucket.org/apei583/ysc/raw/main/shangdian.json",
+      "url": "https://ysc.apei583.dpdns.org/shangdian.json",
       "name": "下载商店"
     },
     {
