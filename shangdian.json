@@ -1,6 +1,6 @@
 {
 "warningText":"📢此线路仅用于更新应用\n📢不包含任何影视信息\n📢接口软件长期免费维护 \n📢内部测试使用切勿传播",
 "sites": [
-{"key": "应用商店","name": "点下方>点播应用<下载新版","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "http://abc.apei583.top:5244/d/APP/shuju/market.json","jar":"https://ysc.apei583.dpdns.org/pg.jar"}
+{"key": "应用商店","name": "点下方>点播应用<下载新版","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://ysc.apei583.dpdns.org/market.json","jar":"https://ysc.apei583.dpdns.org/pg.jar"}
 ]
 }
