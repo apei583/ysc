@@ -64,14 +64,14 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "荐片",
       "name": "💡荐片｜影视",
       "api": "csp_JianPian",
       "type": 3,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "热播影视",
@@ -84,7 +84,7 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "农民影视",
@@ -92,14 +92,14 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "三六零",
       "name": "💡三六｜视频",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "骚火影视",
@@ -108,7 +108,7 @@
       "api": "csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "金牌影视",
@@ -116,7 +116,7 @@
       "type": 3,
       "api": "csp_Jpys",
       "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "云播影视",
@@ -124,7 +124,7 @@
       "type": 3,
       "api": "csp_Tvyb",
       "ext": "http://www.tvyb03.com",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "1905",
@@ -134,7 +134,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "橘皮",
@@ -185,7 +185,7 @@
         "dataIv": "zxPtEUDGVllIUhDB",
         "ua": "okhttp/3.10.0"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "黑猫",
@@ -199,7 +199,7 @@
         "dataKey": "VwsHxkCViDXEExWa",
         "dataIv": "VwsHxkCViDXEExWa"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "奴娜",
@@ -210,7 +210,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.nntv.in/api.php/v1.vod",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "秒看",
@@ -225,7 +225,7 @@
         "dataIv": "c60d88b2eep53za8",
         "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "猎豹",
@@ -239,7 +239,7 @@
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "王子",
@@ -253,7 +253,7 @@
         "dataKey": "5a9w6x58dsq6z3a6",
         "dataIv": "5a9w6x58dsq6z3a6"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "茉莉",
@@ -267,7 +267,7 @@
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "气球",
@@ -279,7 +279,7 @@
         "dataKey": "8888888888888888",
         "dataIv": "8888888888888888"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "瓜子影视",
@@ -371,7 +371,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.xb6v.com",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "80S",
@@ -382,7 +382,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "修罗",
@@ -390,7 +390,7 @@
       "api": "csp_Xlys",
       "type": 3,
       "ext": "https://xl01.com.de",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "七味",
@@ -403,7 +403,7 @@
       "ext": {
         "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "电影港",
@@ -414,7 +414,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/电影港.json",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "电影天堂",
@@ -424,7 +424,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "曼波动漫",
@@ -439,7 +439,7 @@
         "deviceId": "",
         "version": ""
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "魔都资源",
@@ -461,7 +461,7 @@
         "listKey": "aassddwwxxllsx1x",
         "parsesKey": "aassddwwxxllsx1x"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "番薯动漫",
@@ -474,7 +474,7 @@
         "dataKey": "N4yj7l7xKxHF4*gz",
         "dataIv": "N4yj7l7xKxHF4*gz"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "养生堂",
@@ -513,7 +513,7 @@
         "分类url": "http://114bate.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$38"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "农民",
@@ -540,7 +540,7 @@
         "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
         "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "先生",
@@ -602,14 +602,14 @@
         "ratio": 3.8
       },
       "gridview": "0-0-4.1",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "本地",
       "name": "🚤本地｜视频",
       "type": 3,
       "api": "csp_LocalFile",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "呦呦DJ",
@@ -619,7 +619,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "戏曲多多",
@@ -629,7 +629,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "919体育",
@@ -639,7 +639,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "世界听书",
@@ -649,7 +649,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "采集之王",
@@ -682,7 +682,7 @@
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "应用商店",
@@ -692,7 +692,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "https://aaa.v.nxog.top/zm/sd?b=如果失效等候更新或者在线更新本地包防失效",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "豆瓣3",
@@ -700,7 +700,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     },
     {
       "key": "豆瓣4",
@@ -708,7 +708,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar"
+      "jar": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar"
     }
   ],
   "rules": [
@@ -1092,6 +1092,6 @@
       ]
     }
   ],
-  "spider": "https://ysc.apei583.ccwu.cc/jar/0518ouge2.jar",
+  "spider": "https://ysc.apei583.dpdns.org/jar/0518ouge2.jar",
   "warningText": "📢如果搜索闪退请更新最新版\n📢接口软件长期免费维护 \n📢内部测试使用切勿传播"
 }
