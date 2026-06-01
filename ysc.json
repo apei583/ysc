@@ -6,7 +6,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -19,7 +19,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -27,7 +27,7 @@
       "name": "💡荐片｜影视",
       "api": "csp_JianPian",
       "type": 3,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -38,7 +38,7 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -48,7 +48,7 @@
       "name": "💡三六｜视频",
       "type": 3,
       "api": "csp_SP360",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -60,7 +60,7 @@
       "api": "csp_SaoHuo",
       "playerType": 2,
       "ext": "https://shdy5.us",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -71,7 +71,7 @@
       "type": 3,
       "api": "csp_Jpys",
       "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -82,7 +82,7 @@
       "type": 3,
       "api": "csp_Tvyb",
       "ext": "http://www.tvyb03.com",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -95,7 +95,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "柠檬",
@@ -103,7 +103,7 @@
       "type": 3,
       "api": "csp_Nmvod",
       "playerType": 2,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/939FFBC2941A28CA533F2653FA4B449E.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/939FFBC2941A28CA533F2653FA4B449E.zip",
       "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1",
       "searchable": 1,
       "quickSearch": 1,
@@ -115,7 +115,7 @@
       "type": 3,
       "api": "csp_Jpys",
       "playerType": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/939FFBC2941A28CA533F2653FA4B449E.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/939FFBC2941A28CA533F2653FA4B449E.zip",
       "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l",
       "searchable": 1,
       "quickSearch": 1,
@@ -125,7 +125,7 @@
       "key": "大师兄",
       "name": "💡师兄┃影视",
       "type": 3,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/a4f403a000bc5e4ebdd9da27fcb05852.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/a4f403a000bc5e4ebdd9da27fcb05852.zip",
       "api": "csp_AppV6",
       "playerType": 2,
       "ext": "7lj763gg0939790h44298182lk5j9k99k2g4ih53jl9i376l514k16hilj0443400h9k4jgh8312j1912818glikl7lh1jk9k4222k1kg696igkk32ig6lhj3kl50j08lkl6j0h6gi7k2j31jj0k7i1784l25g757hhkl42i7jg68illihj867l82g53532j62i92kljhj5llh498k24796l57j55ji0ji2g22i501jl541j9j4i68i5j602744l10413k457hl80l91j5l44139j23g64h27k08l5509h202gl84338hi17082hkj5746g298j640i002jk1265h745j289303h6i6j6j15jgkg15485h8g935hk83g9g7j661l4i557jl56h6l0h40i5j9hkiig7066523l2h24gj9k1083g6l2gihh2j5hhgkgij04j8900jhg4l6731hkhij7kk2i594536563674gki85li59jhk79067964197h5k7k2641h03l45074jkkklhik123407146l1i0jk90k1hgl151076ig7i4gi0858h62j37lh8l4hl519ghi7g04h2h900jlj7ll333i736549624gjk8k508g9499gj3jj7050jjhgh4i57326j83301i0kkl88040ih52gj8j0gk0h4g5g7lh561k2gk6k7k56h01598ji23g27k3i17878j92k2gj1l5ih8h0jj73k94g9hl5g7h229i10g099k09l958h3hk18l72h1j43gg7177g4h7ll8987644383606klgh9h4ll42h7293k694kl20j539g6jl17ig655461138jgj7306i1296k3i03586k6l32j5hlik4051187741218271j8j4g3i1h6719877l10k1ijl220i8hlil3j3g129ll3k2i5164lkg12k253kk1h8j5l0gki49jg25hlii704l5ih74439hlj9jih5ki53242ijgh6359i8i5j4h2j2i4581l244j4ij728490hk0k34542916i2lig57836gg7kji3l160234i24hik5g18h790488748j680k5i0l885lj66kjk78j2i57i5021g283ik9g38g62259h1lgi811ihki506k5934g7h737hg9360lll98l4j8i049903l1354lg00019g0934h005h8jjkl60j91k7j74i96h8h26hk59i653209lgj07g1g298k48jllgh00l4i742gi72l27038157gji9j32gh0k5672167k2588h31967l3867g50k503ik403781ki72j47hh4363l0708k4g961k4hl8g4j35ilk143h3424010i165lj612h50k68l61ghl9h80kh874k14ggk2ilg018hi5l1g34262196lkl45ih981jkl42271l4232k93hk8ih3g814i6h63h0g64l300i42il1g0454921j12h4844ii714ih71lg172326009812833h62kj8009kijk5hhg763031235l45h78614l7h9k579h6lj290i98851gll70024834hgj2lg5hk3l905i346gij11kl5j9i7h5j5k12hl061l488k061564g398i2150h9j343901865h7567g874i1gghl5ihg8il8hh0650h6308l2i5053997g8g12g16l3l7h5lhlji71i1i23h0ljl1h14688h7g13987h548h33k34hi6h2i63h424jhl1kik26kl3h60662846j6j0749l8kh95018kl1971j5j5gjk9hg70542391j77hjj65l127627h6h8h0hi003i2hih6h0k9k878lj858k30iljgik0l9248jk25l4h701l6gllhkhi54g24g926jgj884266514056805k2h15hh442i3170ilik20h88i561k0682k04459i154i03ikglg6220i4jii1g32067il925g450k0i1241l3il2jjl6k186gjj53h611il59k650i4kjhi87i798hg6h01g306ig104145ig9h68i092ghhh59jig99j12383792452h44206glk62g67gj204hk874l5li8646g65i9085244i092g70ig9h8657kg0413466ii87k9i32hglh24hi2li7174735i520ik608ilg71292838j5k1h39271ghg5288g930lg6h75626l71h8h5g011k9l9lgk691i04166h7996g452kij4l4l72881k6kl5701jl707hi415j8h3k67576966g2k94k03k0lj31995h2j26hi69jhjji162625l50j7790093hli0jjkh1ll804i3lhh40lk4k240kh48k0k16l544hg033k594gh0l93682l86h35i1i36klhgjg90lkl54746i2k63481h37hilj3ikig52h0j80k5gj6h879lk6g8ll6k616966h59h42l24h824ljj77g6l03kg260i80h2g2k123251j22jg36k5j14781i6197929il9j03k16h4l1i78693g45k64j0jl0k58hj8493h76gj2202470ig12lh2llj2l5k5541k4h506i3hij81lg9i037jgk22i2l3j12j6l394h51ii2ll0022j292h8036767i835k47071jl9illl2gli06524g66984902j6j1h5g788019hl4712032977h41l0k36073ig880g2jgklh26k736180591639h4k2gjk9gl2071h685923kl5363l5lj0ll91901g12kk29hll4280h9h51870j721516j6g66i379g203932726h42g927h19733k237492l8j0jh148gl95048l5524j4j0l2445130153i802169102i14g586h8g64j2lk28492169li3292877837108k7i9557h3jk31il2lklg494lgl4j91jig614216ki68i2j140l1jg03lk16lljg039h21kj313h8jk79h99j2g89j327i7h9052h9hj71721jg927340956k6jl4i7k0430",
@@ -146,7 +146,7 @@
         "dataIv": "zxPtEUDGVllIUhDB",
         "ua": "okhttp/3.10.0"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -162,7 +162,7 @@
         "dataKey": "VwsHxkCViDXEExWa",
         "dataIv": "VwsHxkCViDXEExWa"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -175,7 +175,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.nntv.in/api.php/v1.vod",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "秒看",
@@ -190,7 +190,7 @@
         "dataIv": "c60d88b2eep53za8",
         "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -206,7 +206,7 @@
         "dataKey": "#getapp@TMD@2025",
         "dataIv": "#getapp@TMD@2025"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -222,7 +222,7 @@
         "dataKey": "5a9w6x58dsq6z3a6",
         "dataIv": "5a9w6x58dsq6z3a6"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -238,7 +238,7 @@
         "dataKey": "88689667dce61725",
         "dataIv": "88689667dce61725"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -252,7 +252,7 @@
         "dataKey": "8888888888888888",
         "dataIv": "8888888888888888"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -266,7 +266,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "永乐",
@@ -276,7 +276,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "金牌123",
@@ -286,7 +286,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "鬼片",
@@ -296,7 +296,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "爱看机器1人",
@@ -306,7 +306,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "月光影视",
@@ -316,7 +316,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "星辰影院",
@@ -326,7 +326,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "独播库",
@@ -336,7 +336,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "布布",
@@ -346,7 +346,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "戒",
@@ -357,7 +357,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "华数",
@@ -368,7 +368,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "py_文才",
@@ -381,7 +381,7 @@
       "ext": {
         "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "New6v",
@@ -392,7 +392,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.xb6v.com",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "80S",
@@ -403,7 +403,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "修罗",
@@ -411,7 +411,7 @@
       "api": "csp_Xlys",
       "type": 3,
       "ext": "https://xl01.com.de",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -427,7 +427,7 @@
       "ext": {
         "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "电影港",
@@ -438,7 +438,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XYQHiker/电影港.json",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "电影天堂",
@@ -448,7 +448,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "曼波动漫",
@@ -463,7 +463,7 @@
         "deviceId": "",
         "version": ""
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "filterable": 1
     },
@@ -487,7 +487,7 @@
         "listKey": "aassddwwxxllsx1x",
         "parsesKey": "aassddwwxxllsx1x"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -503,7 +503,7 @@
         "dataKey": "N4yj7l7xKxHF4*gz",
         "dataIv": "N4yj7l7xKxHF4*gz"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "filterable": 1
     },
@@ -511,7 +511,7 @@
       "key": "养生堂",
       "name": "🧿养生｜知识",
       "type": 3,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "api": "csp_XBPQ",
       "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/养生堂.json",
       "style": {
@@ -527,7 +527,7 @@
       "name": "🧿永乐｜影视(2)",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -550,7 +550,7 @@
         "分类url": "http://114bate.com/show/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$38"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -560,7 +560,7 @@
       "name": "🧿农民｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -583,7 +583,7 @@
         "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
         "分类url": "http://dyxz.tv/list/{cateId}_{catePg}.html"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -593,7 +593,7 @@
       "name": "🧿先生｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -609,7 +609,7 @@
       "name": "🧿七味｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -625,7 +625,7 @@
       "name": "🧿布卡｜影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -642,7 +642,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/啊哈DJ.json",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/4d860d06ec233dbcb891b76055f099d5.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/4d860d06ec233dbcb891b76055f099d5.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -660,7 +660,7 @@
         "ratio": 3.8
       },
       "gridview": "0-0-4.1",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "filterable": 1
     },
     {
@@ -671,7 +671,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -684,7 +684,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -697,7 +697,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -710,7 +710,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -724,14 +724,14 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip"
     },
     {
       "key": "Douyu",
       "name": "🎮手游┃直播",
       "type": 3,
       "api": "csp_Douyu",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/a4f403a000bc5e4ebdd9da27fcb05852.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/a4f403a000bc5e4ebdd9da27fcb05852.zip",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -750,7 +750,7 @@
       "searchable": 0,
       "changeable": 0,
       "ext": "https://aaa.v.nxog.top/zm/sd?b=如果失效等候更新或者在线更新本地包防失效",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -760,7 +760,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -770,7 +770,7 @@
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/7848a2534d2fc0016671ccd41dc49f0d.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -783,7 +783,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw==",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -799,7 +799,7 @@
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "siteUrl": "https://www.libvio.run"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -812,7 +812,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -825,7 +825,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -837,7 +837,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -850,7 +850,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -862,7 +862,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0=",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -876,7 +876,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "uqGL1bNENExT7/hGxpSE5qU=",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -889,7 +889,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -902,7 +902,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A==",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -915,7 +915,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ==",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -928,7 +928,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -941,7 +941,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TbK3c790iI/b5LtEhxNfAQK7DRvrLcqbf1Q0MQntXLZfMhK0Xsn6nwmF+shR8eZ76qXW3y9XKbblunmCSPux0YtJlscp9zpDmW7Ju4ufOtv+BcyBX7VWrSzyUWoVcxGhUtv",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -954,7 +954,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg==",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -966,7 +966,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -979,7 +979,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -992,7 +992,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "https://www.xb6v.com/",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1005,7 +1005,7 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "rfOX1voDIQhH8epBwpmIsuS/sSCZxc/l0mxkeoroQVYOelMAvX1kuYptSLB36YxEjVawS9p37Cgo",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1017,7 +1017,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1029,7 +1029,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1043,7 +1043,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "quickSearch": 1,
       "filterable": 1
     },
@@ -1058,7 +1058,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1076,7 +1076,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/5af5fbe12a88b7c45aa1c21e6551826c.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1091,7 +1091,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1110,7 +1110,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip"
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip"
     },
     {
       "key": "Bili",
@@ -1127,7 +1127,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1145,7 +1145,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1163,7 +1163,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1181,7 +1181,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1199,7 +1199,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1217,7 +1217,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "https://ysc.apei583.ccwu.cc/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/54485fadc1d244dc8cd5d5aee59c6d51.zip",
       "filterable": 1
     },
     {
@@ -1229,7 +1229,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "http://v.rbotv.cn",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1241,7 +1241,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "http://165.99.42.137:5432|1234567890987654",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1253,7 +1253,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "https://vv.229d.cn|8888888888888888",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1265,7 +1265,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "https://app.95112475.xyz|5a9w6x58dsq6z3a6",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1277,7 +1277,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt|88689667dce61725",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1289,7 +1289,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "ext": "https://bind.315999.xyz/89.txt|#getapp@TMD@2025|120",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1300,7 +1300,7 @@
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1311,7 +1311,7 @@
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1322,7 +1322,7 @@
       "searchable": 0,
       "changeable": 1,
       "quickSearch": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1333,7 +1333,7 @@
       "searchable": 0,
       "changeable": 1,
       "quickSearch": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/b81a5747f91e7169bdc7e3f68bd995e0.zip",
       "filterable": 1
     },
     {
@@ -1796,7 +1796,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/423e33ec108c0f7816200cebaf18fb69.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/423e33ec108c0f7816200cebaf18fb69.zip",
       "ext": "https://bitbucket.org/fmys/fmys/raw/main/lib/wcys.json"
     },
     {
@@ -1850,14 +1850,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/423e33ec108c0f7816200cebaf18fb69.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/423e33ec108c0f7816200cebaf18fb69.zip",
       "ext": "https://bitbucket.org/fmys/fmys/raw/main/lib/hhyy.json"
     },
     {
       "key": "XBPQ_电影先生",
       "name": "📽︎┃电影┃先生",
       "type": 3,
-      "jar": "https://ysc.apei583.ccwu.cc/jar/423e33ec108c0f7816200cebaf18fb69.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/423e33ec108c0f7816200cebaf18fb69.zip",
       "api": "csp_XBPQ",
       "changeable": 1,
       "searchable": 1,
@@ -2015,7 +2015,7 @@
       "name": "🎸┃酷奇┃MV",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://ysc.apei583.ccwu.cc/jar/423e33ec108c0f7816200cebaf18fb69.zip",
+      "jar": "https://ysc.apei583.dpdns.org/jar/423e33ec108c0f7816200cebaf18fb69.zip",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -2860,5 +2860,5 @@
     "哔 哩",
     "哔 哩 哔 哩"
   ],
-  "spider": "https://ysc.apei583.ccwu.cc/jar/542ed744b07121213f70323b9bcbecca.zip"
+  "spider": "https://ysc.apei583.dpdns.org/jar/542ed744b07121213f70323b9bcbecca.zip"
 }
