@@ -1,0 +1,32 @@
+{
+  "urls": [
+    {
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "name": "线路1"
+    },
+    {
+      "url": "https://ysc.apei583.ccwu.cc/yingshicang.json",
+      "name": "线路2"
+    },
+    {
+      "url": "https://12510.kstore.space/yingshicang/ysc.json",
+      "name": "线路3"
+    },
+    {
+      "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
+      "name": "少儿频道"
+    },
+    {
+      "url": "https://ysc.apei583.dpdns.org/shangdian.json",
+      "name": "下载商店"
+    },
+    {
+      "url": "https://ysc.apei583.dpdns.org/wangpan.json",
+      "name": "网盘线路"
+    },
+    {
+      "url": "https://12510.kstore.space/yingshicang/wangpan2.json",
+      "name": "网盘线路2"
+    }
+  ]
+}
