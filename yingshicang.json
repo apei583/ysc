@@ -1071,13 +1071,6 @@
       "url": "https://pub.tgyes.eu.org/live01.txt",
       "logo": "https://www.无界.top/tvlogo/{name}.png",#有效
 	  "epg": "http://epg.51zmt.top:8000/e.xml" #有效
-    },
-	{
-      "name": "live",
-      "type": 0,
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
     }
   ],
   "hosts": [],
