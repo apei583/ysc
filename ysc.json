@@ -1063,21 +1063,7 @@
       "url": "https://down.nigx.cn/xjx.zzong6599.workers.dev/?url="
     }
   ],
-  "lives": [
-    {
-    "name" : "世界杯",
-    "type" : 0,
-    "url" : "http://82.156.243.185:33389/fwc.m3u",
-    "playerType" : 2
-    },
-	{
-      "name": "live",
-      "type": 0,
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-    }
-  ],
+  "live": "http://dd.ma/B8lAKBhF",
   "hosts": [],
   "rules": [],
   "doh": [],
