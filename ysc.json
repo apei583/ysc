@@ -1065,10 +1065,12 @@
   ],
   "lives": [
     {
-    "name" : "世界杯",
-    "type" : 0,
-    "url" : "http://82.156.243.185:33389/fwc.m3u",
-    "playerType" : 2
+      "name": "①直播线路-咪咕",# http://101.34.236.223:1999 ， http://www.52top.com.cn:678/downloads/migu.txt 
+      "type": 0,
+      "playerType": 2,
+      "url": "https://pub.tgyes.eu.org/live01.txt",
+      "logo": "https://www.无界.top/tvlogo/{name}.png",#有效
+	  "epg": "http://epg.51zmt.top:8000/e.xml" #有效
     },
 	{
       "name": "live",
