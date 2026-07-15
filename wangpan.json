@@ -1206,6 +1206,12 @@
             "epg": "http://epg.52sw.top:668/?ch={name}&date={date}"
         },
         {
+            "name": "世界杯",
+            "type": 0,
+            "url": "http://82.156.243.185:33389/fwc.m3u",
+            "playerType": 2
+        },
+        {
             "name": "专线-红茶",
             "type": 0,
             "url": "https://tvbox.fcapp.indevs.in/zbql2.txt",
