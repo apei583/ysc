@@ -2,7 +2,6 @@ name: Auto Sync TVBox Files
 
 on:
   schedule:
-    # 每2小时运行一次
     - cron: '0 */2 * * *'
   workflow_dispatch:
 
@@ -14,23 +13,38 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
-      - name: Download zbql2.txt
+      - name: Download yingshicang.json (root)
+        run: |
+          curl -L -o yingshicang.json http://abc.apei583.top:5244/d/APP/shuju/yingshicang.json
+          echo "✅ yingshicang.json downloaded to root"
+      
+      - name: Download ysc.json (root)
+        run: |
+          curl -L -o ysc.json http://abc.apei583.top:5244/d/APP/shuju/ysc.json
+          echo "✅ ysc.json downloaded to root"
+      
+      - name: Download wangpan.json (root)
+        run: |
+          curl -L -o wangpan.json http://abc.apei583.top:5244/d/APP/shuju/wangpan.json
+          echo "✅ wangpan.json downloaded to root"
+      
+      - name: Download zbql2.txt (zhibo)
         run: |
           mkdir -p zhibo
           curl -L -o zhibo/zbql2.txt https://tvbox.fcapp.indevs.in/zbql2.txt
-          echo "✅ zbql2.txt downloaded"
+          echo "✅ zbql2.txt downloaded to zhibo/"
       
-      - name: Download zbql3.txt
+      - name: Download zbql3.txt (zhibo)
         run: |
           curl -L -o zhibo/zbql3.txt https://tvbox.fcapp.indevs.in/zbql3.txt
-          echo "✅ zbql3.txt downloaded"
+          echo "✅ zbql3.txt downloaded to zhibo/"
       
       - name: Check if files changed
         id: verify
         run: |
-          if git diff --quiet zhibo/; then
+          if git diff --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "📌 Files unchanged, skipping commit"
           else
@@ -43,7 +57,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions[bot]"
-          git add zhibo/zbql2.txt zhibo/zbql3.txt
+          git add .
           git commit -m "chore: sync tvbox files from external source [$(date +'%Y-%m-%d %H:%M:%S')]"
           git push
         env:
