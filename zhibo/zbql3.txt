@@ -1,4 +1,4 @@
-# update: 2026-07-19 07:00
+# update: 2026-07-19 22:00
 🏛️央卫极速,#genre#
 CCTV1,http://42.194.148.122:1234/608807420
 CCTV2,http://42.194.148.122:1234/631780532
@@ -400,32 +400,6 @@ CH5综合,http://rihou.cc:555/tv/[Pd]CH5综合
 CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 
-世杯季军,#genre#
-07-19⬇️世界杯季军赛⬇️⚽📡,http://rihou.cc:555/tv/t
-05:00法国🆚英格兰,http://rihou.cc:555/tv/v
-粤🔊19鞋佬旁述,http://rihou.cc:555/tv/19世杯鞋佬述
-粤🔊19小肥旁述,http://rihou.cc:555/tv/19世杯小肥述
-粤🔊19碧咸旁述,http://rihou.cc:555/tv/19世杯碧咸述
-粤🔊19锐探旁述,http://rihou.cc:555/tv/19世杯锐探述
-粤🔊19马高旁述,http://rihou.cc:555/tv/19世杯马高述
-粤🔊19粤kk旁述,http://rihou.cc:555/tv/19世杯粤kk述
-粤🔊19师兄旁述,http://rihou.cc:555/tv/19世杯师兄述
-粤🔊19速仔旁述,http://rihou.cc:555/tv/19世杯速仔述
-粤🔊19咪江忠德,http://rihou.cc:555/tv/19世杯江忠德
-粤🔊19红丁伟杰,http://rihou.cc:555/tv/19世杯丁伟杰
-粤🔊19红丁伟杰,https://live-fwc-play-tx.xhscdn.com/live/7663849530373172106_acc740.flv?roomid=7663849530373172106&vendor=tx&uid=678a00db000000000d00ab97&cip=Wp-zrw&rdtime=6a5c37c3&sign=c8462a0ba10d95322912702d5264ef54&userId=678a00db000000000d00ab97&abr_pts=-800
-粤🔊19广东体育,http://rihou.cc:555/tv/[At|]广东体育
-粤🔊19Now4k体,http://rihou.cc:555/tv/[At|]Now4k体
-粤🔊19Now体育,http://rihou.cc:555/tv/[At|]Now体育
-粤🔊19澳门体育,http://rihou.cc:555/tv/[At|]澳门体育
-国🔊19ELta体育,http://rihou.cc:555/tv/[At|]ELta体育
-国🔊19评述,http://rihou.cc:555/tv/19世杯咪评述
-国🔊19红书评述,http://rihou.cc:555/tv/19世杯小红书
-国🔊19红书评述,https://live-fwc-play-tx.xhscdn.com/live/570369179251898723_acc740.flv?roomid=570369179251898723&vendor=tx&uid=678a00db000000000d00ab97&cip=Wp-zrw&rdtime=6a5c37c0&sign=08bc10b0b19fd50f11569c3e53cc94d0&userId=678a00db000000000d00ab97&abr_pts=-800
-国🔊19央视评述,http://rihou.cc:555/tv/19世杯央视频
-国🔊19团哥评述,http://rihou.cc:555/tv/19世杯团哥述
-国🔊19真实评述,http://rihou.cc:555/tv/19世杯真实述
-
 女篮赛评,#genre#
 07-19⬇️全国女子篮球锦标赛⬇️🏀📡,http://rihou.cc:555/tv/t
 14:00上海浦发银行🆚福建金篮,http://rihou.cc:555/tv/v
@@ -480,8 +454,8 @@ astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 粤🔊20马高旁述,http://rihou.cc:555/tv/20世杯马高述
 粤🔊20粤kk旁述,http://rihou.cc:555/tv/20世杯粤kk述
 粤🔊20师兄旁述,http://rihou.cc:555/tv/20世杯师兄述
-粤🔊20杰青旁述,http://rihou.cc:555/tv/20世杯杰青述
-粤🔊20旁述,http://rihou.cc:555/tv/20世杯咪旁述
+粤🔊20速仔旁述,http://rihou.cc:555/tv/20世杯速仔述
+粤🔊20陈曦,http://rihou.cc:555/tv/20世杯陈曦述
 粤🔊20红丁伟杰,http://rihou.cc:555/tv/20世杯丁伟杰
 粤🔊20广东体育,http://rihou.cc:555/tv/[At|]广东体育
 粤🔊20Now4k体,http://rihou.cc:555/tv/[At|]Now4k体
@@ -511,16 +485,16 @@ astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 
 赛事精锦,#genre#
 ⬇️各大赛事精锦⬇️,http://rihou.cc:555/tv/t
-世赛赛事回放,http://rihou.cc:555/tv/世赛回放赛19
-联赛赛事回放,http://rihou.cc:555/tv/联赛回放赛19
-NBA赛事回放,http://rihou.cc:555/tv/NBA回放赛19
-羽球赛事回放,http://rihou.cc:555/tv/羽球回放赛19
-橄球赛事回放,http://rihou.cc:555/tv/橄球回放赛19
-乒球赛事回放,http://rihou.cc:555/tv/乒球回放赛19
-网球赛事回放,http://rihou.cc:555/tv/网球回放赛19
-排球赛事回放,http://rihou.cc:555/tv/排球回放赛19
-格斗赛事回放,http://rihou.cc:555/tv/格斗回放赛19
-斯赛赛事回放,http://rihou.cc:555/tv/斯赛回放赛19
+世赛赛事回放,http://rihou.cc:555/tv/世赛回放赛20
+联赛赛事回放,http://rihou.cc:555/tv/联赛回放赛20
+NBA赛事回放,http://rihou.cc:555/tv/NBA回放赛20
+羽球赛事回放,http://rihou.cc:555/tv/羽球回放赛20
+橄球赛事回放,http://rihou.cc:555/tv/橄球回放赛20
+乒球赛事回放,http://rihou.cc:555/tv/乒球回放赛20
+网球赛事回放,http://rihou.cc:555/tv/网球回放赛20
+排球赛事回放,http://rihou.cc:555/tv/排球回放赛20
+格斗赛事回放,http://rihou.cc:555/tv/格斗回放赛20
+斯赛赛事回放,http://rihou.cc:555/tv/斯赛回放赛20
 
 特区双音,#genre#
 Plus综合双语,https://o11.163189.xyz/stream/tvb/tvbp/
@@ -849,8 +823,8 @@ WWE_格斗高,http://plus.newdns.world:8080/OduLarge/UtKalQ6Vc7/7544
 ⬇️全天直播⬇️,video://http://rihou.cc:555/tv/网页库播
 音乐库播抖播,video://http://rihou.cc:555/tv/网页库播
 音乐播库抖播,video://http://rihou.cc:555/tv/网页播库
-音乐库仓抖播,http://rihou.cc:555/tv/音乐库仓抖19
-音乐仓库抖播,http://rihou.cc:555/tv/音乐仓库抖19
+音乐库仓抖播,http://rihou.cc:555/tv/音乐库仓抖20
+音乐仓库抖播,http://rihou.cc:555/tv/音乐仓库抖20
 翡翠音乐抖播,video://http://rihou.cc:555/tv/网页翡翠
 怀旧音乐抖播,video://http://rihou.cc:555/tv/网页怀音
 怀旧粤语抖播,video://http://rihou.cc:555/tv/网页怀粤
