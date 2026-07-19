@@ -1,4 +1,4 @@
-# update: 2026-07-19 22:00
+# update: 2026-07-20 04:00
 🏛️央卫极速,#genre#
 CCTV1,http://42.194.148.122:1234/608807420
 CCTV2,http://42.194.148.122:1234/631780532
@@ -400,47 +400,6 @@ CH5综合,http://rihou.cc:555/tv/[Pd]CH5综合
 CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 
-女篮赛评,#genre#
-07-19⬇️全国女子篮球锦标赛⬇️🏀📡,http://rihou.cc:555/tv/t
-14:00上海浦发银行🆚福建金篮,http://rihou.cc:555/tv/v
-国🔊19篮评述,http://rihou.cc:555/tv/19女篮咪评述
-14:30山西竹叶青酒🆚河南豫光金铅,http://rihou.cc:555/tv/v
-国🔊19篮述评,http://rihou.cc:555/tv/19女篮咪述评
-16:00北京首钢🆚原门银行,http://rihou.cc:555/tv/v
-国🔊19篮评评,http://rihou.cc:555/tv/19女篮咪评评
-17:00浙江稠州银行🆚江苏南钢,http://rihou.cc:555/tv/v
-国🔊19篮述述,http://rihou.cc:555/tv/19女篮咪述述
-19:30大连文体旅🆚北京大学,http://rihou.cc:555/tv/v
-国🔊19篮旁述,http://rihou.cc:555/tv/19女篮咪旁述
-19:30石家庄英励🆚上海交通大学,http://rihou.cc:555/tv/v
-国🔊19篮述旁,http://rihou.cc:555/tv/19女篮咪述旁
-
-蒙超赛评,#genre#
-07-19⬇️内蒙古足球超级联赛⬇️⚽📡,http://rihou.cc:555/tv/t
-16:00锡林郭勒队🆚巴彦淖尔队,http://rihou.cc:555/tv/v
-国🔊19蒙评述,http://rihou.cc:555/tv/19蒙超咪评述
-17:00包头队🆚阿拉善队,http://rihou.cc:555/tv/v
-国🔊19蒙述评,http://rihou.cc:555/tv/19蒙超咪述评
-
-陇超赛评,#genre#
-07-19⬇️甘肃省足球超级联赛⬇️⚽📡,http://rihou.cc:555/tv/t
-17:30兰州新区队🆚武感队,http://rihou.cc:555/tv/v
-国🔊19陇评述,http://rihou.cc:555/tv/19陇超咪评述
-
-疆超赛评,#genre#
-07-19⬇️疆超8进4第二回合⬇️⚽📡,http://rihou.cc:555/tv/t
-18:00阿勒泰队🆚阿克苏队,http://rihou.cc:555/tv/v
-国🔊19疆评述,http://rihou.cc:555/tv/19疆超咪评述
-21:00吐鲁番队🆚乌鲁木齐队,http://rihou.cc:555/tv/v
-国🔊19疆述评,http://rihou.cc:555/tv/19疆超咪述评
-
-鲁超赛评,#genre#
-07-19⬇️山东省足球超级联赛⬇️⚽📡,http://rihou.cc:555/tv/t
-19:00济南队🆚日照队,http://rihou.cc:555/tv/v
-国🔊19鲁评述,http://rihou.cc:555/tv/19鲁超咪评述
-19:30淄博齐稷锐思达🆚菏泽队,http://rihou.cc:555/tv/v
-国🔊19鲁述评,http://rihou.cc:555/tv/19鲁超咪述评
-
 世杯冠军,#genre#
 07-20⬇️世界杯冠军赛⬇️⚽📡,http://rihou.cc:555/tv/t
 03:00西班牙🆚阿根廷,http://rihou.cc:555/tv/v
@@ -468,7 +427,7 @@ astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 国🔊20团哥评述,http://rihou.cc:555/tv/20世杯团哥述
 国🔊20真实评述,http://rihou.cc:555/tv/20世杯真实述
 
-女篮'赛评,#genre#
+女篮赛评,#genre#
 07-20⬇️全国女子篮球锦标赛⬇️🏀📡,http://rihou.cc:555/tv/t
 14:00北京首钢🆚大连文体旅,http://rihou.cc:555/tv/v
 国🔊20篮评述,http://rihou.cc:555/tv/20女篮咪评述
@@ -482,6 +441,26 @@ astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 国🔊20篮旁述,http://rihou.cc:555/tv/20女篮咪旁述
 19:30山西竹叶青酒🆚浙江稠州银行,http://rihou.cc:555/tv/v
 国🔊20篮述旁,http://rihou.cc:555/tv/20女篮咪述旁
+
+足协赛评,#genre#
+07-21⬇️足协杯联赛⬇️⚽📡,http://rihou.cc:555/tv/t
+16:00大连可为🆚北京国安,http://rihou.cc:555/tv/v
+国🔊21足评述,http://rihou.cc:555/tv/21足协咪评述
+19:00上海海港🆚深圳鹏城,http://rihou.cc:555/tv/v
+国🔊21足述评,http://rihou.cc:555/tv/21足协咪述评
+19:35武汉三镇🆚山东泰山,http://rihou.cc:555/tv/v
+国🔊21足评评,http://rihou.cc:555/tv/21足协咪评评
+19:35重庆铜梁🆚青岛西岸,http://rihou.cc:555/tv/v
+国🔊21足述述,http://rihou.cc:555/tv/21足协咪述述
+19:35上海申花🆚青岛海牛,http://rihou.cc:555/tv/v
+国🔊21足旁述,http://rihou.cc:555/tv/21足协咪旁述
+20:00云南玉昆🆚成都蓉城,http://rihou.cc:555/tv/v
+国🔊21足述旁,http://rihou.cc:555/tv/21足协咪述旁
+20:00河南俱乐🆚大连英博,http://rihou.cc:555/tv/v
+国🔊21足旁旁,http://rihou.cc:555/tv/21足协咪旁旁
+07-22⬇️足协杯联赛⬇️⚽📡,http://rihou.cc:555/tv/t
+20:00兰州陇原🆚陕西联合,http://rihou.cc:555/tv/v
+国🔊22足评述,http://rihou.cc:555/tv/22足协咪评述
 
 赛事精锦,#genre#
 ⬇️各大赛事精锦⬇️,http://rihou.cc:555/tv/t
