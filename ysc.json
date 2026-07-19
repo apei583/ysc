@@ -1067,7 +1067,7 @@
         {
             "name": "直播线路-D版",
             "type": 0,
-            "url": "https://tvbox.fcapp.indevs.in/zbql3.txt",
+            "url": "https://ysc.apei583.dpdns.org/zhibo/zbql3.txt",
             "playerType": 2,
             "ua": "Goiptv/8.8.8",
             "logo": "https://www.无界.top/tvlogo/{name}.png",
@@ -1098,7 +1098,7 @@
         {
             "name": "专线-红茶",
             "type": 0,
-            "url": "https://tvbox.fcapp.indevs.in/zbql2.txt",
+            "url": "https://ysc.apei583.dpdns.org/zhibo/zbql2.txt",
             "playerType": 2,
             "logo": "https://www.xn--rgv465a.top/tvlogo/{name}.png",
             "epg": "http://epg.51zmt.top:8000/e.xml"
