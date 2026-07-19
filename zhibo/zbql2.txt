@@ -1,4 +1,4 @@
-# update: 2026-07-19 11:00
+# update: 2026-07-19 12:00
 🏛️央卫极速,#genre#
 CCTV1,http://60.10.139.113:8801/hls/1/index.m3u8
 CCTV2,http://60.10.139.113:8801/hls/2/index.m3u8
@@ -2188,3 +2188,4 @@ Tank精选15首(1小时),https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v03
 中文DJ舞曲点播,https://txmov2.a.kwimgs.com/bs3/video-hls/5225020119572067546_hlsb.m3u8
 DJ舞曲串烧点播,https://txmov2.a.kwimgs.com/bs3/video-hls/5259923016524978973_hlsb.m3u8
 热门歌曲DJ点播,https://txmov2.a.kwimgs.com/bs3/video-hls/5232619944545910926_hlsb.m3u8
+
