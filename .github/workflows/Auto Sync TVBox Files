@@ -1,0 +1,48 @@
+name: Auto Sync TVBox Files
+
+on:
+  schedule:
+    # 每2小时运行一次
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Download zbql2.txt
+        run: |
+          mkdir -p zhibo
+          curl -L -o zhibo/zbql2.txt https://tvbox.fcapp.indevs.in/zbql2.txt
+          echo "✅ zbql2.txt downloaded"
+      
+      - name: Download zbql3.txt
+        run: |
+          curl -L -o zhibo/zbql3.txt https://tvbox.fcapp.indevs.in/zbql3.txt
+          echo "✅ zbql3.txt downloaded"
+      
+      - name: Check if files changed
+        id: verify
+        run: |
+          if git diff --quiet zhibo/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "📌 Files unchanged, skipping commit"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "🔄 Files changed, will commit"
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+          git add zhibo/zbql2.txt zhibo/zbql3.txt
+          git commit -m "chore: sync tvbox files from external source [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
