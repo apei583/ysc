@@ -13,7 +13,7 @@
         },
         {
             "key": "MDrive",
-            "name": "🗂我的云盘┃我配置",
+            "name": "🗂网盘┃配置",
             "type": 3,
             "api": "csp_MyDriveGuard",
             "changeable": 0,
@@ -459,7 +459,7 @@
         },
         {
             "key": "JPan",
-            "name": "🦋易搜┃4K",
+            "name": "❤易搜┃4K",
             "type": 3,
             "api": "csp_S_zpsGuard",
             "searchable": 1,
