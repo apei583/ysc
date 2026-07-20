@@ -502,7 +502,7 @@
         },
         {
             "key": "抠搜",
-            "name": "🍄搜搜┃4K",
+            "name": "❤搜搜┃4K",
             "type": 3,
             "api": "csp_KkSsGuard",
             "searchable": 1,
@@ -515,7 +515,7 @@
         },
         {
             "key": "UC",
-            "name": "🌈优汐┃4K",
+            "name": "❤优汐┃4K",
             "type": 3,
             "api": "csp_UuSsGuard",
             "searchable": 1,
