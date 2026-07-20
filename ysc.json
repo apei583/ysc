@@ -718,7 +718,7 @@
         },
         {
             "key": "哔哩视频",
-            "name": "🅱哔哩｜影视",
+            "name": "🅱️哔哩｜影视",
             "type": 3,
             "api": "csp_BiliYS",
             "searchable": 1,
