@@ -30,7 +30,7 @@
         },
         {
             "key": "玩偶",
-            "name": "👽玩偶哥哥┃4K弹幕",
+            "name": "❤玩偶┃4K",
             "type": 3,
             "api": "csp_WoGGGuard",
             "timeout": 30,
@@ -69,7 +69,7 @@
         },
         {
             "key": "seed",
-            "name": "💡聚剧┃四盘",
+            "name": "❤聚剧┃4K",
             "type": 3,
             "api": "csp_SeedhubGuard",
             "ext": "5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5",
@@ -116,7 +116,7 @@
         },
         {
             "key": "立播",
-            "name": "🌟立播┃不卡",
+            "name": "❤立播┃4K",
             "type": 3,
             "api": "csp_LibvioGuard",
             "timeout": 10,
@@ -442,7 +442,7 @@
         },
         {
             "key": "ZPan",
-            "name": "🎈盘搜┃四盘",
+            "name": "❤盘搜┃4K",
             "type": 3,
             "api": "csp_S_zpsGuard",
             "searchable": 1,
@@ -459,7 +459,7 @@
         },
         {
             "key": "JPan",
-            "name": "🦋易搜┃四盘",
+            "name": "🦋易搜┃4K",
             "type": 3,
             "api": "csp_S_zpsGuard",
             "searchable": 1,
@@ -476,7 +476,7 @@
         },
         {
             "key": "YpanSo",
-            "name": "🐟盘她┃夸父",
+            "name": "❤夸父┃4K",
             "type": 3,
             "api": "csp_YpanSoGuard",
             "searchable": 1,
@@ -489,7 +489,7 @@
         },
         {
             "key": "BpanSo",
-            "name": "🐞盘他┃嘟嘟",
+            "name": "❤嘟嘟┃4K",
             "type": 3,
             "api": "csp_BpanSoGuard",
             "searchable": 1,
@@ -502,7 +502,7 @@
         },
         {
             "key": "抠搜",
-            "name": "🍄抠抠┃搜搜",
+            "name": "🍄搜搜┃4K",
             "type": 3,
             "api": "csp_KkSsGuard",
             "searchable": 1,
@@ -515,7 +515,7 @@
         },
         {
             "key": "UC",
-            "name": "🌈优汐┃搜搜",
+            "name": "🌈优汐┃4K",
             "type": 3,
             "api": "csp_UuSsGuard",
             "searchable": 1,
