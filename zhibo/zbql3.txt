@@ -1,4 +1,4 @@
-# update: 2026-07-20 04:00
+# update: 2026-07-20 20:00
 🏛️央卫极速,#genre#
 CCTV1,http://42.194.148.122:1234/608807420
 CCTV2,http://42.194.148.122:1234/631780532
@@ -400,33 +400,6 @@ CH5综合,http://rihou.cc:555/tv/[Pd]CH5综合
 CH8综合,http://rihou.cc:555/tv/[Pd]CH8综合
 astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 
-世杯冠军,#genre#
-07-20⬇️世界杯冠军赛⬇️⚽📡,http://rihou.cc:555/tv/t
-03:00西班牙🆚阿根廷,http://rihou.cc:555/tv/v
-粤🔊20鞋佬旁述,http://rihou.cc:555/tv/20世杯鞋佬述
-粤🔊20大D-旁述,http://rihou.cc:555/tv/20世杯大D-述
-粤🔊20小肥旁述,http://rihou.cc:555/tv/20世杯小肥述
-粤🔊20牛哥旁述,http://rihou.cc:555/tv/20世杯牛哥述
-粤🔊20满球旁述,http://rihou.cc:555/tv/20世杯满球述
-粤🔊20碧咸旁述,http://rihou.cc:555/tv/20世杯碧咸述
-粤🔊20锐探旁述,http://rihou.cc:555/tv/20世杯锐探述
-粤🔊20马高旁述,http://rihou.cc:555/tv/20世杯马高述
-粤🔊20粤kk旁述,http://rihou.cc:555/tv/20世杯粤kk述
-粤🔊20师兄旁述,http://rihou.cc:555/tv/20世杯师兄述
-粤🔊20速仔旁述,http://rihou.cc:555/tv/20世杯速仔述
-粤🔊20陈曦,http://rihou.cc:555/tv/20世杯陈曦述
-粤🔊20红丁伟杰,http://rihou.cc:555/tv/20世杯丁伟杰
-粤🔊20广东体育,http://rihou.cc:555/tv/[At|]广东体育
-粤🔊20Now4k体,http://rihou.cc:555/tv/[At|]Now4k体
-粤🔊20Now体育,http://rihou.cc:555/tv/[At|]Now体育
-粤🔊20澳门体育,http://rihou.cc:555/tv/[At|]澳门体育
-国🔊20ELta体育,http://rihou.cc:555/tv/[At|]ELta体育
-国🔊20评述,http://rihou.cc:555/tv/20世杯咪评述
-国🔊20红书评述,http://rihou.cc:555/tv/20世杯小红书
-国🔊20央视评述,http://rihou.cc:555/tv/20世杯央视频
-国🔊20团哥评述,http://rihou.cc:555/tv/20世杯团哥述
-国🔊20真实评述,http://rihou.cc:555/tv/20世杯真实述
-
 女篮赛评,#genre#
 07-20⬇️全国女子篮球锦标赛⬇️🏀📡,http://rihou.cc:555/tv/t
 14:00北京首钢🆚大连文体旅,http://rihou.cc:555/tv/v
@@ -464,7 +437,6 @@ astroaod,http://rihou.cc:555/tv/[Pd]astroaod
 
 赛事精锦,#genre#
 ⬇️各大赛事精锦⬇️,http://rihou.cc:555/tv/t
-世赛赛事回放,http://rihou.cc:555/tv/世赛回放赛20
 联赛赛事回放,http://rihou.cc:555/tv/联赛回放赛20
 NBA赛事回放,http://rihou.cc:555/tv/NBA回放赛20
 羽球赛事回放,http://rihou.cc:555/tv/羽球回放赛20
@@ -474,6 +446,17 @@ NBA赛事回放,http://rihou.cc:555/tv/NBA回放赛20
 排球赛事回放,http://rihou.cc:555/tv/排球回放赛20
 格斗赛事回放,http://rihou.cc:555/tv/格斗回放赛20
 斯赛赛事回放,http://rihou.cc:555/tv/斯赛回放赛20
+
+鞋佬回放,#genre#
+⬇️世界杯决赛+半决赛赛事回放⬇️,http://rihou.cc:555/tv/t
+冠军赛-西班牙🆚阿根廷,http://rihou.cc:555/tv/v
+粤🔊20鞋佬回放,http://rihou.cc:555/tv/20鞋佬回放述
+季军赛-法国🆚英格兰,http://rihou.cc:555/tv/v
+粤🔊19鞋佬回放,http://rihou.cc:555/tv/19鞋佬回放述
+半决赛-英格兰🆚阿根廷,http://rihou.cc:555/tv/v
+粤🔊16鞋佬回放,http://rihou.cc:555/tv/16鞋佬回放述
+半决赛-法国🆚西班牙,http://rihou.cc:555/tv/v
+粤🔊15鞋佬回放,http://rihou.cc:555/tv/15鞋佬回放述
 
 特区双音,#genre#
 Plus综合双语,https://o11.163189.xyz/stream/tvb/tvbp/
