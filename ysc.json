@@ -10,6 +10,20 @@
             "filterable": 1
         },
         {
+            "key": "配置中心",
+            "name": "❤配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "热播影视",
             "name": "💡热播｜影视",
             "type": 3,
@@ -718,7 +732,7 @@
         },
         {
             "key": "哔哩视频",
-            "name": "🅱️哔哩｜影视",
+            "name": "🅱哔哩｜影视",
             "type": 3,
             "api": "csp_BiliYS",
             "searchable": 1,
@@ -866,7 +880,7 @@
         },
         {
             "key": "哔️软件",
-            "name": "🅰️软件┃哔哩",
+            "name": "🅰软件┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -917,7 +931,7 @@
         },
         {
             "key": "️小学",
-            "name": "🅰️小学┃哔哩",
+            "name": "🅰小学┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -934,7 +948,7 @@
         },
         {
             "key": "️初中",
-            "name": "🅰️初中┃哔哩",
+            "name": "🅰初中┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -951,7 +965,7 @@
         },
         {
             "key": "️高中",
-            "name": "🅰️高中┃哔哩",
+            "name": "🅰高中┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -1138,7 +1152,7 @@
         },
         {
             "key": "csp_BBB",
-            "name": "🅱️套餐┃哔哩",
+            "name": "🅱套餐┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -1206,7 +1220,7 @@
         },
         {
             "key": "️演唱",
-            "name": "🅰️演唱┃哔哩",
+            "name": "🅰演唱┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -1223,7 +1237,7 @@
         },
         {
             "key": "️戏曲",
-            "name": "🅰️戏曲┃哔哩",
+            "name": "🅰戏曲┃哔哩",
             "type": 3,
             "api": "csp_Bili",
             "searchable": 0,
@@ -1248,22 +1262,22 @@
         {
             "name": "失败手动换",
             "type": "1",
-            "url": "https://by1.nxog.eu.org/jx.php?ou=2d0&mz=0&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2d1&mz=0&url="
         },
         {
             "name": "-关注-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=2d0&mz=1&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2d1&mz=1&url="
         },
         {
             "name": "-装歌API-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=2d0&mz=2&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2d1&mz=2&url="
         },
         {
             "name": "-公众号-",
             "type": 1,
-            "url": "https://by1.nxog.eu.org/jx.php?ou=2d0&mz=3&url="
+            "url": "https://by1.nxog.eu.org/jx.php?ou=2d1&mz=3&url="
         },
         {
             "name": "装歌APP",
