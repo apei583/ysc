@@ -879,6 +879,32 @@
             "filterable": 1
         },
         {
+            "key": "多多",
+            "name": "🏀多多┃看球",
+            "type": 3,
+            "api": "csp_DoubaoGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "jar": "https://zl.wpscdn.cn/2026/07/13/space_img/28d95bad-f58c-4ee0-90c1-8103da37aba9.jpg;md5;dd8f442e52e1a2136d435707d3d743c9"
+        },
+        {
+            "key": "吃瓜",
+            "name": "🏐吃瓜┃看球",
+            "type": 3,
+            "api": "csp_LiveGzGuard",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list"
+            },
+            "jar": "https://zl.wpscdn.cn/2026/07/13/space_img/28d95bad-f58c-4ee0-90c1-8103da37aba9.jpg;md5;dd8f442e52e1a2136d435707d3d743c9"
+        },
+        {
             "key": "哔️软件",
             "name": "🅰软件┃哔哩",
             "type": 3,
