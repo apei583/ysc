@@ -1,15 +1,14 @@
 {
     "sites": [
         {
-            "key": "点我切源",
+            "key": "豆瓣2",
             "name": "📢豆瓣｜首页",
             "type": 3,
-            "api": "csp_DouDouGuard",
-            "indexs": 1,
+            "api": "csp_Douban",
             "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "filterable": 1
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://ysc.apei583.dpdns.org/jar/c7a619ffb534e64c844dba0a3fe88de5.zip"
         },
         {
             "key": "MDrive",
