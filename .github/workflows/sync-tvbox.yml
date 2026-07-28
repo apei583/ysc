@@ -10,55 +10,71 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
     steps:
-      - name: Checkout repository
+      - name: 设置北京时间
+        run: sudo timedatectl set-timezone Asia/Shanghai
+
+      - name: 拉取完整仓库代码
         uses: actions/checkout@v4
-      
-      - name: Download yingshicang.json (root)
+        with:
+          fetch-depth: 0
+
+      - name: 批量下载资源（下载失败自动放弃该文件，不中断）
         run: |
-          curl -L -o yingshicang.json http://abc.apei583.top:5244/d/APP/shuju/yingshicang.json
-          echo "✅ yingshicang.json downloaded to root"
-      
-      - name: Download ysc.json (root)
-        run: |
-          curl -L -o ysc.json http://abc.apei583.top:5244/d/APP/shuju/ysc.json
-          echo "✅ ysc.json downloaded to root"
-      
-      - name: Download wangpan.json (root)
-        run: |
-          curl -L -o wangpan.json http://abc.apei583.top:5244/d/APP/shuju/wangpan.json
-          echo "✅ wangpan.json downloaded to root"
-      
-      - name: Download zbql2.txt (zhibo)
-        run: |
-          mkdir -p zhibo
-          curl -L -o zhibo/zbql2.txt https://tvbox.fcapp.indevs.in/zbql2.txt
-          echo "✅ zbql2.txt downloaded to zhibo/"
-      
-      - name: Download zbql3.txt (zhibo)
-        run: |
-          curl -L -o zhibo/zbql3.txt https://tvbox.fcapp.indevs.in/zbql3.txt
-          echo "✅ zbql3.txt downloaded to zhibo/"
-      
-      - name: Check if files changed
-        id: verify
+          download_file() {
+            local url="$1"
+            local save_path="$2"
+            echo "----------------------------------------"
+            echo "下载: $url -> $save_path"
+            mkdir -p "$(dirname "$save_path")"
+
+            # 先备份原有文件
+            local bak_path="${save_path}.bak.tmp"
+            [ -f "$save_path" ] && cp "$save_path" "$bak_path"
+
+            # 带重试超时下载
+            curl -L --retry 3 --max-time 15 -s -o "$save_path" "$url"
+
+            # 校验文件
+            if [ ! -f "$save_path" ] || [ ! -s "$save_path" ]; then
+              echo "⚠️ 下载失败/文件为空，恢复旧文件 $save_path"
+              # 恢复备份
+              [ -f "$bak_path" ] && mv "$bak_path" "$save_path"
+              rm -f "$bak_path"
+              return 1
+            fi
+
+            rm -f "$bak_path"
+            echo "✅ 下载完成: $save_path"
+            return 0
+          }
+
+          # 执行下载，失败仅警告不退出脚本
+          download_file "http://abc.apei583.top:5244/d/APP/shuju/yingshicang.json" "yingshicang.json" || true
+          download_file "http://abc.apei583.top:5244/d/APP/shuju/ysc.json" "ysc.json" || true
+          download_file "http://abc.apei583.top:5244/d/APP/shuju/wangpan.json" "wangpan.json" || true
+          download_file "https://tvbox.fcapp.indevs.in/zbql2.txt" "zhibo/zbql2.txt" || true
+          download_file "https://tvbox.fcapp.indevs.in/zbql3.txt" "zhibo/zbql3.txt" || true
+
+      - name: 检查是否存在有效文件变更
+        id: check_change
         run: |
           if git diff --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "📌 Files unchanged, skipping commit"
+            echo "📌 无有效更新，跳过提交推送"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "🔄 Files changed, will commit"
+            echo "🔄 检测到更新文件："
+            git diff --name-only
           fi
-      
-      - name: Commit and push changes
-        if: steps.verify.outputs.changed == 'true'
+
+      - name: 提交推送更新
+        if: steps.check_change.outputs.changed == 'true'
         run: |
-          git config --local user.email "action@github.com"
           git config --local user.name "github-actions[bot]"
+          git config --local user.email "action@github.com"
           git add .
-          git commit -m "chore: sync tvbox files from external source [$(date +'%Y-%m-%d %H:%M:%S')]"
+          git commit -m "chore: 同步TVBox远程资源 $(date +'%Y-%m-%d %H:%M:%S')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
