@@ -13,6 +13,10 @@
       "name": "线路3"
     },
     {
+      "url": "https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc2.json",
+      "name": "海外线路"
+    },
+    {
       "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
       "name": "少儿频道"
     },
