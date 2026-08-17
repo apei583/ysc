@@ -1432,9 +1432,9 @@
             "epg": "http://epg.52sw.top:668/?ch={name}&date={date}"
         },
         {
-            "name": "世界杯",
+            "name": "GAT",
             "type": 0,
-            "url": "http://82.156.243.185:33389/fwc.m3u",
+            "url": "https://iptv-zb-zy.pages.dev/output/ipv4/result.m3u",
             "playerType": 2
         },
         {
