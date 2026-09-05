@@ -1,0 +1,25 @@
+name: Mirror to Codeberg
+on:
+  push:
+  delete:
+  workflow_dispatch:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: 完整拉取代码历史
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: 推送到Codeberg镜像
+        env:
+          CODEBERG_USER: apei583   # 改成你的codeberg用户名
+          CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
+        run: |
+          REMOTE="https://${CODEBERG_USER}:${CODEBERG_TOKEN}@codeberg.org/${CODEBERG_USER}/ysc.git"
+          git push --force --prune "$REMOTE" "refs/heads/*:refs/heads/*"
+          git push --force --prune "$REMOTE" "refs/tags/*:refs/tags/*"
