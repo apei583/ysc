@@ -1,11 +1,11 @@
 {
   "urls": [
     {
-      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "url": "https://codeberg.org/apei583/ysc/raw/branch/main/ysc.json",
       "name": "线路1"
     },
     {
-      "url": "https://ysc.apei583.ccwu.cc/yingshicang.json",
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
       "name": "线路2"
     },
     {
