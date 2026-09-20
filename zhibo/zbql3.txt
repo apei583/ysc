@@ -1,4 +1,4 @@
-# update: 2026-09-20 18:00
+# update: 2026-09-21 04:00
 🏛️央卫极速,#genre#
 CCTV1,http://rihou.cc:555/tv/[mg]CCTV-01
 CCTV2,http://rihou.cc:555/tv/[mg]CCTV-02
