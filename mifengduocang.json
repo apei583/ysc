@@ -1,16 +1,20 @@
 {
   "urls": [
     {
-      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "url": "https://cdn.jsdelivr.net/gh/apei583/ysc@refs/heads/main/ysc.json",
       "name": "线路1"
     },
     {
-      "url": "https://ysc.apei583.ccwu.cc/yingshicang.json",
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
       "name": "线路2"
     },
     {
       "url": "https://12510.kstore.space/yingshicang/ysc.json",
       "name": "线路3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc2.json",
+      "name": "海外线路"
     },
     {
       "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer",
