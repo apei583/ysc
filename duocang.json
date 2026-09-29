@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "url": "https://ysc.apei583.ccwu.cc/ysc.json",
+      "url": "https://cdn.jsdelivr.net/gh/apei583/ysc@refs/heads/main/ysc.json",
       "name": "线路1"
     },
     {
