@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "url": "https://cdn.jsdelivr.net/gh/apei583/ysc@refs/heads/main/ysc.json",
+      "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
       "name": "线路1"
     },
     {
