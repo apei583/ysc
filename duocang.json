@@ -13,6 +13,10 @@
       "name": "线路3"
     },
     {
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "name": "线路4"
+    },
+    {
       "url": "https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
       "name": "海外线路"
     },
