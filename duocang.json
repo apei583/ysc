@@ -5,7 +5,7 @@
       "name": "线路1"
     },
     {
-      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "url": "https://cdn.jsdelivr.net/gh/apei583/ysc@refs/heads/main/ysc.json",
       "name": "线路2"
     },
     {
