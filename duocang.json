@@ -1,7 +1,7 @@
 {
   "urls": [
     {
-      "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
+      "url": "https://ysc.apei583.dpdns.org/ysc.json",
       "name": "线路1"
     },
     {
@@ -13,7 +13,7 @@
       "name": "线路3"
     },
     {
-      "url": "https://ysc.apei583.dpdns.org/ysc.json",
+      "url": "https://v6.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
       "name": "线路4"
     },
     {
