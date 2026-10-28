@@ -1,11 +1,11 @@
 {
   "urls": [
     {
-      "url": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
+      "url": "https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
       "name": "线路1"
     },
     {
-      "url": "https://axisnow.gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
+      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/apei583/ysc/refs/heads/main/ysc.json",
       "name": "线路2"
     },
     {
